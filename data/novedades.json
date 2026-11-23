@@ -2367,6 +2367,17 @@
   "url": "https://ai.google.dev/gemini-api/docs/changelog#09-17-2026"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-09-17",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-5243242915a1",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing the Life Sciences Verification Program",
+  "url": "https://www.anthropic.com/news/life-sciences-verification-program"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -3727,6 +3738,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2026-07-27",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-a4a0bf957a69",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Expanding our partnership with Cognizant",
+  "url": "https://www.anthropic.com/news/cognizant-anthropic"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2026-07-24",
   "fuente": "anthropic-blog",
   "id": "anthropic-blog-201e22fdc3fc",
@@ -4088,6 +4110,17 @@
   "url": "https://developers.openai.com/api/docs/changelog"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-07-09",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-80e5bd877fa9",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Inviting hard questions",
+  "url": "https://www.anthropic.com/news/hard-questions"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -4135,6 +4168,17 @@
   "proveedor": "google",
   "titulo": "Developer logs support for the Interactions API: logs for supported Interactions API calls are now viewable in the AI Studio dashboard.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#07-06-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-07-02",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-5b9a63717df0",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Fable 5's cyber safeguards and our jailbreak framework",
+  "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
  },
  {
   "etiquetas": [],
@@ -4527,6 +4571,17 @@
   "proveedor": "openai",
   "titulo": "Introducing the OpenAI Partner Network",
   "url": "https://openai.com/index/introducing-openai-partner-network"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-06-12",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-eaac588a6db4",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Statement on the directive to suspend Fable 5 access",
+  "url": "https://www.anthropic.com/news/fable-mythos-access"
  },
  {
   "etiquetas": [],
@@ -5578,6 +5633,17 @@
  {
   "etiquetas": [],
   "fecha": "2026-05-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-31eb3b0f2046",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Higher usage limits and a SpaceX compute deal",
+  "url": "https://www.anthropic.com/news/higher-limits-spacex"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-06",
   "fuente": "anthropic-api",
   "id": "anthropic-api-fc4a9f011c8b",
   "origen": "api",
@@ -5714,6 +5780,17 @@
   "proveedor": "google",
   "titulo": "Launched event-driven Webhooks support in the Gemini API to replace polling workflows for the Batch API and long-running operations.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#05-04-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-04",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-89bd6109237a",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Building a new enterprise AI services company",
+  "url": "https://www.anthropic.com/news/enterprise-ai-services-company"
  },
  {
   "etiquetas": [],
@@ -6679,6 +6756,17 @@
   "url": "https://openai.com/index/codex-security-now-in-research-preview"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-03-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-8668d0d53c23",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Partnering with Mozilla on Firefox security",
+  "url": "https://www.anthropic.com/news/mozilla-firefox-security"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -6833,6 +6921,17 @@
   "proveedor": "google",
   "titulo": "Deprecation announcement: Gemini 3 Pro Preview (gemini-3-pro-preview) will be shut down March 9, 2026.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#02-26-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-02-25",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-9c18581a379b",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Model deprecation update for Claude Opus 3",
+  "url": "https://www.anthropic.com/news/deprecation-updates-opus-3"
  },
  {
   "etiquetas": [],
@@ -7439,6 +7538,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2026-01-27",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-3d6d930f5001",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic partners with the UK Government on GOV.UK",
+  "url": "https://www.anthropic.com/news/gov-UK-partnership"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2026-01-22",
   "fuente": "anthropic-blog",
   "id": "anthropic-blog-c2f9e959cd6f",
@@ -7650,6 +7760,17 @@
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-01-11",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-0fcf679ee616",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Advancing Claude in healthcare and the life sciences",
+  "url": "https://www.anthropic.com/news/healthcare-life-sciences"
+ },
+ {
   "etiquetas": [
    "chatgpt-image-latest",
    "gpt-image-1.5"
@@ -7794,6 +7915,17 @@
   "proveedor": "openai",
   "titulo": "Introducing GPT-5.2-Codex",
   "url": "https://openai.com/index/introducing-gpt-5-2-codex"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-12-18",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-d702dcd90d63",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Working with the US Department of Energy",
+  "url": "https://www.anthropic.com/news/genesis-mission-partnership"
  },
  {
   "etiquetas": [],
@@ -8465,6 +8597,17 @@
   "etiquetas": [],
   "fecha": "2025-11-04",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-cae8813af004",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Cognizant brings Claude to 350,000 employees",
+  "url": "https://www.anthropic.com/news/cognizant-partnership"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-11-04",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-b5aa2b61f5d0",
   "origen": "blog",
   "precision": "dia",
@@ -8835,6 +8978,17 @@
   "proveedor": "openai",
   "titulo": "Released several new features at OpenAI DevDay: Released GPT-5 pro, a version of GPT-5 that uses more compute to think harder and provide consistently better answers.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-10-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-5d2362beb564",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Deloitte brings Claude to 470,000 people",
+  "url": "https://www.anthropic.com/news/deloitte-anthropic-partnership"
  },
  {
   "etiquetas": [],
@@ -9394,6 +9548,17 @@
  {
   "etiquetas": [],
   "fecha": "2025-08-27",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-03c8a0b8a76e",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "National Security and Public Sector Advisory Council",
+  "url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-08-27",
   "fuente": "anthropic-api",
   "id": "anthropic-api-79994940d4be",
   "origen": "api",
@@ -9445,6 +9610,17 @@
   "proveedor": "openai",
   "titulo": "Added support for connectors to the Responses API.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-08-21",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-f334a571c1cd",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Developing nuclear safeguards for AI through public-private partnership",
+  "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership"
  },
  {
   "etiquetas": [],
@@ -10089,6 +10265,17 @@
   "proveedor": "openai",
   "titulo": "Launched support for Priority processing.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-06-27",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-f4f757625beb",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic Economic Futures Program Launch",
+  "url": "https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program"
  },
  {
   "etiquetas": [
@@ -10998,6 +11185,28 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-04-03",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-e1dbc00a491c",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Code with Claude: Anthropic's first developer conference",
+  "url": "https://www.anthropic.com/news/Introducing-code-with-claude"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-04-02",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-ce30140dd1e5",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing Claude for education",
+  "url": "https://www.anthropic.com/news/introducing-claude-for-education"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-04-01",
   "fuente": "xai-api",
   "id": "xai-api-e38f91e992d0",
@@ -11237,6 +11446,17 @@
   "proveedor": "openai",
   "titulo": "Released a research preview of GPT-4.5—our largest and most capable chat model yet.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-02-27",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-44e95405ec38",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing Anthropic's Transparency Hub",
+  "url": "https://www.anthropic.com/news/introducing-anthropic-transparency-hub"
  },
  {
   "etiquetas": [],
