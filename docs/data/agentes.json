@@ -1,0 +1,178 @@
+{
+ "claude-code": [
+  {
+   "fecha": "2026-11-23",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+   "version": "v2.1.331"
+  },
+  {
+   "fecha": "2026-11-20",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+   "version": "v2.1.330"
+  },
+  {
+   "fecha": "2026-11-19",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+   "version": "v2.1.329"
+  },
+  {
+   "fecha": "2026-11-19",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+   "version": "v2.1.328"
+  },
+  {
+   "fecha": "2026-11-17",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+   "version": "v2.1.327"
+  },
+  {
+   "fecha": "2026-11-16",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+   "version": "v2.1.326"
+  },
+  {
+   "fecha": "2026-11-13",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+   "version": "v2.1.325"
+  },
+  {
+   "fecha": "2026-11-12",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+   "version": "v2.1.323"
+  },
+  {
+   "fecha": "2026-11-10",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+   "version": "v2.1.322"
+  },
+  {
+   "fecha": "2026-11-09",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+   "version": "v2.1.321"
+  }
+ ],
+ "cline": [
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/v4.1.27",
+   "version": "v4.1.27"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fui%2Fv0.2.1",
+   "version": "sdk%2Fui%2Fv0.2.1"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.2.1",
+   "version": "sdk%2Fshared%2Fv0.2.1"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.1",
+   "version": "sdk%2Fsdk%2Fv0.2.1"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.2.1",
+   "version": "sdk%2Fllms%2Fv0.2.1"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.2.1",
+   "version": "sdk%2Fcore%2Fv0.2.1"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.2.1",
+   "version": "sdk%2Fagents%2Fv0.2.1"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.50",
+   "version": "desktop-v0.0.50"
+  },
+  {
+   "fecha": "2026-11-21",
+   "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.75",
+   "version": "cli-v3.0.75"
+  }
+ ],
+ "codex": [
+  {
+   "fecha": "2026-11-20",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+   "version": "rust-v0.171.0"
+  }
+ ],
+ "gemini-cli": [
+  {
+   "fecha": "2026-11-19",
+   "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",
+   "version": "v0.70.0"
+  },
+  {
+   "fecha": "2026-11-19",
+   "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0",
+   "version": "v0.69.0"
+  },
+  {
+   "fecha": "2026-11-10",
+   "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
+   "version": "v0.68.0"
+  }
+ ],
+ "grok-build": [],
+ "opencode": [
+  {
+   "fecha": "2026-11-23",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.1",
+   "version": "v2.4.1"
+  },
+  {
+   "fecha": "2026-11-23",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.0",
+   "version": "v2.4.0"
+  },
+  {
+   "fecha": "2026-11-18",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.2",
+   "version": "v2.3.2"
+  },
+  {
+   "fecha": "2026-11-18",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.1",
+   "version": "v2.3.1"
+  },
+  {
+   "fecha": "2026-11-17",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.6",
+   "version": "v1.19.6"
+  },
+  {
+   "fecha": "2026-11-16",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.6.0",
+   "version": "process-daemon-v0.6.0"
+  },
+  {
+   "fecha": "2026-11-13",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v2.3.0",
+   "version": "v2.3.0"
+  },
+  {
+   "fecha": "2026-11-11",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.2",
+   "version": "process-daemon-v0.5.2"
+  },
+  {
+   "fecha": "2026-11-11",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/process-daemon-v0.5.1",
+   "version": "process-daemon-v0.5.1"
+  },
+  {
+   "fecha": "2026-11-10",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v2.2.7",
+   "version": "v2.2.7"
+  }
+ ]
+}

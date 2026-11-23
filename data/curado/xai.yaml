@@ -1,0 +1,470 @@
+# Ficha curada de xAI / SpaceXSI (Grok). Formato: data/curado/_ejemplo.yaml.
+# Precios en USD. Precios de API en USD por millón de tokens (tramo de prompt < 200k tokens;
+# a partir de 200k tokens se cobra el doble en todos los modelos de texto vigentes).
+
+clave: xai
+proveedor: "SpaceXSI (SpaceX Super Intelligence LLC, antes xAI)"
+matriz: "SpaceX (Space Exploration Technologies Corp., Nasdaq: SPCX)"
+# SpaceX anunció la adquisición de xAI el 2026-02-02 (https://x.ai/news/xai-joins-spacex).
+# El pie de página de x.ai ya dice "SpaceX Super Intelligence LLC" (https://x.ai/news/x-subscription).
+verificado: 2026-11-23
+sitio_novedades: https://x.ai/news
+
+app:
+  nombre: Grok
+  url: https://grok.com
+  # Desde el 2026-10-12 los planes nuevos son "The X Subscription" (Grok + Grok Bot + Cursor + X Premium).
+  planes:
+    - nombre: Gratis
+      precio_usd_mes: 0
+      incluye: "Acceso diario a Grok con límites, cuota inicial de agentes de Cursor, X estándar"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: null
+    - nombre: Plus
+      precio_usd_mes: 8
+      incluye: "Más uso de Grok (chat, voz, imagen) y Cursor; palomita de X, herramientas de creador, menos anuncios. Sin video ni Grok Bot según terceros"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: null
+    - nombre: Premium
+      precio_usd_mes: 30
+      incluye: "4x el uso de Plus; beneficios de SuperGrok, Cursor Pro y X Premium+; video, Grok Bot y modelos Grok más recientes"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: null
+    - nombre: Super
+      precio_usd_mes: 100
+      incluye: "15x el uso de Plus; todo lo de Premium y prioridad en horas pico"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: null
+    - nombre: Ultra
+      precio_usd_mes: 200
+      incluye: "50x el uso de Plus; todo lo anterior y acceso anticipado a productos y modelos"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: null
+    - nombre: Equipos (Premium, Super o Ultra por asiento)
+      precio_usd_mes: 30
+      incluye: "Mismos precios por asiento que los planes individuales (30, 100 o 200 USD); Plus no se ofrece a equipos"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: null
+    - nombre: SuperGrok Lite (legado)
+      precio_usd_mes: 10
+      incluye: "Plan anterior, sólo para suscriptores existentes (lanzado en marzo de 2026)"
+      fuente: https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26
+      etiqueta: SUPUESTO
+    - nombre: SuperGrok (legado)
+      precio_usd_mes: 30
+      incluye: "Plan anterior; quien lo tenga lo conserva o migra a The X Subscription con reembolso prorrateado"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: SUPUESTO
+    - nombre: SuperGrok Plus (legado)
+      precio_usd_mes: 100
+      incluye: "Plan anterior, sólo para suscriptores existentes (precio según ficha de App Store citada por terceros)"
+      fuente: https://www.roborhythms.com/?p=35730
+      etiqueta: SUPUESTO
+    - nombre: SuperGrok Heavy (legado)
+      precio_usd_mes: 300
+      incluye: "Plan anterior de máxima capacidad (modelos Heavy/multiagente, acceso anticipado a Grok Build y Grok Bot)"
+      fuente: https://www.roborhythms.com/?p=35730
+      etiqueta: SUPUESTO
+    - nombre: X Premium / Premium+ (legado)
+      precio_usd_mes: null
+      incluye: "Los suscriptores existentes conservan su plan; Premium+ quedó integrado como beneficio del plan Premium de 30 USD. Precio vigente de los planes sueltos no confirmado"
+      fuente: https://x.ai/news/x-subscription
+      etiqueta: BRECHA
+
+capacidades:
+  razonamiento:          {estado: si, detalle: "Todos los modelos 4.x razonan con esfuerzo configurable (none/low a xhigh); en la app, modos Think/Auto y multiagente (Grok 4.20)", fuente: https://docs.x.ai/docs/models/grok-4.7}
+  busqueda_web:          {estado: si, detalle: "Búsqueda web y búsqueda en X (posts, usuarios, hilos) en la app y como herramientas del servidor en la API", fuente: https://docs.x.ai/docs/guides/tools/overview}
+  investigacion_profunda: {estado: si, detalle: "DeepSearch en la app (desde 2025) y Grok 4.20 multiagente para investigación; nombre y alcance actuales en la app [SUPUESTO]", fuente: https://x.ai/news/grok-3}
+  generacion_imagen:     {estado: si, detalle: "Grok Imagine Image 2.0 (modo Calidad en grok.com/imagine y apps; API grok-imagine-image-2.0)", fuente: https://x.ai/news/grok-imagine-image-2}
+  generacion_video:      {estado: si, detalle: "Grok Imagine Video 1.5 con audio, referencias de imagen y voz, hasta 1080p; en la app la variante Fast. Video requiere plan Premium o superior", fuente: https://x.ai/news/grok-imagine-video-1-5}
+  voz_tiempo_real:       {estado: si, detalle: "Modo de voz en la app; API Voice Agent con grok-voice-3.0 (voz a voz), STT y TTS, voces personalizadas", fuente: https://x.ai/news/grok-voice-3}
+  vision_archivos:       {estado: si, detalle: "Entrada de imagen en todos los modelos de texto; Files API y Collections Search para documentos", fuente: https://docs.x.ai/docs/models}
+  memoria:               {estado: si, detalle: "Memoria de conversaciones en la app (desde abril de 2025, desactivable); Grok Bot recuerda conversaciones y flujos. Estado 2026 en la app no reverificado", fuente: https://techcrunch.com/2025/04/16/xai-adds-a-memory-feature-to-grok}
+  agente_navegador:      {estado: si, detalle: "Grok Bot (beta desde 2026-08-11): agentes 24/7 que operan sitios web, correo y apps desde su propia computadora en la nube", fuente: https://x.ai/news/introducing-grok-bot}
+  uso_computadora:       {estado: si, detalle: "Grok Bot opera una computadora propia en la nube (macOS e iOS para el cliente); sin herramienta de uso de computadora en la API", fuente: https://x.ai/news/introducing-grok-bot}
+  agente_codigo:         {estado: si, detalle: "Grok Build (CLI con subagentes, modo headless, ACP) y Cursor, incluido en The X Subscription (SpaceX acordó comprar Cursor en junio de 2026)", fuente: https://x.ai/news/grok-build-cli}
+  ejecucion_codigo:      {estado: si, detalle: "Herramienta Code Execution (Python en sandbox) en la API; en la app vía agentes", fuente: https://docs.x.ai/docs/guides/tools/overview}
+  conectores_mcp:        {estado: si, detalle: "Conectores y MCP propio en grok.com desde 2026-05-06; Remote MCP en la API desde noviembre de 2025", fuente: https://docs.x.ai/grok/connectors}
+  modelos_abiertos:      {estado: parcial, detalle: "Pesos de Grok 1 y Grok 2.5 en Hugging Face (licencia restrictiva en Grok 2.5); Grok 3 prometido, no publicado", fuente: https://huggingface.co/xai-org}
+
+modelos:
+  - id: grok-4.7
+    nombre: Grok 4.7
+    categoria: insignia
+    lanzamiento: 2026-09-21
+    estado: vigente
+    contexto_tokens: 500000
+    salida_max_tokens: null
+    precio_entrada: 2.0
+    precio_salida: 6.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo más capaz para código y trabajo de conocimiento. Entrada en caché 0.50. Esfuerzo low a xhigh. Variante Grok 4.7 Fast (doble velocidad, doble precio) sólo en Cursor y Grok Build. Salida máxima no publicada [BRECHA DE DATO]. Presencia en la app según Decrypt y Android Headlines, no en fuente oficial"
+    fuente: https://docs.x.ai/docs/models/grok-4.7
+    etiqueta: SUPUESTO
+
+  - id: grok-4.6
+    nombre: Grok 4.6
+    categoria: equilibrado
+    lanzamiento: 2026-08-12
+    estado: vigente
+    contexto_tokens: 500000
+    salida_max_tokens: null
+    precio_entrada: 2.0
+    precio_salida: 6.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Enfocado en agentes y tareas largas. Entrada en caché 0.50. Variante fast al doble de precio. El anuncio sólo menciona Cursor, Grok Build y API; presencia en la app no confirmada. Salida máxima no publicada"
+    fuente: https://docs.x.ai/docs/models/grok-4.6
+    etiqueta: SUPUESTO
+
+  - id: grok-4.5
+    nombre: Grok 4.5
+    categoria: codigo
+    lanzamiento: 2026-07-16
+    estado: vigente
+    contexto_tokens: 500000
+    salida_max_tokens: null
+    precio_entrada: 2.0
+    precio_salida: 6.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Alias grok-build-latest; fue el modelo por defecto de Grok Build. Entrenado junto con Cursor. Entrada en caché 0.30. Presencia en la app no confirmada. Salida máxima no publicada"
+    fuente: https://docs.x.ai/docs/models/grok-4.5
+    etiqueta: SUPUESTO
+
+  - id: grok-4.3
+    nombre: Grok 4.3
+    categoria: rapido
+    lanzamiento: 2026-04-30
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: null
+    precio_entrada: 1.25
+    precio_salida: 2.5
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo económico de 1M de contexto; esfuerzo none a xhigh (low por defecto). Destino de los modelos retirados el 2026-05-15. Fecha de lanzamiento de catálogos de terceros (beta para SuperGrok en abril, GA ~2026-05-06). Salida máxima no publicada"
+    fuente: https://docs.x.ai/docs/models/grok-4.3
+    etiqueta: ESTIMADO
+
+  - id: grok-4.20-0309-reasoning
+    nombre: Grok 4.20 (razonamiento)
+    categoria: razonamiento
+    lanzamiento: 2026-03-09
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: null
+    precio_entrada: 1.25
+    precio_salida: 2.5
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Alias grok-4.20 y grok-4.20-reasoning. Fecha tomada del id (0309) y de las notas de versión (marzo). En la app desde la beta de febrero de 2026 [SUPUESTO]. Salida máxima no publicada"
+    fuente: https://docs.x.ai/docs/models/grok-4.20-0309-reasoning
+    etiqueta: SUPUESTO
+
+  - id: grok-4.20-0309-non-reasoning
+    nombre: Grok 4.20 (sin razonamiento)
+    categoria: rapido
+    lanzamiento: 2026-03-09
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: null
+    precio_entrada: 1.25
+    precio_salida: 2.5
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Variante sin razonamiento de Grok 4.20. Salida máxima no publicada"
+    fuente: https://docs.x.ai/docs/models
+    etiqueta: SUPUESTO
+
+  - id: grok-4.20-multi-agent-0309
+    nombre: Grok 4.20 Multi-agent
+    categoria: razonamiento
+    lanzamiento: 2026-03-09
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: null
+    precio_entrada: 1.25
+    precio_salida: 2.5
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Varios agentes que debaten en paralelo para investigación profunda; en la app como modo de planes altos [SUPUESTO]. OpenRouter indica que no acepta herramientas propias. Salida máxima no publicada"
+    fuente: https://docs.x.ai/docs/models
+    etiqueta: SUPUESTO
+
+  - id: grok-build-0.1
+    nombre: Grok Build 0.1
+    categoria: codigo
+    lanzamiento: 2026-05-14
+    estado: retirado
+    contexto_tokens: 500000
+    salida_max_tokens: null
+    precio_entrada: 1.0
+    precio_salida: 2.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Primer modelo propio para el agente Grok Build (acceso anticipado en mayo). Fin de vida en la API el 2026-11-19, aunque aún aparece en la tabla de precios. Recibía las peticiones de grok-code-fast-1"
+    fuente: https://docs.x.ai/docs/release-notes
+    etiqueta: null
+
+  - id: grok-imagine-image-2.0
+    nombre: Grok Imagine Image 2.0
+    categoria: imagen
+    lanzamiento: 2026-08-07
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [imagen]
+    en_app: true
+    notas: "0.04 USD por imagen. Hasta cinco imágenes de referencia; variante grok-imagine-image-2.0-low sustituye a grok-imagine-image-quality y -pro (retirados en noviembre de 2026). Modo Calidad en grok.com/imagine"
+    fuente: https://x.ai/news/grok-imagine-image-2
+    etiqueta: null
+
+  - id: grok-imagine-image
+    nombre: Grok Imagine Image
+    categoria: imagen
+    lanzamiento: 2026-01-28
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [imagen]
+    en_app: true
+    notas: "0.02 USD por imagen. Generación previa; fecha asociada al lanzamiento de la API de Imagine"
+    fuente: https://docs.x.ai/docs/models
+    etiqueta: SUPUESTO
+
+  - id: grok-imagine-video-1.5
+    nombre: Grok Imagine Video 1.5
+    categoria: video
+    lanzamiento: 2026-06-16
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen, audio]
+    salida: [video, audio]
+    en_app: true
+    notas: "0.08 USD por segundo. Texto, imagen o referencias a video; desde 2026-07-31 hasta siete imágenes de referencia, referencia de voz y 1080p nativo. En la app se usa Video 1.5 Fast"
+    fuente: https://x.ai/news/grok-imagine-video-1-5
+    etiqueta: null
+
+  - id: grok-imagine-video-1.5-lite
+    nombre: Grok Imagine Video 1.5 Lite
+    categoria: video
+    lanzamiento: null
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [video]
+    en_app: false
+    notas: "0.02 USD por segundo. Aparece en la tabla de precios; no hay anuncio ni fecha en notas de versión. Posible equivalente API de Video 1.5 Fast [SUPUESTO]"
+    fuente: https://docs.x.ai/docs/models
+    etiqueta: BRECHA
+
+  - id: grok-imagine-video
+    nombre: Grok Imagine Video 1.0
+    categoria: video
+    lanzamiento: 2026-01-28
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [video, audio]
+    en_app: false
+    notas: "0.05 USD por segundo. Video con audio de 720p hasta 10 s; API de Imagine del 2026-01-28 y Grok Imagine 1.0 en la app el 2026-02-02. Sigue en la tabla de precios"
+    fuente: https://x.ai/news/grok-imagine-api
+    etiqueta: null
+
+  - id: grok-voice-3.0
+    nombre: Grok Voice 3.0
+    categoria: audio
+    lanzamiento: 2026-10-14
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [audio, texto]
+    salida: [audio, texto]
+    en_app: true
+    notas: "Voz a voz para agentes: 0.08 USD por minuto más 0.004 por entrada de texto. Alias grok-voice-latest. Usado en Tesla y en el modo de voz de Grok Bot; uso en la app de Grok [SUPUESTO]"
+    fuente: https://x.ai/news/grok-voice-3
+    etiqueta: SUPUESTO
+
+  - id: grok-voice-2.0
+    nombre: Grok Voice 2.0
+    categoria: audio
+    lanzamiento: 2026-07-01
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [audio, texto]
+    salida: [audio, texto]
+    en_app: false
+    notas: "Obsoleto desde octubre de 2026; mismo precio que 3.0. Sólo se conoce el mes de lanzamiento (julio)"
+    fuente: https://docs.x.ai/docs/release-notes
+    etiqueta: ESTIMADO
+
+  - id: grok-4-1-fast-reasoning
+    nombre: Grok 4.1 Fast
+    categoria: rapido
+    lanzamiento: 2025-11-19
+    estado: retirado
+    contexto_tokens: 2000000
+    salida_max_tokens: null
+    precio_entrada: 0.2
+    precio_salida: 0.5
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Retirado el 2026-05-15; el id sigue respondiendo y redirige a grok-4.3 (y se cobra a esa tarifa). Contexto y precio históricos no reverificados"
+    fuente: https://docs.x.ai/docs/migration/may-15-retirement
+    etiqueta: SUPUESTO
+
+  - id: grok-code-fast-1
+    nombre: Grok Code Fast 1
+    categoria: codigo
+    lanzamiento: 2025-08-28
+    estado: retirado
+    contexto_tokens: 256000
+    salida_max_tokens: null
+    precio_entrada: 0.2
+    precio_salida: 1.5
+    entrada: [texto]
+    salida: [texto]
+    en_app: false
+    notas: "Retirado el 2026-05-15; redirigido a grok-build-0.1 según la guía oficial (que a su vez llegó a fin de vida el 2026-11-19). Contexto y precio históricos no reverificados"
+    fuente: https://docs.x.ai/docs/migration/may-15-retirement
+    etiqueta: SUPUESTO
+
+  - id: grok-4-0709
+    nombre: Grok 4
+    categoria: insignia
+    lanzamiento: 2025-07-09
+    estado: retirado
+    contexto_tokens: 256000
+    salida_max_tokens: null
+    precio_entrada: 3.0
+    precio_salida: 15.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Retirado el 2026-05-15 junto con grok-4-fast, grok-3 y grok-imagine-image-pro; redirige a grok-4.3. Contexto y precio históricos no reverificados"
+    fuente: https://docs.x.ai/docs/migration/may-15-retirement
+    etiqueta: SUPUESTO
+
+  - id: xai-org/grok-2
+    nombre: Grok 2.5 (pesos abiertos)
+    categoria: abierto
+    lanzamiento: 2025-08-23
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto]
+    salida: [texto]
+    en_app: false
+    notas: "Pesos descargables en Hugging Face con licencia de uso restringido; última actualización 2025-11-05. Grok 3 abierto anunciado en febrero de 2026 sin publicarse. Fecha de lanzamiento aproximada"
+    fuente: https://huggingface.co/xai-org/grok-2
+    etiqueta: ESTIMADO
+
+hitos:
+  - fecha: 2025-11-17
+    titulo: "Lanza Grok 4.1 en grok.com, X y apps"
+    fuente: https://x.ai/news/grok-4-1
+  - fecha: 2026-01-28
+    titulo: "API de Grok Imagine (imagen y video con audio, edición de video)"
+    fuente: https://x.ai/news/grok-imagine-api
+  - fecha: 2026-02-02
+    titulo: "SpaceX adquiere xAI"
+    fuente: https://x.ai/news/xai-joins-spacex
+  - fecha: 2026-03-09
+    titulo: "Grok 4.20 y Grok 4.20 Multi-agent en la API (fecha según id del modelo)"
+    fuente: https://docs.x.ai/docs/release-notes
+  - fecha: 2026-03-26
+    titulo: "Plan SuperGrok Lite de 10 USD al mes"
+    fuente: https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26
+  - fecha: 2026-04-30
+    titulo: "Grok 4.3, modelo de 1M de contexto a 1.25/2.50 USD (fecha aproximada)"
+    fuente: https://venturebeat.com/ai/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite/
+  - fecha: 2026-05-06
+    titulo: "Conectores y MCP propio en Grok (web, iOS y Android)"
+    fuente: https://x.ai/news/grok-connectors
+  - fecha: 2026-05-14
+    titulo: "Grok Build, agente de código en terminal (beta)"
+    fuente: https://x.ai/news/grok-build-cli
+  - fecha: 2026-05-15
+    titulo: "Retiro de ocho modelos de la API (Grok 4, 4 Fast, 4.1 Fast, Code Fast 1, Grok 3, Imagine Pro)"
+    fuente: https://docs.x.ai/docs/migration/may-15-retirement
+  - fecha: 2026-06-12
+    titulo: "SpaceX sale a bolsa en Nasdaq (SPCX)"
+    fuente: https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk
+  - fecha: 2026-06-16
+    titulo: "Grok Imagine Video 1.5 disponible en la API; Video 1.5 Fast en la app"
+    fuente: https://x.ai/news/grok-imagine-video-1-5
+  - fecha: 2026-06-16
+    titulo: "SpaceX acuerda comprar Cursor (Anysphere) por 60 mil millones de USD en acciones"
+    fuente: https://siliconangle.com/2026/06-16/spacex-acquire-vibe-coding-startup-cursor-60b/
+  - fecha: 2026-07-16
+    titulo: "Lanza Grok 4.5, enfocado en código y agentes"
+    fuente: https://x.ai/news/grok-4-5
+  - fecha: 2026-07-31
+    titulo: "Imagine Video 1.5 con referencias de imagen y voz y 1080p"
+    fuente: https://x.ai/news/grok-imagine-video-1-5-references
+  - fecha: 2026-08-07
+    titulo: "Grok Imagine Image 2.0"
+    fuente: https://x.ai/news/grok-imagine-image-2
+  - fecha: 2026-08-11
+    titulo: "Grok Bot, agentes 24/7 con computadora propia en la nube (beta)"
+    fuente: https://x.ai/news/introducing-grok-bot
+  - fecha: 2026-08-12
+    titulo: "Lanza Grok 4.6"
+    fuente: https://x.ai/news/grok-4-6
+  - fecha: 2026-09-21
+    titulo: "Lanza Grok 4.7, modelo más capaz para código y trabajo de conocimiento"
+    fuente: https://x.ai/news/grok-4-7
+  - fecha: 2026-10-04
+    titulo: "Musk anuncia el cambio de nombre de SpaceXAI a SpaceXSI"
+    fuente: https://www.khaleejtimes.com/world/americas/musk-renames-spacexai-to-spacexsi-trumps-super-intelligence
+  - fecha: 2026-10-12
+    titulo: "The X Subscription: un solo plan para Grok, Grok Bot, Cursor y X Premium (8 a 200 USD)"
+    fuente: https://x.ai/news/x-subscription
+  - fecha: 2026-10-14
+    titulo: "Grok Voice 3.0 en la API Voice Agent"
+    fuente: https://x.ai/news/grok-voice-3
+  - fecha: 2026-11-19
+    titulo: "Fin de vida de grok-build-0.1 en la API"
+    fuente: https://docs.x.ai/docs/release-notes
+
+pendientes:
+  - "Grok 5: no hay lanzamiento confirmado al 2026-11-23; Musk lo ubica antes de fin de 2026 y anunció Grok 4.8 y 4.9 antes [SUPUESTO]."
+  - "Qué modelos usa hoy la app de Grok (selector de modelos) y si 4.5 y 4.6 estuvieron en grok.com; x.ai y grok.com bloquean la lectura automática."
+  - "Salida máxima (max output) de los modelos de texto: docs.x.ai no la publica."
+  - "Cierre de la compra de Cursor por SpaceX: unas fuentes dicen que cerró en agosto de 2026, otras que seguía pendiente."
+  - "Precios vigentes de planes legados (SuperGrok Lite, Plus, Heavy; X Premium y Premium+) sólo de terceros o App Store."
+  - "grok-imagine-video-1.5-lite: sin anuncio ni fecha; id de API de Grok 4.7 Fast no publicado."
+  - "Nombre legal de la entidad: la página oficial usa SpaceX Super Intelligence LLC; confirmar si xAI sigue como marca o desaparece."

@@ -1,0 +1,412 @@
+# Ficha comparativa de agentes de programación con IA (data/curado/agentes-codigo.yaml).
+# Reglas:
+# - Cada producto lleva `fuente` (URL oficial de preferencia) y la ficha lleva `verificado`.
+# - Lo no confirmado se marca con `etiqueta` (ESTIMADO | SUPUESTO | BRECHA) o con `estado: brecha`.
+# - Precios en USD por mes. `plan_minimo_usd_mes` es el plan más barato que da acceso al agente
+#   (0 = hay nivel gratuito con límites; null = no hay plan individual público).
+# - Español mexicano, sin guion largo.
+verificado: 2026-11-23
+# Valores de estado: si | parcial | no | brecha
+productos:
+  - clave: claude-code
+    nombre: Claude Code
+    empresa: Anthropic
+    tipo: agente de terminal, IDE, escritorio y nube
+    lanzamiento: 2025-02-24
+    superficies: [cli, ide, escritorio, web, movil, nube, slack]
+    modelos: ["Claude Opus 5.5", "Claude Sonnet 5.5", "Claude Haiku 5.5", "Claude Fable 5.2"]
+    multi_proveedor: no
+    codigo_abierto: no
+    precio: "Incluido en Pro (20 USD/mes mensual o 17 USD/mes anual), Max (desde 100 USD/mes), Team y Enterprise; o pago por uso con API. Fable 5.2 puede cobrarse aparte con créditos de uso."
+    plan_minimo_usd_mes: 20
+    capacidades:
+      mcp:               {estado: si, detalle: "Servidores MCP locales y remotos; claude mcp add-json"}
+      subagentes:        {estado: si, detalle: "Subagentes, equipos de agentes y workflows dinámicos; agentes en segundo plano"}
+      ejecucion_en_nube: {estado: si, detalle: "Sesiones en la nube (claude.ai/code, claude --cloud) y tareas programadas en la nube"}
+      pr_automaticos:    {estado: si, detalle: "Crea ramas, commits y PR; @Claude en Slack devuelve un PR; GitHub Actions y GitLab CI/CD"}
+      revision_codigo:   {estado: si, detalle: "GitHub Code Review automático en cada PR y comando /code-review"}
+      navegador:         {estado: si, detalle: "Integración con Chrome para depurar apps web; uso de computadora en macOS"}
+      hooks_extensiones: {estado: si, detalle: "Hooks, skills, plugins y marketplaces de plugins"}
+      memoria_proyecto:  {estado: si, detalle: "CLAUDE.md (lee AGENTS.md) y auto memory entre sesiones"}
+      sdk:               {estado: si, detalle: "Claude Agent SDK"}
+    fuerte_en: "El conjunto más completo de superficies y extensibilidad (hooks, skills, plugins, subagentes) sobre los modelos Claude."
+    fuente: https://code.claude.com/docs/en/overview
+    etiqueta: null
+
+  - clave: codex
+    nombre: Codex
+    empresa: OpenAI
+    tipo: agente de terminal, IDE, app de escritorio y nube
+    lanzamiento: 2025-04-16
+    superficies: [cli, ide, escritorio, web, movil, nube, slack]
+    modelos: ["GPT-6.2 Sol", "GPT-6.2 Astra", "GPT-6.1 Terra", "GPT-6.1 Sol", "GPT-6 Luna"]
+    multi_proveedor: parcial
+    codigo_abierto: parcial
+    precio: "Incluido en ChatGPT Free y Go (8 USD) con límites y solo GPT-6 Luna; Plus 20 USD; Pro desde 100 USD (100, 200 y 500); Business 20 USD/usuario anual (25 mensual); Enterprise y Edu a cotizar; o pago por uso con API key (sin funciones de nube)."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: "MCP en CLI, IDE y app"}
+      subagentes:        {estado: si, detalle: "Subagentes con transcripciones en la TUI"}
+      ejecucion_en_nube: {estado: si, detalle: "Codex Cloud: tareas en segundo plano en contenedores de OpenAI"}
+      pr_automaticos:    {estado: si, detalle: "Abre PR desde tareas en la nube; integración con Slack"}
+      revision_codigo:   {estado: si, detalle: "Code review en GitHub y GitHub Action (requiere plan de ChatGPT, no API key)"}
+      navegador:         {estado: si, detalle: "Navegador, extensión de navegador y uso de computadora"}
+      hooks_extensiones: {estado: si, detalle: "Hooks, skills y plugins"}
+      memoria_proyecto:  {estado: si, detalle: "AGENTS.md y Memories"}
+      sdk:               {estado: si, detalle: "Codex SDK"}
+    fuerte_en: "Integración total con ChatGPT (escritorio, web, móvil) y los modelos GPT-6.2; CLI abierto con proveedores alternos."
+    fuente: https://learn.chatgpt.com/docs/pricing
+    etiqueta: null
+
+  - clave: antigravity
+    nombre: Google Antigravity
+    empresa: Google
+    tipo: plataforma agéntica (app de escritorio, IDE, CLI y SDK)
+    lanzamiento: 2025-11-18
+    superficies: [escritorio, ide, cli, web]
+    modelos: ["Gemini 4 Neon", "Gemini 4 Argon", "Gemini 4 Hydrogen", "Gemini 4 Carbon", "Orchestrator", "Gemini 3.8 Flash", "Claude Opus 5.5", "Claude Sonnet 5.5", "GPT-OSS-120b"]
+    multi_proveedor: si
+    codigo_abierto: no
+    precio: "Sin costo para desarrolladores con Gemini 3.8 Flash y modelos legados; Google AI Pro (20 USD) con cuota de entrada; AI Ultra de 100 USD (5x Pro) y de 200 USD (20x Pro); empresas vía Gemini Enterprise Agent Platform."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: "Configuración de MCP desde comandos slash del CLI"}
+      subagentes:        {estado: si, detalle: "Subagentes en segundo plano, agentes personalizados, /swarm y Orchestrator"}
+      ejecucion_en_nube: {estado: parcial, detalle: "Managed Agents en la Gemini API corren sobre el arnés de Antigravity; ejecución en la nube dentro de Antigravity reportada como próxima"}
+      pr_automaticos:    {estado: brecha, detalle: "No se confirmó flujo nativo de PR en fuente oficial"}
+      revision_codigo:   {estado: parcial, detalle: "CodeMender (agente de seguridad de código) integrado desde I/O 2026"}
+      navegador:         {estado: si, detalle: "Agentes con navegador en el ciclo para probar UI"}
+      hooks_extensiones: {estado: si, detalle: "Hooks, skills, plugins, marketplace de plugins y extensiones de IDE"}
+      memoria_proyecto:  {estado: parcial, detalle: "Reglas y base de conocimiento conocidas desde 2025; no reverificadas en la fuente de noviembre 2026"}
+      sdk:               {estado: si, detalle: "Antigravity SDK (Python)"}
+    fuerte_en: "Orquestación de muchos agentes en paralelo con los modelos Gemini 4, tareas programadas y verificación con navegador."
+    fuente: https://antigravity.google/docs/models
+    etiqueta: null
+
+  - clave: gemini-cli
+    nombre: Gemini CLI
+    empresa: Google
+    tipo: agente de terminal (ahora solo para Gemini Code Assist empresarial)
+    lanzamiento: 2025-06-25
+    superficies: [cli, ide]
+    modelos: ["Gemini 3.1 Pro", "Gemini 3 Flash", "Gemini 2.5 Pro", "Gemini 2.5 Flash"]
+    multi_proveedor: no
+    codigo_abierto: si
+    precio: "Ya no hay acceso gratuito ni con Google AI Pro o Ultra (pasaron a Antigravity CLI el 18 de junio de 2026). Se usa con licencias Gemini Code Assist Standard o Enterprise, Code Assist for GitHub, o llaves de pago de API o Vertex AI."
+    plan_minimo_usd_mes: null
+    capacidades:
+      mcp:               {estado: si, detalle: "Servidores MCP"}
+      subagentes:        {estado: parcial, detalle: "Subagentes en modo experimental"}
+      ejecucion_en_nube: {estado: no, detalle: "Corre local; no tiene nube propia"}
+      pr_automaticos:    {estado: brecha, detalle: "Existe GitHub Action en versiones previas; no reverificado para noviembre 2026"}
+      revision_codigo:   {estado: brecha, detalle: "No confirmado en la documentación actual"}
+      navegador:         {estado: brecha, detalle: "No confirmado"}
+      hooks_extensiones: {estado: si, detalle: "Hooks, extensiones y Agent Skills"}
+      memoria_proyecto:  {estado: si, detalle: "GEMINI.md"}
+      sdk:               {estado: parcial, detalle: "Modo headless y modo ACP para integrarse con editores"}
+    fuerte_en: "Agente de terminal abierto (Apache 2.0) para empresas con Gemini Code Assist en Google Cloud."
+    fuente: https://github.com/google-gemini/gemini-cli
+    etiqueta: null
+
+  - clave: jules
+    nombre: Jules
+    empresa: Google
+    tipo: agente asíncrono en la nube (en cierre)
+    lanzamiento: 2025-05-20
+    superficies: [web, nube, cli]
+    modelos: ["Gemini 3.1 Pro", "Gemini 3 Flash"]
+    multi_proveedor: no
+    codigo_abierto: no
+    precio: "En cierre: solo lectura desde el 11 de noviembre de 2026 y se apaga el 31 de diciembre de 2026. Antes tenía nivel gratuito y cuotas mayores en Google AI Pro y Ultra."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: "Soporte MCP desde febrero de 2026"}
+      subagentes:        {estado: brecha, detalle: "No documentado"}
+      ejecucion_en_nube: {estado: si, detalle: "Clona el repositorio en una VM de Google Cloud; ya no acepta trabajo nuevo"}
+      pr_automaticos:    {estado: si, detalle: "Crea PR en GitHub; etiqueta 'jules' en issues; autocorrección de fallas de CI"}
+      revision_codigo:   {estado: brecha, detalle: "No confirmado"}
+      navegador:         {estado: brecha, detalle: "No confirmado"}
+      hooks_extensiones: {estado: no, detalle: ""}
+      memoria_proyecto:  {estado: si, detalle: "Memorias y scripts de configuración (exportables)"}
+      sdk:               {estado: parcial, detalle: "API pública y Jules Tools (CLI)"}
+    fuerte_en: "Fue el agente asíncrono de Google para issues de GitHub; su sucesor oficial es Antigravity."
+    fuente: https://jules.google/docs/changelog/
+    etiqueta: null
+
+  - clave: grok-build
+    nombre: Grok Build
+    empresa: SpaceXAI (antes xAI)
+    tipo: agente de terminal
+    lanzamiento: 2026-05-25
+    superficies: [cli, ide]
+    modelos: ["Grok 4.5", "grok-build-0.1"]
+    multi_proveedor: brecha
+    codigo_abierto: si
+    precio: "Incluido en suscripciones de Grok (SuperGrok, X Premium+ y, según fuentes secundarias, todos los planes desde agosto de 2026) o pago por uso con API key."
+    plan_minimo_usd_mes: 30
+    capacidades:
+      mcp:               {estado: si, detalle: "Lee servidores MCP del proyecto"}
+      subagentes:        {estado: si, detalle: "Subagentes en paralelo, cada uno en su git worktree"}
+      ejecucion_en_nube: {estado: brecha, detalle: "No confirmado; el trabajo en equipo en la nube lo cubre Grok Bot"}
+      pr_automaticos:    {estado: brecha, detalle: "No confirmado"}
+      revision_codigo:   {estado: parcial, detalle: "Plugin oficial para que Claude Code delegue revisiones a Grok Build"}
+      navegador:         {estado: no, detalle: "Búsqueda web, sin agente de navegador confirmado"}
+      hooks_extensiones: {estado: si, detalle: "Hooks, skills y plugins"}
+      memoria_proyecto:  {estado: si, detalle: "AGENTS.md (y CLAUDE.md según fuente secundaria)"}
+      sdk:               {estado: parcial, detalle: "Modo headless (-p) y soporte completo de ACP"}
+    fuerte_en: "CLI en Rust, abierto (Apache 2.0), con subagentes en worktrees y modelos Grok baratos para código."
+    fuente: https://x.ai/news/grok-build-cli
+    etiqueta: SUPUESTO
+
+  - clave: github-copilot
+    nombre: GitHub Copilot (modo agente y cloud agent)
+    empresa: GitHub (Microsoft)
+    tipo: asistente en IDE, CLI, app y agente en la nube
+    lanzamiento: 2025-05-19
+    superficies: [ide, cli, escritorio, web, movil, nube, slack]
+    modelos: ["Claude Opus 5.5", "Claude Sonnet 5.5", "Claude Fable 5.2", "GPT-6.2 Astra", "GPT-6.2 Sol", "Gemini 4 Neon", "Gemini 4 Carbon", "Grok 4.7", "MAI Code 2", "Kimi K3"]
+    multi_proveedor: si
+    codigo_abierto: parcial
+    precio: "Free 0 USD (chat y agente limitados, sin cloud agent); Pro 10 USD; Pro+ 39 USD; Max 100 USD; Business y Enterprise a cotizar. Se cobra en GitHub AI Credits (1 crédito = 0.01 USD)."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: "MCP en IDE, CLI, cloud agent y code review"}
+      subagentes:        {estado: si, detalle: "Agentes personalizados y agentes de terceros (Claude, Codex) dentro de Copilot"}
+      ejecucion_en_nube: {estado: si, detalle: "Copilot cloud agent (antes coding agent), con tareas programadas"}
+      pr_automaticos:    {estado: si, detalle: "De issue a PR; también desde Linear y Slack"}
+      revision_codigo:   {estado: si, detalle: "Copilot code review con skills y MCP (GA julio 2026)"}
+      navegador:         {estado: parcial, detalle: "Prueba de UI con Playwright en el cloud agent; no reverificado en noviembre 2026"}
+      hooks_extensiones: {estado: si, detalle: "Hooks, agent skills y Agent Plugins 1.0"}
+      memoria_proyecto:  {estado: si, detalle: "Instrucciones de repositorio y Copilot Memory"}
+      sdk:               {estado: si, detalle: "GitHub Copilot SDK (vista previa pública desde abril de 2026)"}
+    fuerte_en: "La mayor variedad de modelos de varios proveedores, integrada en GitHub, VS Code, JetBrains y Xcode."
+    fuente: https://github.com/features/copilot/plans
+    etiqueta: null
+
+  - clave: cursor
+    nombre: Cursor
+    empresa: Anysphere (subsidiaria de SpaceX)
+    tipo: IDE agéntico, CLI y agentes en la nube
+    lanzamiento: 2023-03-14
+    superficies: [ide, escritorio, cli, web, movil, nube, slack]
+    modelos: ["Composer 2.5", "Grok 4.7", "Claude Opus 5.5", "Claude Sonnet 5.5", "GPT-5.6 Sol", "Gemini 4 Argon", "Kimi K3"]
+    multi_proveedor: si
+    codigo_abierto: no
+    precio: "Free 0 USD; Plus 8 USD (solo Grok y Composer); Premium 30 USD (agrega cloud agents, Bugbot y modelos de terceros a precio de API); Super 100 USD; Ultra 200 USD; Teams desde 30 USD/usuario; Enterprise a cotizar."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: ""}
+      subagentes:        {estado: si, detalle: "Varios agentes en paralelo en la ventana de Agentes"}
+      ejecucion_en_nube: {estado: si, detalle: "Cloud agents con entornos de hasta 300 repositorios y automatizaciones (desde Premium)"}
+      pr_automaticos:    {estado: si, detalle: "Cloud agents abren PR; canales en GitHub, GitLab, Bitbucket y Slack"}
+      revision_codigo:   {estado: si, detalle: "Bugbot (desde Premium)"}
+      navegador:         {estado: si, detalle: "Navegador integrado; apps en vivo publicadas por cloud agents"}
+      hooks_extensiones: {estado: si, detalle: "Hooks, reglas y marketplace de apps"}
+      memoria_proyecto:  {estado: si, detalle: "Reglas de proyecto y AGENTS.md"}
+      sdk:               {estado: si, detalle: "Agent SDK (octubre 2026)"}
+    fuerte_en: "Editor con agentes paralelos, modelo propio Composer y catálogo amplio de modelos de terceros."
+    fuente: https://cursor.com/pricing
+    etiqueta: null
+
+  - clave: devin
+    nombre: Devin (Devin Desktop, antes Windsurf)
+    empresa: Cognition
+    tipo: IDE de escritorio, CLI y agentes autónomos en la nube
+    lanzamiento: 2024-03-12
+    superficies: [ide, escritorio, cli, web, nube, slack]
+    modelos: ["SWE-2", "SWE-2 Flash", "Claude Fable 5.1", "modelos de OpenAI, Anthropic, Google y abiertos"]
+    multi_proveedor: si
+    codigo_abierto: no
+    precio: "Free 0 USD; Pro 20 USD (incluye Devin Cloud y uso de tu plan de ChatGPT); Max 200 USD; Teams 80 USD; Enterprise a cotizar."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: "Integraciones MCP (Notion, Datadog, Sentry, Figma, Vercel, Stripe)"}
+      subagentes:        {estado: si, detalle: "Devin coordina subagentes y cada uno abre su PR; Fusion combina modelo líder y modelo ejecutor"}
+      ejecucion_en_nube: {estado: si, detalle: "Devin Cloud; sesiones pasan de local a nube con el mismo contexto"}
+      pr_automaticos:    {estado: si, detalle: ""}
+      revision_codigo:   {estado: si, detalle: "Devin Review"}
+      navegador:         {estado: brecha, detalle: "No mencionado en la página actual de Devin Desktop"}
+      hooks_extensiones: {estado: parcial, detalle: "Plugins e integraciones; hooks no confirmados"}
+      memoria_proyecto:  {estado: brecha, detalle: "Reglas y memorias no confirmadas en la fuente actual"}
+      sdk:               {estado: parcial, detalle: "ACP para manejar agentes de otros proveedores; API de Devin no reverificada"}
+    fuerte_en: "Agentes autónomos de largo aliento en la nube más un IDE de escritorio, con modelos propios SWE-2 de bajo costo."
+    fuente: https://devin.ai/pricing
+    etiqueta: null
+
+  - clave: kiro
+    nombre: Kiro
+    empresa: Amazon Web Services
+    tipo: IDE con desarrollo por especificaciones, CLI y agente web
+    lanzamiento: 2025-07-14
+    superficies: [ide, cli, web, nube]
+    modelos: ["Auto", "Claude Opus 5.5", "Claude Sonnet 5.5", "GPT-5.6 Sol", "Grok 4.7", "Kimi K3", "Qwen3 Coder Next"]
+    multi_proveedor: si
+    codigo_abierto: parcial
+    precio: "Free 0 USD (50 créditos); Pro 20 USD (1,000); Pro+ 40 USD (2,000); Pro Max 100 USD (5,000); Power 200 USD (10,000); Teams 20 USD por asiento; crédito extra 0.04 USD."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: ""}
+      subagentes:        {estado: si, detalle: "Subagentes personalizados; Kiro Crew como espacio de agentes 24/7"}
+      ejecucion_en_nube: {estado: si, detalle: "Kiro Web (GA septiembre 2026)"}
+      pr_automaticos:    {estado: si, detalle: "Kiro Web abre PR en GitHub y GitLab"}
+      revision_codigo:   {estado: parcial, detalle: "Revisiones de código en CI/CD"}
+      navegador:         {estado: brecha, detalle: "No confirmado"}
+      hooks_extensiones: {estado: si, detalle: "Agent hooks, Powers y skills"}
+      memoria_proyecto:  {estado: si, detalle: "Steering files y specs"}
+      sdk:               {estado: brecha, detalle: "No confirmado"}
+    fuerte_en: "Desarrollo guiado por especificaciones (specs) con integración AWS y planes por créditos."
+    fuente: https://kiro.dev/pricing/
+    etiqueta: null
+
+  - clave: cline
+    nombre: Cline
+    empresa: Cline Bot Inc.
+    tipo: agente abierto para IDE, CLI y escritorio
+    lanzamiento: 2024-07-01
+    superficies: [ide, cli, escritorio]
+    modelos: ["cualquier modelo vía tu propia API key o el proveedor Cline"]
+    multi_proveedor: si
+    codigo_abierto: si
+    precio: "Gratis para individuos (Apache 2.0); se paga solo la inferencia (BYOK o proveedor Cline). Enterprise a cotizar (incluye plugin de JetBrains)."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: "MCP Marketplace"}
+      subagentes:        {estado: si, detalle: "Equipos multiagente vía SDK"}
+      ejecucion_en_nube: {estado: brecha, detalle: "Aparece 'Cloud' en el sitio, sin documentación revisada"}
+      pr_automaticos:    {estado: brecha, detalle: "No confirmado"}
+      revision_codigo:   {estado: brecha, detalle: "No confirmado"}
+      navegador:         {estado: brecha, detalle: "No reverificado en noviembre 2026"}
+      hooks_extensiones: {estado: si, detalle: "Plugins, rutinas y automatizaciones programadas"}
+      memoria_proyecto:  {estado: brecha, detalle: "Reglas de proyecto no reverificadas"}
+      sdk:               {estado: si, detalle: "@cline/sdk"}
+    fuerte_en: "Agente abierto con modelo de traer tu propia llave y control de costos de inferencia."
+    fuente: https://github.com/cline/cline
+    etiqueta: null
+
+  - clave: opencode
+    nombre: OpenCode
+    empresa: Anomaly (antes SST)
+    tipo: agente abierto de terminal y escritorio
+    lanzamiento: 2025-06-19
+    superficies: [cli, escritorio, movil]
+    modelos: ["más de 200 proveedores vía Models.dev, incluidos modelos locales y suscripciones de ChatGPT o Copilot"]
+    multi_proveedor: si
+    codigo_abierto: si
+    precio: "Gratis (MIT) con modelos gratuitos sin cuenta; OpenCode Go desde 10 USD/mes con modelos seleccionados; o tus propias llaves y suscripciones."
+    plan_minimo_usd_mes: 0
+    capacidades:
+      mcp:               {estado: si, detalle: "Servidores MCP locales y remotos"}
+      subagentes:        {estado: si, detalle: "Agentes personalizados y sesiones paralelas"}
+      ejecucion_en_nube: {estado: no, detalle: ""}
+      pr_automaticos:    {estado: brecha, detalle: "Integración con GitHub no reverificada"}
+      revision_codigo:   {estado: brecha, detalle: "No confirmado"}
+      navegador:         {estado: brecha, detalle: "No confirmado"}
+      hooks_extensiones: {estado: si, detalle: "Plugins con eventos, skills (SKILL.md) y comandos propios"}
+      memoria_proyecto:  {estado: brecha, detalle: "AGENTS.md no mencionado en la página principal"}
+      sdk:               {estado: si, detalle: "SDK para scripts, CI y herramientas"}
+    fuerte_en: "El agente abierto más popular en GitHub, agnóstico de proveedor y con app de escritorio y móvil."
+    fuente: https://opencode.ai/
+    etiqueta: ESTIMADO
+
+hitos:
+  - fecha: 2026-02-02
+    producto: jules
+    titulo: "Jules agrega soporte MCP"
+    fuente: https://jules.google/docs/changelog/
+  - fecha: 2026-02-03
+    producto: codex
+    titulo: "Lanza la app de escritorio de Codex para macOS (Windows el 4 de marzo)"
+    fuente: https://openai.com/index/introducing-the-codex-app/
+  - fecha: 2026-04-01
+    producto: github-copilot
+    titulo: "Copilot coding agent pasa a llamarse Copilot cloud agent y deja de limitarse a PR"
+    fuente: https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent
+  - fecha: 2026-04-02
+    producto: github-copilot
+    titulo: "GitHub Copilot SDK en vista previa pública"
+    fuente: https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/
+  - fecha: 2026-05-19
+    producto: antigravity
+    titulo: "Antigravity 2.0 con app de escritorio, Antigravity CLI, SDK, subagentes, hooks y tareas programadas; nuevos planes AI Ultra de 100 y 200 USD"
+    fuente: https://antigravity.google/blog
+  - fecha: 2026-05-25
+    producto: grok-build
+    titulo: "xAI lanza Grok Build en beta para SuperGrok y X Premium+"
+    fuente: https://x.ai/news/grok-build-cli
+  - fecha: 2026-06-18
+    producto: gemini-cli
+    titulo: "Gemini CLI deja de servir a usuarios gratuitos y de Google AI Pro/Ultra, que pasan a Antigravity CLI"
+    fuente: https://github.com/google-gemini/gemini-cli
+  - fecha: 2026-07-09
+    producto: codex
+    titulo: "OpenAI integra la app de Codex en la nueva app de escritorio de ChatGPT junto con ChatGPT Work"
+    fuente: https://neowin.net/news/openai-launches-chatgpt-work-and-unveils-unified-desktop-app-with-codex-built-in/
+  - fecha: 2026-07-14
+    producto: devin
+    titulo: "Cognition confirma que Windsurf quedó unificado bajo Devin Desktop (fecha de la publicación, no del cambio)"
+    fuente: https://cognition.com/blog/one-year-of-building-together
+  - fecha: 2026-07-29
+    producto: github-copilot
+    titulo: "Copilot code review con agent skills y MCP llega a disponibilidad general"
+    fuente: https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available
+  - fecha: 2026-08-04
+    producto: kiro
+    titulo: "AWS lanza Kiro Crew, espacio abierto para agentes de larga duración"
+    fuente: https://kiro.dev/blog/introducing-kiro-crew/
+  - fecha: 2026-08-07
+    producto: grok-build
+    titulo: "Grok Build 1.0 sale de beta (código publicado en Apache 2.0)"
+    fuente: https://github.com/xai-org/grok-build
+  - fecha: 2026-08-14
+    producto: cursor
+    titulo: "SpaceX cierra la compra de Anysphere (Cursor) por unos 60,000 millones de USD"
+    fuente: https://www.techzine.eu/news/devops/143619/spacex-completes-acquisition-of-cursor/
+  - fecha: 2026-09-01
+    producto: kiro
+    titulo: "Kiro Web llega a disponibilidad general"
+    fuente: https://kiro.dev/changelog/web/kiro-web-is-now-generally-available/
+  - fecha: 2026-09-10
+    producto: devin
+    titulo: "Cognition lanza SWE-2 en Devin Desktop y Devin CLI (SWE-2 Flash el 4 de noviembre)"
+    fuente: https://runtimewire.com/article/cognition-swe-2-coding-model-scott-wu
+  - fecha: 2026-09-22
+    producto: claude-code
+    titulo: "Anthropic lanza Claude Opus 5.5, nuevo modelo por defecto en Claude Code (Sonnet 5.5 el 28 de septiembre)"
+    fuente: https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/
+  - fecha: 2026-10-13
+    producto: antigravity
+    titulo: "Gemini 4 Argon llega a Antigravity"
+    fuente: https://antigravity.google/blog
+  - fecha: 2026-10-20
+    producto: cursor
+    titulo: "Cursor lanza su Agent SDK"
+    fuente: https://cursor.com/changelog
+  - fecha: 2026-10-29
+    producto: jules
+    titulo: "Google anuncia el cierre de Jules el 31 de diciembre de 2026 (solo lectura desde el 11 de noviembre)"
+    fuente: https://jules.google/docs/changelog/
+  - fecha: 2026-11-09
+    producto: claude-code
+    titulo: "Claude Fable 5.2 disponible en Claude Code"
+    fuente: https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/
+  - fecha: 2026-11-17
+    producto: codex
+    titulo: "GPT-6.2 Astra y GPT-6.2 Sol llegan a Codex; Sol queda por defecto en Codex CLI 0.171.0"
+    fuente: https://openai.com/index/introducing-gpt-6-2-astra-sol
+  - fecha: 2026-11-23
+    producto: antigravity
+    titulo: "Google amplía el ecosistema de plugins de Antigravity"
+    fuente: https://antigravity.google/blog
+
+pendientes:
+  - "Grok Build: confirmar en fuente oficial el modelo por defecto actual (Grok 4.5 según fuentes secundarias de agosto; podría ser Grok 4.7), qué planes lo incluyen hoy y el precio de SuperGrok. x.ai bloquea la lectura automática (403)."
+  - "Grok Build: verificar si permite modelos de otros proveedores (multi_proveedor en brecha)."
+  - "Codex: confirmar si la app de escritorio sigue como experiencia separada dentro de ChatGPT tras la fusión con ChatGPT Work."
+  - "Antigravity: Claude Opus 4.6, Claude Sonnet 4.6 y GPT-OSS-120b se retiran el 30 de noviembre de 2026; revisar después de esa fecha si queda algún modelo gratuito no Gemini."
+  - "Antigravity: confirmar ejecución en la nube y PR automáticos nativos."
+  - "Gemini CLI: confirmar los modelos actuales (la página de modelos es de marzo de 2026) y el precio de Gemini Code Assist Standard."
+  - "Devin: confirmar fecha exacta del cambio de Windsurf a Devin Desktop (una wiki de terceros dice 2 de junio de 2026), navegador, hooks y memoria."
+  - "Cursor: la página de precios usa planes nuevos (Plus, Premium, Super); confirmar fecha del cambio y si el CLI está en todos los planes."
+  - "GitHub Copilot: precios de Business y Enterprise ya no aparecen en la página pública; confirmar si el SDK salió de vista previa."
+  - "Cline y OpenCode: revisar documentación de nube, PR, revisión de código y navegador; fecha de lanzamiento de OpenCode es aproximada."
+  - "Aider quedó fuera: su último release es de agosto de 2025 y el repositorio no recibe cambios desde mayo de 2026."

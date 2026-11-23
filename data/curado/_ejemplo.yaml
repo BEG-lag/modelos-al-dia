@@ -1,0 +1,71 @@
+# Formato de la ficha curada de un proveedor (data/curado/<clave>.yaml).
+# Reglas:
+# - Cada dato lleva `fuente` (URL oficial de preferencia) y la ficha lleva `verificado` (AAAA-MM-DD).
+# - Lo que no se pudo confirmar en una fuente se marca en `etiqueta`:
+#   ESTIMADO (cifra aproximada), SUPUESTO (premisa no confirmada) o BRECHA (dato que falta).
+# - Precios en USD. Precios de API en USD por millón de tokens.
+# - Español mexicano, sin guion largo.
+
+clave: ejemplo            # openai | anthropic | google | xai
+proveedor: Ejemplo Inc.   # empresa responsable
+matriz: null              # empresa matriz si aplica (p. ej. Alphabet, SpaceX)
+verificado: 2026-11-23
+sitio_novedades: https://ejemplo.com/news
+
+app:
+  nombre: EjemploChat
+  url: https://ejemplo.com
+  planes:
+    - nombre: Gratis
+      precio_usd_mes: 0
+      incluye: "Modelo rápido con límites diarios"
+      fuente: https://ejemplo.com/pricing
+    - nombre: Pro
+      precio_usd_mes: 20
+      incluye: "Modelo insignia, más uso, agente"
+      fuente: https://ejemplo.com/pricing
+
+# Valores de `estado`: si | parcial | no | brecha
+# Usa siempre estas claves; agrega `detalle` corto y `fuente`.
+capacidades:
+  razonamiento:          {estado: si, detalle: "Modo de pensamiento extendido", fuente: https://...}
+  busqueda_web:          {estado: si, detalle: "", fuente: https://...}
+  investigacion_profunda: {estado: si, detalle: "", fuente: https://...}
+  generacion_imagen:     {estado: si, detalle: "Modelo X", fuente: https://...}
+  generacion_video:      {estado: no, detalle: "", fuente: https://...}
+  voz_tiempo_real:       {estado: si, detalle: "", fuente: https://...}
+  vision_archivos:       {estado: si, detalle: "Imágenes, PDF, hojas de cálculo", fuente: https://...}
+  memoria:               {estado: si, detalle: "", fuente: https://...}
+  agente_navegador:      {estado: si, detalle: "Producto X", fuente: https://...}
+  uso_computadora:       {estado: parcial, detalle: "Solo API", fuente: https://...}
+  agente_codigo:         {estado: si, detalle: "Producto X (CLI, IDE, nube)", fuente: https://...}
+  ejecucion_codigo:      {estado: si, detalle: "", fuente: https://...}
+  conectores_mcp:        {estado: si, detalle: "", fuente: https://...}
+  modelos_abiertos:      {estado: no, detalle: "", fuente: https://...}
+
+# Modelos vigentes y los legados relevantes. Categorías:
+# insignia | razonamiento | equilibrado | rapido | codigo | imagen | video | audio | abierto | embeddings
+modelos:
+  - id: ejemplo-1            # identificador exacto en la API
+    nombre: Ejemplo 1
+    categoria: insignia
+    lanzamiento: 2026-01-15
+    estado: vigente          # vigente | legado | retirado | preliminar
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 5.0      # USD / millón de tokens
+    precio_salida: 25.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true             # disponible en la app de consumo
+    notas: "Mejor para ..."
+    fuente: https://...
+    etiqueta: null           # ESTIMADO | SUPUESTO | BRECHA | null
+
+hitos:                       # lanzamientos y anuncios de los últimos ~12 meses
+  - fecha: 2026-01-15
+    titulo: "Lanza Ejemplo 1"
+    fuente: https://...
+
+pendientes:                  # dudas que no se pudieron resolver con fuente
+  - "..."

@@ -1,0 +1,4075 @@
+{
+ "actualizado": "2026-11-23",
+ "modelos": [
+  {
+   "alias": [],
+   "conocimiento": "2026-06",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-fable",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-fable-5-2",
+   "lanzamiento": "2026-11-09",
+   "nombre": "Claude Fable 5.2",
+   "openrouter": "anthropic/claude-fable-5.2",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 8.0,
+   "precio_salida": 40.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-06",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-haiku",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-haiku-5-5",
+   "lanzamiento": "2026-10-07",
+   "nombre": "Claude Haiku 5.5",
+   "openrouter": "anthropic/claude-haiku-5.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.01,
+   "precio_entrada": 0.1,
+   "precio_salida": 0.5,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-06",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-sonnet",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-sonnet-5-5",
+   "lanzamiento": "2026-09-28",
+   "nombre": "Claude Sonnet 5.5",
+   "openrouter": "anthropic/claude-sonnet-5.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-06",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-opus",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-opus-5-5",
+   "lanzamiento": "2026-09-22",
+   "nombre": "Claude Opus 5.5",
+   "openrouter": "anthropic/claude-opus-5.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 4.0,
+   "precio_salida": 20.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-06",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-fable",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-fable-5-1",
+   "lanzamiento": "2026-09-01",
+   "nombre": "Claude Fable 5.1",
+   "openrouter": "anthropic/claude-fable-5.1",
+   "pesos_abiertos": false,
+   "precio_cache": 0.25,
+   "precio_entrada": 10.0,
+   "precio_salida": 50.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-05",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-opus",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-opus-5",
+   "lanzamiento": "2026-07-24",
+   "nombre": "Claude Opus 5",
+   "openrouter": "anthropic/claude-opus-5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 5.0,
+   "precio_salida": 25.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-01-31",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-sonnet",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-sonnet-5",
+   "lanzamiento": "2026-06-29",
+   "nombre": "Claude Sonnet 5",
+   "openrouter": "anthropic/claude-sonnet-5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-fable",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-fable-5",
+   "lanzamiento": "2026-06-07",
+   "nombre": "Claude Fable 5",
+   "openrouter": "anthropic/claude-fable-5",
+   "pesos_abiertos": false,
+   "precio_cache": 1.0,
+   "precio_entrada": 10.0,
+   "precio_salida": 50.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-01",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-opus",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-opus-4-8",
+   "lanzamiento": "2026-05-28",
+   "nombre": "Claude Opus 4.8",
+   "openrouter": "anthropic/claude-opus-4.8",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 5.0,
+   "precio_salida": 25.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-01-31",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-opus",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-opus-4-7",
+   "lanzamiento": "2026-04-14",
+   "nombre": "Claude Opus 4.7",
+   "openrouter": "anthropic/claude-opus-4.7",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 5.0,
+   "precio_salida": 25.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-sonnet",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-sonnet-4-6",
+   "lanzamiento": "2026-02-17",
+   "nombre": "Claude Sonnet 4.6",
+   "openrouter": "anthropic/claude-sonnet-4.6",
+   "pesos_abiertos": false,
+   "precio_cache": 0.3,
+   "precio_entrada": 3.0,
+   "precio_salida": 15.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-05-31",
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-opus",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-opus-4-6",
+   "lanzamiento": "2026-02-04",
+   "nombre": "Claude Opus 4.6",
+   "openrouter": "anthropic/claude-opus-4.6",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 5.0,
+   "precio_salida": 25.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [
+    "claude-opus-4-5-20251101"
+   ],
+   "conocimiento": "2025-05",
+   "contexto": 200000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-opus",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-opus-4-5",
+   "lanzamiento": "2025-11-24",
+   "nombre": "Claude Opus 4.5 (latest)",
+   "openrouter": "anthropic/claude-opus-4.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 5.0,
+   "precio_salida": 25.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 64000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "conocimiento": "2025-02-28",
+   "contexto": 200000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "claude-haiku",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-haiku-4-5",
+   "lanzamiento": "2025-10-15",
+   "nombre": "Claude Haiku 4.5 (latest)",
+   "openrouter": "anthropic/claude-haiku-4.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 1.0,
+   "precio_salida": 5.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 64000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [
+    "claude-sonnet-4-5-20250929"
+   ],
+   "conocimiento": "2025-07-31",
+   "contexto": 200000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "claude-sonnet",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "claude-sonnet-4-5",
+   "lanzamiento": "2025-09-29",
+   "nombre": "Claude Sonnet 4.5 (latest)",
+   "openrouter": "anthropic/claude-sonnet-4.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.3,
+   "precio_entrada": 3.0,
+   "precio_salida": 15.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 64000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01-31",
+   "contexto": 200000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "claude-opus-4.1",
+   "lanzamiento": "2025-08-05",
+   "nombre": "Claude Opus 4.1",
+   "openrouter": "anthropic/claude-opus-4.1",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 100.0,
+   "proveedor": "anthropic",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-03",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-4-neon",
+   "lanzamiento": "2026-11-18",
+   "nombre": "Gemini 4 Neon",
+   "openrouter": "google/gemini-4-neon",
+   "pesos_abiertos": false,
+   "precio_cache": 0.15,
+   "precio_entrada": 3.0,
+   "precio_salida": 15.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-03",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-4-hydrogen",
+   "lanzamiento": "2026-11-12",
+   "nombre": "Gemini 4 Hydrogen",
+   "openrouter": "google/gemini-4-hydrogen",
+   "pesos_abiertos": false,
+   "precio_cache": 0.075,
+   "precio_entrada": 1.5,
+   "precio_salida": 7.5,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-03",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-4-carbon",
+   "lanzamiento": "2026-11-10",
+   "nombre": "Gemini 4 Carbon",
+   "openrouter": "google/gemini-4-carbon",
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 131072,
+   "entrada": [
+    "image",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gemini-omni-1.2-flash",
+   "lanzamiento": "2026-11-05",
+   "nombre": "Gemini Omni 1.2 Flash",
+   "openrouter": "google/gemini-omni-1.2-flash",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text",
+    "video"
+   ],
+   "salida_max": 65536,
+   "tipo": "video"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 131072,
+   "entrada": [
+    "image",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gemini-omni-1.1-flash",
+   "lanzamiento": "2026-11-04",
+   "nombre": "Gemini Omni 1.1 Flash",
+   "openrouter": "google/gemini-omni-1.1-flash",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text",
+    "video"
+   ],
+   "salida_max": 65536,
+   "tipo": "video"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-03",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-4-argon",
+   "lanzamiento": "2026-10-13",
+   "nombre": "Gemini 4 Argon",
+   "openrouter": "google/gemini-4-argon",
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 65536,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gemini-nano-banana-2.1",
+   "lanzamiento": "2026-10-06",
+   "nombre": "Nano Banana 2.1",
+   "openrouter": "google/gemini-nano-banana-2.1",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 58982,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-flash",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.8-flash",
+   "lanzamiento": "2026-09-02",
+   "nombre": "Gemini 3.8 Flash",
+   "openrouter": "google/gemini-3.8-flash",
+   "pesos_abiertos": false,
+   "precio_cache": 0.075,
+   "precio_entrada": 0.75,
+   "precio_salida": 3.75,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-03",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-flash",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.7-flash",
+   "lanzamiento": "2026-08-13",
+   "nombre": "Gemini 3.7 Flash",
+   "openrouter": "google/gemini-3.7-flash",
+   "pesos_abiertos": false,
+   "precio_cache": 0.075,
+   "precio_entrada": 0.75,
+   "precio_salida": 3.75,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-03",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-flash-lite",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.5-flash-lite",
+   "lanzamiento": "2026-07-21",
+   "nombre": "Gemini 3.5 Flash Lite",
+   "openrouter": "google/gemini-3.5-flash-lite",
+   "pesos_abiertos": false,
+   "precio_cache": 0.03,
+   "precio_entrada": 0.3,
+   "precio_salida": 2.5,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-03",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-flash",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.6-flash",
+   "lanzamiento": "2026-07-21",
+   "nombre": "Gemini 3.6 Flash",
+   "openrouter": "google/gemini-3.6-flash",
+   "pesos_abiertos": false,
+   "precio_cache": 0.075,
+   "precio_entrada": 0.75,
+   "precio_salida": 3.75,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 65536,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "nano-banana-lite",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.1-flash-lite-image",
+   "lanzamiento": "2026-06-30",
+   "nombre": "Nano Banana 2 Lite",
+   "openrouter": "google/gemini-3.1-flash-lite-image",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.25,
+   "precio_salida": 1.5,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 4096,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 16384,
+   "entrada": [
+    "audio"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-live-translate",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-3.5-live-translate-preview",
+   "lanzamiento": "2026-06-09",
+   "nombre": "Gemini 3.5 Live Translate Preview",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 3.5,
+   "precio_salida": 21.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "audio",
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 65536,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "nano-banana-pro",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-3-pro-image",
+   "lanzamiento": "2026-05-28",
+   "nombre": "Nano Banana Pro",
+   "openrouter": "google/gemini-3-pro-image",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 2.0,
+   "precio_salida": 12.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 131072,
+   "entrada": [
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "obsoleto",
+   "familia": "nano-banana",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-3.1-flash-image",
+   "lanzamiento": "2026-05-28",
+   "nombre": "Nano Banana 2",
+   "openrouter": "google/gemini-3.1-flash-image",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.5,
+   "precio_salida": 3.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-flash",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.5-flash",
+   "lanzamiento": "2026-05-19",
+   "nombre": "Gemini 3.5 Flash",
+   "openrouter": "google/gemini-3.5-flash",
+   "pesos_abiertos": false,
+   "precio_cache": 0.15,
+   "precio_entrada": 1.5,
+   "precio_salida": 9.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-flash-lite",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.1-flash-lite",
+   "lanzamiento": "2026-05-07",
+   "nombre": "Gemini 3.1 Flash Lite",
+   "openrouter": "google/gemini-3.1-flash-lite",
+   "pesos_abiertos": false,
+   "precio_cache": 0.025,
+   "precio_entrada": 0.25,
+   "precio_salida": 1.5,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-11",
+   "contexto": 8192,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-embedding",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-embedding-2",
+   "lanzamiento": "2026-04-22",
+   "nombre": "Gemini Embedding 2",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.2,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 1,
+   "tipo": "embeddings"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-deep-research-max",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "deep-research-max-preview-04-2026",
+   "lanzamiento": "2026-04-21",
+   "nombre": "Deep Research Max Preview (Apr-21-2026)",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 2.0,
+   "precio_salida": 12.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-deep-research",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "deep-research-preview-04-2026",
+   "lanzamiento": "2026-04-21",
+   "nombre": "Deep Research Preview (Apr-21-2026)",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 2.0,
+   "precio_salida": 12.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 8192,
+   "entrada": [
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-tts-flash",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-3.1-flash-tts-preview",
+   "lanzamiento": "2026-04-15",
+   "nombre": "Gemini 3.1 Flash TTS Preview",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 1.0,
+   "precio_salida": 20.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "audio"
+   ],
+   "salida_max": 16384,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 262144,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gemma",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemma-4-26b-a4b-it",
+   "lanzamiento": "2026-04-02",
+   "nombre": "Gemma 4 26B A4B IT",
+   "openrouter": "google/gemma-4-26b-a4b-it",
+   "pesos_abiertos": true,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 262144,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gemma",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemma-4-31b-it",
+   "lanzamiento": "2026-04-02",
+   "nombre": "Gemma 4 31B IT",
+   "openrouter": "google/gemma-4-31b-it",
+   "pesos_abiertos": true,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 131072,
+   "entrada": [
+    "audio",
+    "image",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-live",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.1-flash-live-preview",
+   "lanzamiento": "2026-03-26",
+   "nombre": "Gemini 3.1 Flash Live Preview",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.75,
+   "precio_salida": 4.5,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "audio",
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1048576,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "lyria-clip",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "lyria-3-clip-preview",
+   "lanzamiento": "2026-03-25",
+   "nombre": "Lyria 3 Clip Preview",
+   "openrouter": "google/lyria-3-clip-preview",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "audio",
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1048576,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "lyria-pro",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "lyria-3-pro-preview",
+   "lanzamiento": "2026-03-25",
+   "nombre": "Lyria 3 Pro Preview",
+   "openrouter": "google/lyria-3-pro-preview",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "audio",
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gemini-3.1-flash-lite-preview",
+   "lanzamiento": "2026-03-03",
+   "nombre": "Gemini 3.1 Flash Lite Preview",
+   "openrouter": "google/gemini-3.1-flash-lite-preview",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 65536,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gemini-3.1-flash-image-preview",
+   "lanzamiento": "2026-02-26",
+   "nombre": "Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+   "openrouter": "google/gemini-3.1-flash-image-preview",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 58982,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.1-pro-preview",
+   "lanzamiento": "2026-02-19",
+   "nombre": "Gemini 3.1 Pro Preview",
+   "openrouter": "google/gemini-3.1-pro-preview",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 2.0,
+   "precio_salida": 12.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3.1-pro-preview-customtools",
+   "lanzamiento": "2026-02-19",
+   "nombre": "Gemini 3.1 Pro Preview Custom Tools",
+   "openrouter": "google/gemini-3.1-pro-preview-customtools",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 2.0,
+   "precio_salida": 12.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-flash",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-3-flash-preview",
+   "lanzamiento": "2025-12-17",
+   "nombre": "Gemini 3 Flash Preview",
+   "openrouter": "google/gemini-3-flash-preview",
+   "pesos_abiertos": false,
+   "precio_cache": 0.05,
+   "precio_entrada": 0.5,
+   "precio_salida": 3.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 65536,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gemini-3-pro-image-preview",
+   "lanzamiento": "2025-11-20",
+   "nombre": "Nano Banana Pro (Gemini 3 Pro Image Preview)",
+   "openrouter": "google/gemini-3-pro-image-preview",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-06",
+   "contexto": 32768,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "nano-banana",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-2.5-flash-image",
+   "lanzamiento": "2025-08-26",
+   "nombre": "Nano Banana",
+   "openrouter": "google/gemini-2.5-flash-image",
+   "pesos_abiertos": false,
+   "precio_cache": 0.075,
+   "precio_entrada": 0.3,
+   "precio_salida": 2.5,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-flash",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-2.5-flash",
+   "lanzamiento": "2025-06-17",
+   "nombre": "Gemini 2.5 Flash",
+   "openrouter": "google/gemini-2.5-flash",
+   "pesos_abiertos": false,
+   "precio_cache": 0.03,
+   "precio_entrada": 0.3,
+   "precio_salida": 2.5,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-flash-lite",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-2.5-flash-lite",
+   "lanzamiento": "2025-06-17",
+   "nombre": "Gemini 2.5 Flash-Lite",
+   "openrouter": "google/gemini-2.5-flash-lite",
+   "pesos_abiertos": false,
+   "precio_cache": 0.01,
+   "precio_entrada": 0.1,
+   "precio_salida": 0.4,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-2.5-pro",
+   "lanzamiento": "2025-06-17",
+   "nombre": "Gemini 2.5 Pro",
+   "openrouter": "google/gemini-2.5-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.125,
+   "precio_entrada": 1.25,
+   "precio_salida": 10.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01-31",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gemini-2.5-pro-preview",
+   "lanzamiento": "2025-06-05",
+   "nombre": "Gemini 2.5 Pro Preview 06-05",
+   "openrouter": "google/gemini-2.5-pro-preview",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-05",
+   "contexto": 2048,
+   "entrada": [
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-embedding",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-embedding-001",
+   "lanzamiento": "2025-05-20",
+   "nombre": "Gemini Embedding 001",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.15,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 1,
+   "tipo": "embeddings"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 8192,
+   "entrada": [
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-tts-flash",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-2.5-flash-preview-tts",
+   "lanzamiento": "2025-05-01",
+   "nombre": "Gemini 2.5 Flash Preview TTS",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.5,
+   "precio_salida": 10.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "audio"
+   ],
+   "salida_max": 16384,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 8192,
+   "entrada": [
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-tts-pro",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-2.5-pro-preview-tts",
+   "lanzamiento": "2025-05-01",
+   "nombre": "Gemini 2.5 Pro Preview TTS",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 1.0,
+   "precio_salida": 20.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "audio"
+   ],
+   "salida_max": 16384,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-08-31",
+   "contexto": 131072,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gemma-3-12b-it",
+   "lanzamiento": "2025-03-13",
+   "nombre": "Gemma 3 12B",
+   "openrouter": "google/gemma-3-12b-it",
+   "pesos_abiertos": true,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-08-31",
+   "contexto": 131072,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gemma-3-4b-it",
+   "lanzamiento": "2025-03-13",
+   "nombre": "Gemma 3 4B",
+   "openrouter": "google/gemma-3-4b-it",
+   "pesos_abiertos": true,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 117964,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-08-31",
+   "contexto": 131072,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gemma-3-27b-it",
+   "lanzamiento": "2025-03-12",
+   "nombre": "Gemma 3 27B",
+   "openrouter": "google/gemma-3-27b-it",
+   "pesos_abiertos": true,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-06-30",
+   "contexto": 8192,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gemma-2-27b-it",
+   "lanzamiento": "2024-07-13",
+   "nombre": "Gemma 2 27B",
+   "openrouter": "google/gemma-2-27b-it",
+   "pesos_abiertos": true,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 2048,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-05-18",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-astra",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6.2-astra",
+   "lanzamiento": "2026-11-17",
+   "nombre": "GPT-6.2 Astra",
+   "openrouter": "openai/gpt-6.2-astra",
+   "pesos_abiertos": false,
+   "precio_cache": 0.4,
+   "precio_entrada": 8.0,
+   "precio_salida": 40.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-6.2-astra-pro",
+   "lanzamiento": "2026-11-17",
+   "nombre": "GPT-6.2 Astra Pro",
+   "openrouter": "openai/gpt-6.2-astra-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-06-01",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-sol",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6.2-sol",
+   "lanzamiento": "2026-11-17",
+   "nombre": "GPT-6.2 Sol",
+   "openrouter": "openai/gpt-6.2-sol",
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-6.2-sol-pro",
+   "lanzamiento": "2026-11-17",
+   "nombre": "GPT-6.2 Sol Pro",
+   "openrouter": "openai/gpt-6.2-sol-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-06-01",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-terra",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6.1-terra",
+   "lanzamiento": "2026-10-26",
+   "nombre": "GPT-6.1 Terra",
+   "openrouter": "openai/gpt-6.1-terra",
+   "pesos_abiertos": false,
+   "precio_cache": 0.05,
+   "precio_entrada": 1.0,
+   "precio_salida": 5.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-6.1-terra-pro",
+   "lanzamiento": "2026-10-26",
+   "nombre": "GPT-6.1 Terra Pro",
+   "openrouter": "openai/gpt-6.1-terra-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-04-30",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-sol",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6.1-sol",
+   "lanzamiento": "2026-09-29",
+   "nombre": "GPT-6.1 Sol",
+   "openrouter": "openai/gpt-6.1-sol",
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-6.1-sol-pro",
+   "lanzamiento": "2026-09-29",
+   "nombre": "GPT-6.1 Sol Pro",
+   "openrouter": "openai/gpt-6.1-sol-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-05-18",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-luna",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6-luna",
+   "lanzamiento": "2026-09-22",
+   "nombre": "GPT-6 Luna",
+   "openrouter": "openai/gpt-6-luna",
+   "pesos_abiertos": false,
+   "precio_cache": 0.01,
+   "precio_entrada": 0.1,
+   "precio_salida": 0.5,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-6-luna-pro",
+   "lanzamiento": "2026-09-22",
+   "nombre": "GPT-6 Luna Pro",
+   "openrouter": "openai/gpt-6-luna-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-04-20",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-sol",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6-sol",
+   "lanzamiento": "2026-09-22",
+   "nombre": "GPT-6 Sol",
+   "openrouter": "openai/gpt-6-sol",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-6-sol-pro",
+   "lanzamiento": "2026-09-22",
+   "nombre": "GPT-6 Sol Pro",
+   "openrouter": "openai/gpt-6-sol-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-04-30",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-astra",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6-astra",
+   "lanzamiento": "2026-09-04",
+   "nombre": "GPT-6 Astra",
+   "openrouter": "openai/gpt-6-astra",
+   "pesos_abiertos": false,
+   "precio_cache": 1.0,
+   "precio_entrada": 10.0,
+   "precio_salida": 50.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-6-astra-pro",
+   "lanzamiento": "2026-09-04",
+   "nombre": "GPT-6 Astra Pro",
+   "openrouter": "openai/gpt-6-astra-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 100.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-16",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-sol",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.6",
+   "lanzamiento": "2026-07-09",
+   "nombre": "GPT-5.6",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.4,
+   "precio_entrada": 4.0,
+   "precio_salida": 20.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-16",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-luna",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.6-luna",
+   "lanzamiento": "2026-07-09",
+   "nombre": "GPT-5.6 Luna",
+   "openrouter": "openai/gpt-5.6-luna",
+   "pesos_abiertos": false,
+   "precio_cache": 0.02,
+   "precio_entrada": 0.2,
+   "precio_salida": 1.2,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-16",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.6-luna-pro",
+   "lanzamiento": "2026-07-09",
+   "nombre": "GPT-5.6 Luna Pro",
+   "openrouter": "openai/gpt-5.6-luna-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-16",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-sol",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.6-sol",
+   "lanzamiento": "2026-07-09",
+   "nombre": "GPT-5.6 Sol",
+   "openrouter": "openai/gpt-5.6-sol",
+   "pesos_abiertos": false,
+   "precio_cache": 0.4,
+   "precio_entrada": 4.0,
+   "precio_salida": 20.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-16",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.6-sol-pro",
+   "lanzamiento": "2026-07-09",
+   "nombre": "GPT-5.6 Sol Pro",
+   "openrouter": "openai/gpt-5.6-sol-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-16",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-terra",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.6-terra",
+   "lanzamiento": "2026-07-09",
+   "nombre": "GPT-5.6 Terra",
+   "openrouter": "openai/gpt-5.6-terra",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 2.0,
+   "precio_salida": 12.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-16",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.6-terra-pro",
+   "lanzamiento": "2026-07-09",
+   "nombre": "GPT-5.6 Terra Pro",
+   "openrouter": "openai/gpt-5.6-terra-pro",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-09-30",
+   "contexto": 128000,
+   "entrada": [
+    "audio",
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-realtime",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-realtime-2.1",
+   "lanzamiento": "2026-07-06",
+   "nombre": "GPT-Realtime-2.1",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.4,
+   "precio_entrada": 4.0,
+   "precio_salida": 24.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "audio",
+    "text"
+   ],
+   "salida_max": 32000,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-12-01",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.5",
+   "lanzamiento": "2026-04-23",
+   "nombre": "GPT-5.5",
+   "openrouter": "openai/gpt-5.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 5.0,
+   "precio_salida": 30.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-12-01",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.5-pro",
+   "lanzamiento": "2026-04-23",
+   "nombre": "GPT-5.5 Pro",
+   "openrouter": "openai/gpt-5.5-pro",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 30.0,
+   "precio_salida": 180.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 272000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gpt-5.4-image-2",
+   "lanzamiento": "2026-04-21",
+   "nombre": "GPT-5.4 Image 2",
+   "openrouter": "openai/gpt-5.4-image-2",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": null,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-image",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gpt-image-2",
+   "lanzamiento": "2026-04-21",
+   "nombre": "gpt-image-2",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": null,
+   "precio_salida": null,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "image"
+   ],
+   "salida_max": null,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-mini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.4-mini",
+   "lanzamiento": "2026-03-17",
+   "nombre": "GPT-5.4 mini",
+   "openrouter": "openai/gpt-5.4-mini",
+   "pesos_abiertos": false,
+   "precio_cache": 0.075,
+   "precio_entrada": 0.75,
+   "precio_salida": 4.5,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-nano",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.4-nano",
+   "lanzamiento": "2026-03-17",
+   "nombre": "GPT-5.4 nano",
+   "openrouter": "openai/gpt-5.4-nano",
+   "pesos_abiertos": false,
+   "precio_cache": 0.02,
+   "precio_entrada": 0.2,
+   "precio_salida": 1.25,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.4",
+   "lanzamiento": "2026-03-05",
+   "nombre": "GPT-5.4",
+   "openrouter": "openai/gpt-5.4",
+   "pesos_abiertos": false,
+   "precio_cache": 0.25,
+   "precio_entrada": 2.5,
+   "precio_salida": 15.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.4-pro",
+   "lanzamiento": "2026-03-05",
+   "nombre": "GPT-5.4 Pro",
+   "openrouter": "openai/gpt-5.4-pro",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 30.0,
+   "precio_salida": 180.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-codex",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.3-codex",
+   "lanzamiento": "2026-02-05",
+   "nombre": "GPT-5.3 Codex",
+   "openrouter": "openai/gpt-5.3-codex",
+   "pesos_abiertos": false,
+   "precio_cache": 0.175,
+   "precio_entrada": 1.75,
+   "precio_salida": 14.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 128000,
+   "entrada": [
+    "audio",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-audio",
+   "lanzamiento": "2026-01-19",
+   "nombre": "GPT Audio",
+   "openrouter": "openai/gpt-audio",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "audio",
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 128000,
+   "entrada": [
+    "audio",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-audio-mini",
+   "lanzamiento": "2026-01-19",
+   "nombre": "GPT Audio Mini",
+   "openrouter": "openai/gpt-audio-mini",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "audio",
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "audio"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.2-codex",
+   "lanzamiento": "2026-01-14",
+   "nombre": "GPT-5.2-Codex",
+   "openrouter": "openai/gpt-5.2-codex",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.2",
+   "lanzamiento": "2025-12-11",
+   "nombre": "GPT-5.2",
+   "openrouter": "openai/gpt-5.2",
+   "pesos_abiertos": false,
+   "precio_cache": 0.175,
+   "precio_entrada": 1.75,
+   "precio_salida": 14.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-08-31",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.2-pro",
+   "lanzamiento": "2025-12-11",
+   "nombre": "GPT-5.2 Pro",
+   "openrouter": "openai/gpt-5.2-pro",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 21.0,
+   "precio_salida": 168.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 128000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.2-chat",
+   "lanzamiento": "2025-12-10",
+   "nombre": "GPT-5.2 Chat",
+   "openrouter": "openai/gpt-5.2-chat",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.1-codex-max",
+   "lanzamiento": "2025-12-04",
+   "nombre": "GPT-5.1-Codex-Max",
+   "openrouter": "openai/gpt-5.1-codex-max",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": null,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-image",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gpt-image-1.5",
+   "lanzamiento": "2025-11-25",
+   "nombre": "gpt-image-1.5",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 1.25,
+   "precio_entrada": 5.0,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": null,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-09-30",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5.1",
+   "lanzamiento": "2025-11-13",
+   "nombre": "GPT-5.1",
+   "openrouter": "openai/gpt-5.1",
+   "pesos_abiertos": false,
+   "precio_cache": 0.125,
+   "precio_entrada": 1.25,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.1-codex",
+   "lanzamiento": "2025-11-13",
+   "nombre": "GPT-5.1-Codex",
+   "openrouter": "openai/gpt-5.1-codex",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-5.1-codex-mini",
+   "lanzamiento": "2025-11-13",
+   "nombre": "GPT-5.1-Codex-Mini",
+   "openrouter": "openai/gpt-5.1-codex-mini",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 131072,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-oss-safeguard-20b",
+   "lanzamiento": "2025-10-29",
+   "nombre": "gpt-oss-safeguard-20b",
+   "openrouter": "openai/gpt-oss-safeguard-20b",
+   "pesos_abiertos": true,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gpt-5-image-mini",
+   "lanzamiento": "2025-10-16",
+   "nombre": "GPT-5 Image Mini",
+   "openrouter": "openai/gpt-5-image-mini",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "gpt-5-image",
+   "lanzamiento": "2025-10-14",
+   "nombre": "GPT-5 Image",
+   "openrouter": "openai/gpt-5-image",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-09-30",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5-pro",
+   "lanzamiento": "2025-10-06",
+   "nombre": "GPT-5 Pro",
+   "openrouter": "openai/gpt-5-pro",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 15.0,
+   "precio_salida": 120.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 272000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": null,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-image-mini",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gpt-image-1-mini",
+   "lanzamiento": "2025-09-26",
+   "nombre": "gpt-image-1-mini",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": null,
+   "precio_salida": null,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "image",
+    "text"
+   ],
+   "salida_max": null,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-09-30",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5",
+   "lanzamiento": "2025-08-07",
+   "nombre": "GPT-5",
+   "openrouter": "openai/gpt-5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.125,
+   "precio_entrada": 1.25,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-05-30",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-mini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5-mini",
+   "lanzamiento": "2025-08-07",
+   "nombre": "GPT-5 Mini",
+   "openrouter": "openai/gpt-5-mini",
+   "pesos_abiertos": false,
+   "precio_cache": 0.025,
+   "precio_entrada": 0.25,
+   "precio_salida": 2.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-05-30",
+   "contexto": 400000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-nano",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-5-nano",
+   "lanzamiento": "2025-08-07",
+   "nombre": "GPT-5 Nano",
+   "openrouter": "openai/gpt-5-nano",
+   "pesos_abiertos": false,
+   "precio_cache": 0.005,
+   "precio_entrada": 0.05,
+   "precio_salida": 0.4,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-06-30",
+   "contexto": 131072,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-oss-120b",
+   "lanzamiento": "2025-08-05",
+   "nombre": "gpt-oss-120b",
+   "openrouter": "openai/gpt-oss-120b",
+   "pesos_abiertos": true,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 117964,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-06-30",
+   "contexto": 131072,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-oss-20b",
+   "lanzamiento": "2025-08-05",
+   "nombre": "gpt-oss-20b",
+   "openrouter": "openai/gpt-oss-20b",
+   "pesos_abiertos": true,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 117964,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-05",
+   "contexto": 200000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "o-pro",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "o3-pro",
+   "lanzamiento": "2025-06-10",
+   "nombre": "o3-pro",
+   "openrouter": "openai/o3-pro",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 20.0,
+   "precio_salida": 80.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 100000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-05",
+   "contexto": 200000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "o",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "o3",
+   "lanzamiento": "2025-04-16",
+   "nombre": "o3",
+   "openrouter": "openai/o3",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 2.0,
+   "precio_salida": 8.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 100000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-04",
+   "contexto": 1047576,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-4.1",
+   "lanzamiento": "2025-04-14",
+   "nombre": "GPT-4.1",
+   "openrouter": "openai/gpt-4.1",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 2.0,
+   "precio_salida": 8.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-04",
+   "contexto": 1047576,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-mini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-4.1-mini",
+   "lanzamiento": "2025-04-14",
+   "nombre": "GPT-4.1 mini",
+   "openrouter": "openai/gpt-4.1-mini",
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 0.4,
+   "precio_salida": 1.6,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 32768,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-06-30",
+   "contexto": 1047576,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-4.1-nano",
+   "lanzamiento": "2025-04-14",
+   "nombre": "GPT-4.1 Nano",
+   "openrouter": "openai/gpt-4.1-nano",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 942818,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2023-09",
+   "contexto": 128000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt-mini",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-4o-mini",
+   "lanzamiento": "2024-07-18",
+   "nombre": "GPT-4o mini",
+   "openrouter": "openai/gpt-4o-mini",
+   "pesos_abiertos": false,
+   "precio_cache": 0.075,
+   "precio_entrada": 0.15,
+   "precio_salida": 0.6,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2023-10-31",
+   "contexto": 128000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-4o-mini-2024-07-18",
+   "lanzamiento": "2024-07-18",
+   "nombre": "GPT-4o-mini (2024-07-18)",
+   "openrouter": "openai/gpt-4o-mini-2024-07-18",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "texto"
+  },
+  {
+   "alias": [
+    "gpt-4o-2024-08-06",
+    "gpt-4o-2024-11-20"
+   ],
+   "conocimiento": "2023-09",
+   "contexto": 128000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gpt",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-4o",
+   "lanzamiento": "2024-05-13",
+   "nombre": "GPT-4o",
+   "openrouter": "openai/gpt-4o",
+   "pesos_abiertos": false,
+   "precio_cache": 1.25,
+   "precio_entrada": 2.5,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 16384,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2023-10-31",
+   "contexto": 128000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-4o-2024-05-13",
+   "lanzamiento": "2024-05-13",
+   "nombre": "GPT-4o (2024-05-13)",
+   "openrouter": "openai/gpt-4o-2024-05-13",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 4096,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2021-09-30",
+   "contexto": 4095,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-3.5-turbo-0613",
+   "lanzamiento": "2024-01-25",
+   "nombre": "GPT-3.5 Turbo (older v0613)",
+   "openrouter": "openai/gpt-3.5-turbo-0613",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 3685,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-01",
+   "contexto": 8191,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "text-embedding",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "text-embedding-3-large",
+   "lanzamiento": "2024-01-25",
+   "nombre": "text-embedding-3-large",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.13,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 3072,
+   "tipo": "embeddings"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2024-01",
+   "contexto": 8191,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "text-embedding",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "text-embedding-3-small",
+   "lanzamiento": "2024-01-25",
+   "nombre": "text-embedding-3-small",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.02,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 1536,
+   "tipo": "embeddings"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2021-09-30",
+   "contexto": 16385,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-3.5-turbo-16k",
+   "lanzamiento": "2023-08-28",
+   "nombre": "GPT-3.5 Turbo 16k",
+   "openrouter": "openai/gpt-3.5-turbo-16k",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 4096,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2021-09-30",
+   "contexto": 8191,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "gpt-4",
+   "lanzamiento": "2023-05-28",
+   "nombre": "GPT-4",
+   "openrouter": "openai/gpt-4",
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.0,
+   "precio_salida": 100.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 4096,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2022-12",
+   "contexto": 8192,
+   "entrada": [
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "text-embedding",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "text-embedding-ada-002",
+   "lanzamiento": "2022-12-15",
+   "nombre": "text-embedding-ada-002",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.1,
+   "precio_salida": 0.0,
+   "proveedor": "openai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 1536,
+   "tipo": "embeddings"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1024,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok-imagine-video-lite",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "grok-imagine-video-1.5-lite",
+   "lanzamiento": "2026-10-01",
+   "nombre": "Grok Imagine Video 1.5 Lite",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": null,
+   "precio_salida": null,
+   "proveedor": "xai",
+   "razonamiento": false,
+   "salida": [
+    "video"
+   ],
+   "salida_max": null,
+   "tipo": "video"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-05",
+   "contexto": 500000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "grok-4.7",
+   "lanzamiento": "2026-09-21",
+   "nombre": "Grok 4.7",
+   "openrouter": "x-ai/grok-4.7",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 2.0,
+   "precio_salida": 6.0,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 500000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-02-01",
+   "contexto": 500000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "grok-4.6",
+   "lanzamiento": "2026-08-12",
+   "nombre": "Grok 4.6",
+   "openrouter": "x-ai/grok-4.6",
+   "pesos_abiertos": false,
+   "precio_cache": 0.5,
+   "precio_entrada": 2.0,
+   "precio_salida": 6.0,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 500000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 500000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "grok-4.5",
+   "lanzamiento": "2026-07-08",
+   "nombre": "Grok 4.5",
+   "openrouter": "x-ai/grok-4.5",
+   "pesos_abiertos": false,
+   "precio_cache": 0.3,
+   "precio_entrada": 2.0,
+   "precio_salida": 6.0,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 500000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1024,
+   "entrada": [
+    "audio",
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok-imagine-video",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "grok-imagine-video-1.5",
+   "lanzamiento": "2026-05-30",
+   "nombre": "Grok Imagine Video 1.5",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": null,
+   "precio_salida": null,
+   "proveedor": "xai",
+   "razonamiento": false,
+   "salida": [
+    "video"
+   ],
+   "salida_max": null,
+   "tipo": "video"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "grok-4.3",
+   "lanzamiento": "2026-04-17",
+   "nombre": "Grok 4.3",
+   "openrouter": "x-ai/grok-4.3",
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 1.25,
+   "precio_salida": 2.5,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 30000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-09-01",
+   "contexto": 2000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": true,
+   "id": "grok-4.20",
+   "lanzamiento": "2026-03-31",
+   "nombre": "Grok 4.20",
+   "openrouter": "x-ai/grok-4.20",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 1800000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-09-01",
+   "contexto": 2000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "",
+   "fuente": "openrouter",
+   "herramientas": false,
+   "id": "grok-4.20-multi-agent",
+   "lanzamiento": "2026-03-31",
+   "nombre": "Grok 4.20 Multi-Agent",
+   "openrouter": "x-ai/grok-4.20-multi-agent",
+   "pesos_abiertos": false,
+   "precio_cache": 0.0,
+   "precio_entrada": 0.0,
+   "precio_salida": 0.0,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 1800000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "grok-4.20-0309-non-reasoning",
+   "lanzamiento": "2026-03-09",
+   "nombre": "Grok 4.20 (Non-Reasoning)",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 1.25,
+   "precio_salida": 2.5,
+   "proveedor": "xai",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 30000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "grok-4.20-0309-reasoning",
+   "lanzamiento": "2026-03-09",
+   "nombre": "Grok 4.20 (Reasoning)",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 1.25,
+   "precio_salida": 2.5,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 30000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1000000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "grok-4.20-multi-agent-0309",
+   "lanzamiento": "2026-03-09",
+   "nombre": "Grok 4.20 Multi-Agent",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.2,
+   "precio_entrada": 1.25,
+   "precio_salida": 2.5,
+   "proveedor": "xai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 30000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 16000,
+   "entrada": [
+    "image",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "grok-imagine-image",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "grok-imagine-image",
+   "lanzamiento": "2026-01-28",
+   "nombre": "Grok Imagine Image",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": null,
+   "precio_salida": null,
+   "proveedor": "xai",
+   "razonamiento": false,
+   "salida": [
+    "image"
+   ],
+   "salida_max": null,
+   "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": null,
+   "contexto": 1024,
+   "entrada": [
+    "image",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "grok-imagine-video",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "grok-imagine-video",
+   "lanzamiento": "2026-01-28",
+   "nombre": "Grok Imagine Video",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": null,
+   "precio_salida": null,
+   "proveedor": "xai",
+   "razonamiento": false,
+   "salida": [
+    "video"
+   ],
+   "salida_max": null,
+   "tipo": "video"
+  }
+ ]
+}

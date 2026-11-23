@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-MX">
+  <title>modelos·al·día · novedades</title>
+  <subtitle>Notas de versión y anuncios oficiales de OpenAI, Anthropic, Google y xAI.</subtitle>
+  <link rel="self" type="application/atom+xml" href="https://beg-lag.github.io/modelos-al-dia/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://beg-lag.github.io/modelos-al-dia/"/>
+  <id>https://beg-lag.github.io/modelos-al-dia/feed.xml</id>
+  <updated>2026-11-23T12:00:00Z</updated>
+  <author><name>Benjamín Esponda García</name><uri>https://pivotek.mx</uri></author>
+  <generator uri="https://github.com/BEG-lag/modelos-al-dia">modelos-al-dia</generator>
+  <entry>
+    <title>Google: Here are 4 things you didn’t know you could do with Gemini Canvas.</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-b36cb14e1c60</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: See what 6 builders are making with Gemini 4 Hydrogen</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-acd27b3021ac</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: A more tailored Google Search that’s uniquely yours</title>
+    <link rel="alternate" href="https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-69d94b0f2cb5</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We announced the deprecation of the Claude Opus 4.5 model (claude-opus-4-5-20251101 and claude-opus-4-5), with retirement on the Claude API scheduled for January 22, 2027.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-c537f072a487</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched Enterprise Frontier Safeguards (EFS) in beta on Claude Platform, Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed).</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-b00a76eac456</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve added two event types to organization webhooks, which are in beta.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-271cf87d4b67</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Get your year-end tasks done with new Connected Apps.</title>
+    <link rel="alternate" href="https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-0818b45dfb6d</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/ipo-close"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-c662cabe9978</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-1e87a6b1cdb7</id>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Let Gemini tackle repetitive chores on your Mac</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-c92af7225831</id>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: ICYMI: Transfer your history from other AI apps into Gemini.</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-983c8b5dee61</id>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Genie 4 (genie-4) generally available (GA)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-19-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-818e08b2c0df</id>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Tool retrieval (Preview)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-19-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-46386555a0be</id>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Genie 4 is now available</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-fd6cadc1b5ee</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Introducing Gemini 4 Neon</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-df10d0c347e5</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: The Gemini app is now available on lower-memory Android devices.</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-1337d889910b</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 4 Neon (gemini-4-neon) generally available (GA)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-18-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-47f7bde8bdcd</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Multimodal file processing and slicing</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-18-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-268721334ff5</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Anthropic prices initial public offering</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/anthropic-prices-initial-public-offering"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-6c30aa9401f6</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Introducing GPT-6.2 Astra and Sol</title>
+    <link rel="alternate" href="https://openai.com/index/introducing-gpt-6-2-astra-sol"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-67a0553f2077</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Introducing ChatGPT for Sales</title>
+    <link rel="alternate" href="https://openai.com/index/introducing-chatgpt-for-sales"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-53b6cbad59c6</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Use GPT-6.2 Astra for demanding reasoning and coding tasks, or GPT-6.2 Sol for everyday coding and agent workflows.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-9f7535f58483</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Choose a two-hour or eight-hour background completion window in the Responses API public beta.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-5194fbd5d686</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Put Gemini to work for you</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-496ac5811bef</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: See what 5 builders are making with Gemini 4 Carbon</title>
+    <link rel="alternate" href="https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-2f6e5d81b3b1</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Voice editing in Gemini 3.5 Transcribe</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-17-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-b07446331041</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched Linked billing in beta with the user-profiles-billing-2026-10-01 beta header.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-f44c9efa846d</id>
+    <updated>2026-11-17T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: More ways to move care forward with ChatGPT for Healthcare</title>
+    <link rel="alternate" href="https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-55e5002f7d05</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Advancing computer-use agents for healthcare teams</title>
+    <link rel="alternate" href="https://openai.com/index/advancing-computer-use-for-healthcare-teams"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-35dacac86111</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Approved organizations can use the OpenAI CSAM Image Classifier at no cost to help prioritize images for human review.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-758bccf9db31</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Regional voices are rolling out in the Gemini app.</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-3da42be2a698</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve added two event types to organization webhooks, which are in beta.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-c4d3b3577c0b</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Text generated by Claude Opus 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 carries Anthropic’s text watermark on supported platforms.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-be7d629131af</id>
+    <updated>2026-11-16T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Introducing ChatGPT Wallet</title>
+    <link rel="alternate" href="https://openai.com/index/introducing-chatgpt-wallet"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-41ea7476fa70</id>
+    <updated>2026-11-13T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Connect Google Wallet to Gemini for personal finance insights</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-4c7d36dff36a</id>
+    <updated>2026-11-13T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Google Search gets a major upgrade with Gemini 4 Hydrogen</title>
+    <link rel="alternate" href="https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-f494629fe368</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Get quick answers from Gemini on any website.</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-9f93447d8657</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Introducing Gemini 4 Hydrogen</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-94dca35b6a11</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 4 Hydrogen: everyday coding and agentic workflows for developers</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-743c664cf4a4</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 4 Hydrogen (gemini-4-hydrogen) generally available (GA)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-12-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-0d057b512240</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched self-hosted Claude Managed Agents.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-e1ed49ddc217</id>
+    <updated>2026-11-12T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Talk it through with Gemini, now on Apple CarPlay</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-f4f6a9de046c</id>
+    <updated>2026-11-11T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini Decision 1 and the Decisions API</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-11-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-5b8cd101d1ac</id>
+    <updated>2026-11-11T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Introducing Businesses in ChatGPT</title>
+    <link rel="alternate" href="https://openai.com/index/introducing-businesses-chatgpt"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-23ce93daf107</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini Intelligence: New features, on more devices</title>
+    <link rel="alternate" href="https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-f06428fe8c6d</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Introducing the Multimodal Knowledge Agent benchmark</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-ea74ac8e35a3</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 4 Carbon (gemini-4-carbon) generally available (GA)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-10-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-2f915f3e25b8</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Anthropic launches roadshow for proposed initial public offering</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/roadshow-launch"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-eae72e07578b</id>
+    <updated>2026-11-10T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: ChatGPT Enterprise now available in AWS Marketplace</title>
+    <link rel="alternate" href="https://openai.com/index/chatgpt-enterprise-aws-marketplace"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-c95926ffe7ad</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-fc2c5b1d2df1</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: With the advisor tool, which is in beta, a Claude Fable 5.2 or Claude Mythos 5.2 executor accepts only Claude Fable 5.2 or Claude Mythos 5.2 as its advisor.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-ec0413eceb00</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-ce32aa8d689f</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Both models require 30-day data retention, like Claude Fable 5.1 and Claude Mythos 5.1.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-bba2dca7eac3</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched Claude Fable 5.2 (claude-fable-5-2), built for demanding reasoning and long-horizon agentic work.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-bab409d5cc1a</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-a3b7e092c27d</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the computertoolset20260801 toolset.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-727df0011c08</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Dreams (research preview) now supports Claude Fable 5.2.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-655f95a616ec</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-22031538b7a2</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed).</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-106b109e1fb1</id>
+    <updated>2026-11-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini Embedding 2 Preview deprecation</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-06-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-682070fdf178</id>
+    <updated>2026-11-06T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents</title>
+    <link rel="alternate" href="https://openai.com/index/introducing-gpt-6-cyber"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-f59cf8970897</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Use GPT-6 Cyber to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-1b0fb17c6952</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini Omni 1.1 Flash automatic routing notice</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-05-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-ffc1827bd231</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini Omni 1.2 Flash generally available (GA)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-05-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-8629154a0745</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Expanded Office and OpenDocument file support</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-05-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-2f95a3b38c6d</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: More file types and file URIs in function responses</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-05-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-2329c993361f</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-de8a8f371c4f</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: You can now set up an IP allowlist for your organization in the Claude Console, in beta.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-6dee7cc92ea9</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The Compliance API now includes Security posture data, in beta for Claude Enterprise organizations.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-418d1a0bc42c</id>
+    <updated>2026-11-05T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Introducing Images 2.6</title>
+    <link rel="alternate" href="https://openai.com/index/introducing-images-2-6"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-ec90f765b68b</id>
+    <updated>2026-11-04T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Daybreak Red is now available in AWS GovCloud (US-East)</title>
+    <link rel="alternate" href="https://openai.com/index/daybreak-red-aws-govcloud"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-41839d072d34</id>
+    <updated>2026-11-04T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-fdcd96b5be73</id>
+    <updated>2026-11-04T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Voice remixing for Gemini 3.8 TTS</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-04-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-180262539951</id>
+    <updated>2026-11-04T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Text generated by Claude Mythos 5, Claude Opus 4.7, and Claude Sonnet 4.6 carries Anthropic’s text watermark on the platforms listed in How Claude marks AI-generated content.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-d4cd49fa9763</id>
+    <updated>2026-11-03T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Outbound SIP calling is now available to all organizations through the Live API.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-bbe74bcba610</id>
+    <updated>2026-11-02T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 2.5 Flash deprecation</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-02-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-29c88b49ffb0</id>
+    <updated>2026-11-02T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 2.5 Pro deprecation</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#11-02-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-0a3b837bd0d5</id>
+    <updated>2026-11-02T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Long conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with message threads, in beta with the message-threads-2026-08-12 beta header.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-127457b3dc3d</id>
+    <updated>2026-11-02T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>xAI: grok-build-0.1 end of life</title>
+    <link rel="alternate" href="https://docs.x.ai/docs/release-notes"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/xai-api-c22786cc726b</id>
+    <updated>2026-11-01T12:00:00Z</updated>
+    <category term="xai" label="xAI"/>
+    <summary>xAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>xAI: grok-imagine-image-quality retired</title>
+    <link rel="alternate" href="https://docs.x.ai/docs/release-notes"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/xai-api-1d69be7a55e1</id>
+    <updated>2026-11-01T12:00:00Z</updated>
+    <category term="xai" label="xAI"/>
+    <summary>xAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Released GPT-6 Rosalind, bringing specialized biological reasoning with scientific tool use to complex life sciences research.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-edcb735b3552</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: You can now update the tools in an existing session in the Agents API public beta.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-d98fd7df3bdf</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Added automatic review for eligible Agents API projects.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-4cedf593401b</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Computer Use generally available (GA)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-30-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-49b208be64f9</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve deprecated fast mode for Claude Opus 4.8, with removal on November 30, 2026.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-28aa230ba2d8</id>
+    <updated>2026-10-30T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The Usage and Cost API is now a legacy API, and so are the usagereport, costreport, userusagereport, and usercostreport endpoints of the Claude Enterprise Analytics API.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-53fb77d534ab</id>
+    <updated>2026-10-29T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched the Usage and Cost Analytics API in beta with the analytics-usage-cost-2026-08-24 beta header.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-181133837147</id>
+    <updated>2026-10-29T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-a7cf2b61bf33</id>
+    <updated>2026-10-28T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: AI for Science expands to foundations and institutions</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-7dfd5028a196</id>
+    <updated>2026-10-28T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve raised the maximum request size for the Messages API and the Token Counting API from 32 MB to 128 MB on the first-party Claude API.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-aaf241943719</id>
+    <updated>2026-10-28T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini API CLI (gemini-api) beta</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-27-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-8f3913786d80</id>
+    <updated>2026-10-27T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Expanding our partnership with GSA to bring Claude to all levels of government</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/expanding-partnership-gsa"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-8e11beb48348</id>
+    <updated>2026-10-27T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Introducing GPT-6.1 Terra</title>
+    <link rel="alternate" href="https://openai.com/index/introducing-gpt-6-1-terra"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-6ad6296156a2</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Released GPT-6.1 Terra, a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-18eac8cdfe13</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Generate Content API storage on by default</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-26-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-404264ff7493</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Anthropic files S-1 with the SEC for proposed initial public offering</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/s1-sec"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-b5e6eaa01d47</id>
+    <updated>2026-10-26T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Added scheduled automations to the Agents API public beta.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-e9894de53206</id>
+    <updated>2026-10-23T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-4ad55d7d68de</id>
+    <updated>2026-10-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Build more responsive apps with the Decisions API</title>
+    <link rel="alternate" href="https://openai.com/index/decisions-api"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-9491a7ccc78e</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: The Decisions API is now generally available with gpt-6-luna.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-ddccad6d204f</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Open call for guest investigators in the life sciences</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-8e74cc0d7171</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Donating Agent Skills to the Agentic AI Foundation</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-05994d604a44</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched Claude Models on Google Cloud (Anthropic managed), the Claude API operated by Anthropic and reached through your Google Cloud project.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-39b467c49442</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Fast mode is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed).</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-2c2d3cdec3d3</id>
+    <updated>2026-10-22T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform</title>
+    <link rel="alternate" href="https://openai.com/index/chatgpt-ads-expands-26-new-countries"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-996ed8c29f3e</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: You can now choose which service tiers projects can use in Platform settings.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-03038ed9c948</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-d2544204a5c2</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve released API version 2026-10-21.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-49cb1443d2b4</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The new SDK and CLI versions also have breaking changes that don’t depend on the API version, and they are licensed under Apache 2.0 instead of the MIT License.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-0a540868cbf3</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve added the enforcementstatus and enforcementactions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-06d8298566ca</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve released new versions of the client SDKs and the ant CLI that send API version 2026-10-21 by default: Python SDK 2.0.0, TypeScript SDK 1.0.0, C# SDK 13.0.0, Go SDK 2.0.0, Java SDK 3.0.0, PHP SDK 1.0.0, Ruby SDK…</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-01ed42a52611</id>
+    <updated>2026-10-21T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests are hours apart.…</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-a2f165b8d53a</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: In Claude Managed Agents, sessions follow your organization’s web search settings on the Capabilities page of the Claude Console: the Allow web search setting since October 6, and its web search domain restrictions…</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-ea9fbf85d720</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-df614b3e9420</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: In Claude Managed Agents, the webfetch tool now follows your organization’s web fetch domain restrictions set on the Capabilities page of the Claude Console.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-8983089a6958</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched user profiles, so you can tell Anthropic which of your end customers each API request is for.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-76fd4fe79fe7</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-5c072e93ff54</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Inference hooks are out of beta for Claude Enterprise organizations.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-2212f4f3ef8f</id>
+    <updated>2026-10-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Investing in the public benefit</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/public-benefit-fund"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-a332e2308f02</id>
+    <updated>2026-10-18T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: OpenAI-hosted sandboxes in the Agents API now include the Artifact SDK and skills for creating and editing spreadsheets, presentations, and Word documents.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-778ed631f243</id>
+    <updated>2026-10-16T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Released prompt-to-voice for all API customers.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-1f68a715af70</id>
+    <updated>2026-10-16T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Added native Decisions integration in GPT-Live.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-32b87ff423c0</id>
+    <updated>2026-10-15T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Anthropic update on independent evaluators</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/an-update-on-independent-evaluators"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-2606b4410ec7</id>
+    <updated>2026-10-15T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-9b7c5d452b85</id>
+    <updated>2026-10-15T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-9936abd184ec</id>
+    <updated>2026-10-15T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve added capabilities.thinking.types.betweentools to the Models API.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-3edd723291be</id>
+    <updated>2026-10-15T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Fast mode for Claude Opus 5.5 is now available on Claude in Microsoft Foundry for deployments hosted on Azure.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-025e0925bbf6</id>
+    <updated>2026-10-15T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Singapore office and government MOU</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/singapore-office-opening"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-fff491fbe82f</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Preparing for the 2026 US midterms</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/2026-us-midterms"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-bf0c64eefe1c</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability platform.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-9defc98494ad</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Claude Managed Agents scheduled deployments are now available on Claude Platform on AWS.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-02b047316b27</id>
+    <updated>2026-10-14T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 4 Argon (gemini-4-argon) generally available (GA)</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-13-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-f0637d5a40d8</id>
+    <updated>2026-10-13T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Strengthening our defenses against distillation attacks</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/distillation-defenses"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-8bd8254654bc</id>
+    <updated>2026-10-12T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: You can now pre-warm an OpenAI-hosted sandbox before attaching it to an Agents API session.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-a8c42c043580</id>
+    <updated>2026-10-09T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-fe288b6d022e</id>
+    <updated>2026-10-09T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Added Ultrafast mode for GPT-6.1 Sol in the Responses API.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-39930d4e14dc</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Deep Research Agent deep-research-pro-preview-12-2025 deprecation</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-08-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-6b8998873ecf</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 3.7 Flash deprecation</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-08-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-4dd8175e05b1</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: Gemini 3.5 Flash deprecation</title>
+    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-08-2026"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-47b770867e06</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: 2026 Usage Policy update</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/2026-usage-policy-update"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-c2ac0460c249</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The Compliance API can now download Claude Docs documents as Word files, in beta.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-8b873dd34bfb</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The Compliance API chat endpoints now also return chats from the unified Claude experience, in beta for Claude Enterprise organizations, with your existing Compliance Access Key.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-2a5256ded2c8</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: GPT-6 and Intelligent UI for everyone</title>
+    <link rel="alternate" href="https://openai.com/index/gpt-6-for-everyone"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-9d5e3c735d2d</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Helping teens learn, plan, and shape the future of AI</title>
+    <link rel="alternate" href="https://openai.com/index/teens-learn-and-plan"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-16815f8a7213</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, blog.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-136ae80af919</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: In Claude Managed Agents, the webfetch tool now fetches only URLs that have already appeared in the session, for example in the text of a user message, in a websearch result, or in a page that webfetch returned earlier.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-da7f03a4f077</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-d030b9ff2177</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: In Claude Managed Agents, a cloud environment with limited networking now also applies its allowedhosts to the websearch and webfetch tools.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-ad327c1f4ce8</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Claude Max, Ultra, and Team plans now include monthly API credits.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-a62e10612773</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: We’ve launched Claude Haiku 5.5 (claude-haiku-5-5), our most capable model tuned for high-volume and latency-sensitive work.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-72981377bed7</id>
+    <updated>2026-10-07T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+</feed>

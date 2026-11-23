@@ -1,0 +1,600 @@
+# Ficha curada de OpenAI. Formato: data/curado/_ejemplo.yaml
+# Precios en USD. Precios de API en USD por millón de tokens, nivel Standard y contexto corto (<=272K de entrada).
+
+clave: openai
+proveedor: OpenAI Group PBC
+matriz: OpenAI Foundation
+verificado: 2026-11-23
+sitio_novedades: https://openai.com/news/
+
+app:
+  nombre: ChatGPT
+  url: https://chatgpt.com
+  planes:
+    - nombre: Free
+      precio_usd_mes: 0
+      incluye: "GPT-6 Luna en Chat; imagen, voz, deep research, memoria y Codex limitados; Work sólo en la app de escritorio y limitado; puede incluir anuncios"
+      fuente: https://chatgpt.com/pricing
+    - nombre: Go
+      precio_usd_mes: 8
+      incluye: "Más mensajes, cargas, imágenes y voz que Free; memoria más larga; tareas programadas; GPT-6 Luna; Codex y deep research limitados; puede incluir anuncios"
+      fuente: https://learn.chatgpt.com/docs/pricing
+    - nombre: Plus
+      precio_usd_mes: 20
+      incluye: "Modelos de razonamiento (GPT-6.2 en Chat; GPT-6.2 Astra y Sol en Work y Codex), deep research y memoria ampliados, proyectos, GPTs, Sites, Space, Codex ampliado, ChatGPT Work en escritorio, web y móvil"
+      fuente: https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus
+    - nombre: Pro 100
+      precio_usd_mes: 100
+      incluye: "Todo Plus; GPT-6 Pro; dots (agentes siempre activos); sesiones más largas de Work y Codex; imagen ilimitada; voz ilimitada; sin Ultrafast"
+      fuente: https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers
+    - nombre: Pro 200
+      precio_usd_mes: 200
+      incluye: "Todo Pro 100 con más uso de Work y Codex; Ultrafast sólo con GPT-6.2 Sol en Codex"
+      fuente: https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers
+    - nombre: Pro 500
+      precio_usd_mes: 500
+      incluye: "Mayor uso incluido de los planes Pro; Ultrafast con GPT-6 Astra, GPT-6.1 Sol y modelos GPT-6.2 en Work y Codex"
+      fuente: https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers
+    - nombre: Business Standard
+      precio_usd_mes: 25
+      incluye: "Por usuario, pago mensual (20 USD por usuario al mes con pago anual). ChatGPT, Work y Codex, Company Knowledge, agente, deep research, controles de administración, sin entrenamiento con datos de la empresa"
+      fuente: https://openai.com/business/pricing
+    - nombre: Business Premium
+      precio_usd_mes: 125
+      incluye: "Por usuario, pago mensual (100 USD por usuario al mes con pago anual). Lo mismo que Standard con 5 veces más uso, sin límite de 5 horas y acceso a dots"
+      fuente: https://openai.com/business/pricing
+    - nombre: Enterprise
+      precio_usd_mes: null
+      incluye: "Precio no publicado (contactar a ventas, facturación anual). Todo Business más SCIM, EKM, RBAC, residencia de datos y procesamiento prioritario"
+      fuente: https://learn.chatgpt.com/docs/pricing
+
+# Valores de `estado`: si | parcial | no | brecha
+capacidades:
+  razonamiento:          {estado: si, detalle: "Niveles de pensamiento en el selector (Instant a Extra High) y GPT-6 Pro con agentes en paralelo; en API, reasoning effort y modo pro", fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes}
+  busqueda_web:          {estado: si, detalle: "Búsqueda en ChatGPT y herramienta web_search en la Responses API", fuente: https://developers.openai.com/api/docs/guides/tools}
+  investigacion_profunda: {estado: si, detalle: "Deep research en todos los planes (limitado en Free y Go, máximo en Pro)", fuente: https://chatgpt.com/pricing}
+  generacion_imagen:     {estado: si, detalle: "ChatGPT Images 2.6 (GIF animados, imágenes de referencia); API gpt-image-2.6-sunburst y -flare", fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes}
+  generacion_video:      {estado: no, detalle: "Sora descontinuado: app y sora.com cerraron el 2026-04-26 y la API de video el 2026-09-24, sin reemplazo", fuente: https://help.openai.com/articles/20001152-what-to-know-about-the-sora-discontinuation}
+  voz_tiempo_real:       {estado: si, detalle: "GPT-Live (dúplex completo) en ChatGPT; Advanced y Standard Voice se retiran el 2026-12-11; API gpt-realtime-2.1 y gpt-live-1.1", fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes}
+  vision_archivos:       {estado: si, detalle: "Imágenes, PDF, hojas de cálculo, audio (transcripción y resumen) y escaneo de documentos; modelos de API aceptan texto e imagen", fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes}
+  memoria:               {estado: si, detalle: "Memoria que se actualiza sola, referencias a chats anteriores, memoria por proyecto", fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes}
+  agente_navegador:      {estado: si, detalle: "ChatGPT Work con navegador integrado y extensión de Chrome; dots con computadora y navegador en la nube. El navegador Atlas se retiró en 2026", fuente: https://openai.com/index/chatgpt-for-your-most-ambitious-work}
+  uso_computadora:       {estado: si, detalle: "Computer Use en la app de escritorio (Work y Codex, macOS y Windows); herramienta computer use en la Responses API", fuente: https://openai.com/index/chatgpt-for-your-most-ambitious-work}
+  agente_codigo:         {estado: si, detalle: "Codex (CLI, IDE, app de escritorio, web, móvil, Codex Cloud, code review)", fuente: https://learn.chatgpt.com/docs/pricing}
+  ejecucion_codigo:      {estado: si, detalle: "Análisis de datos en ChatGPT; herramienta Shell en contenedores alojados en la API", fuente: https://developers.openai.com/api/docs/guides/tools}
+  conectores_mcp:        {estado: si, detalle: "Plugins (antes apps y conectores) y modo desarrollador con servidores MCP remotos; Remote MCP en la Responses API", fuente: https://developers.openai.com/api/docs/guides/developer-mode}
+  modelos_abiertos:      {estado: si, detalle: "gpt-oss-120b y gpt-oss-20b (Apache 2.0, agosto de 2025); sin sucesor anunciado", fuente: https://openai.com/index/introducing-gpt-oss/}
+
+# Categorías: insignia | razonamiento | equilibrado | rapido | codigo | imagen | video | audio | abierto | embeddings
+modelos:
+  # Familia GPT-6.x (vigente)
+  - id: gpt-6.2-astra
+    nombre: GPT-6.2 Astra
+    categoria: insignia
+    lanzamiento: 2026-11-17
+    estado: vigente
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 8.0
+    precio_salida: 40.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo más capaz. Entrada en caché 0.40. En ChatGPT Work y Codex (Plus, Pro, Enterprise, Edu); modo Ultrafast. Arriba de 272K tokens de entrada aplica tarifa de contexto largo."
+    fuente: https://developers.openai.com/api/docs/models/gpt-6.2-astra
+    etiqueta: null
+  - id: gpt-6.2-sol
+    nombre: GPT-6.2 Sol
+    categoria: equilibrado
+    lanzamiento: 2026-11-17
+    estado: vigente
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 2.0
+    precio_salida: 10.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo de uso diario para código y agentes; cerca de Astra a una quinta parte del costo. Entrada en caché 0.10. En Work y Codex."
+    fuente: https://developers.openai.com/api/docs/models/gpt-6.2-sol
+    etiqueta: null
+  - id: gpt-6.1-terra
+    nombre: GPT-6.1 Terra
+    categoria: rapido
+    lanzamiento: 2026-10-26
+    estado: vigente
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 1.0
+    precio_salida: 5.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Rápido y eficiente para razonamiento visual, uso de computadora y redacción. En Work y Codex, no en Chat."
+    fuente: https://developers.openai.com/api/docs/models/gpt-6.1-terra
+    etiqueta: null
+  - id: gpt-6-luna
+    nombre: GPT-6 Luna
+    categoria: rapido
+    lanzamiento: 2026-09-22
+    estado: vigente
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 0.1
+    precio_salida: 0.5
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "El más eficiente, para tareas de alto volumen. Modelo de Chat en Free y Go. Reemplazo de gpt-5-nano y GPT-4o/4.1 en la API."
+    fuente: https://developers.openai.com/api/docs/models/gpt-6-luna
+    etiqueta: null
+  - id: gpt-6.1-sol
+    nombre: GPT-6.1 Sol
+    categoria: equilibrado
+    lanzamiento: 2026-09-29
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 2.0
+    precio_salida: 10.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Presentado en DevDay 2026. Superado por GPT-6.2 Sol al mismo precio; sigue en la API y en Codex de Plus."
+    fuente: https://developers.openai.com/api/docs/models/gpt-6.1-sol
+    etiqueta: null
+  - id: gpt-6-astra
+    nombre: GPT-6 Astra
+    categoria: insignia
+    lanzamiento: 2026-09-03
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 10.0
+    precio_salida: 50.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Primer modelo GPT-6 (despliegue limitado el 2026-09-03). Superado por GPT-6.2 Astra. Base de GPT-6 Pro y de los dots en ChatGPT."
+    fuente: https://openai.com/index/gpt-6-astra/
+    etiqueta: null
+  - id: gpt-6-sol
+    nombre: GPT-6 Sol
+    categoria: equilibrado
+    lanzamiento: 2026-09-22
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 2.0
+    precio_salida: 10.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo de Chat para planes de pago desde el 2026-10-07 (GPT-6 con Intelligent UI). Entrada en caché 0.20."
+    fuente: https://developers.openai.com/api/docs/models/gpt-6-sol
+    etiqueta: null
+  # Familia GPT-5.x (legado)
+  - id: gpt-5.6-sol
+    nombre: GPT-5.6 Sol
+    categoria: equilibrado
+    lanzamiento: 2026-07-09
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 4.0
+    precio_salida: 20.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Vista previa limitada el 2026-06-26 por revisión del gobierno de EUA; disponibilidad general el 2026-07-09 junto con ChatGPT Work. Alias gpt-5.6. Precio promocional hasta el 2026-11-30. Ya no es el modelo por defecto de la app."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.6-sol
+    etiqueta: null
+  - id: gpt-5.6-terra
+    nombre: GPT-5.6 Terra
+    categoria: rapido
+    lanzamiento: 2026-07-09
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 2.0
+    precio_salida: 12.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Intermedio de la familia 5.6. Reemplazo sugerido de computer-use-preview y gpt-5.1-codex-mini."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.6-terra
+    etiqueta: null
+  - id: gpt-5.6-luna
+    nombre: GPT-5.6 Luna
+    categoria: rapido
+    lanzamiento: 2026-07-09
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 0.2
+    precio_salida: 1.2
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Fue el modelo por defecto de Free y Go desde agosto de 2026 hasta la llegada de GPT-6 Luna."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.6-luna
+    etiqueta: null
+  - id: gpt-5.5
+    nombre: GPT-5.5
+    categoria: insignia
+    lanzamiento: 2026-04-23
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 5.0
+    precio_salida: 30.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Snapshot gpt-5.5-2026-04-23. Retirado de ChatGPT, Work y Codex el 2026-10-14; sigue en la API."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.5
+    etiqueta: null
+  - id: gpt-5.5-pro
+    nombre: GPT-5.5 Pro
+    categoria: razonamiento
+    lanzamiento: 2026-04-23
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 30.0
+    precio_salida: 180.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Versión de más cómputo de GPT-5.5, sin descuento de caché. En la API el modo pro se pide ahora con reasoning.mode: pro sobre modelos GPT-6."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.5-pro
+    etiqueta: null
+  - id: gpt-5.4
+    nombre: GPT-5.4
+    categoria: insignia
+    lanzamiento: 2026-03-05
+    estado: legado
+    contexto_tokens: 1050000
+    salida_max_tokens: 128000
+    precio_entrada: 2.5
+    precio_salida: 15.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Snapshot gpt-5.4-2026-03-05. Primer modelo con tool_search."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.4
+    etiqueta: null
+  - id: gpt-5.4-mini
+    nombre: GPT-5.4 mini
+    categoria: rapido
+    lanzamiento: 2026-03-17
+    estado: legado
+    contexto_tokens: 400000
+    salida_max_tokens: 128000
+    precio_entrada: 0.75
+    precio_salida: 4.5
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Snapshot gpt-5.4-mini-2026-03-17. Máximo 272K tokens de entrada."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.4-mini
+    etiqueta: null
+  - id: gpt-5.4-nano
+    nombre: GPT-5.4 nano
+    categoria: rapido
+    lanzamiento: 2026-03-17
+    estado: legado
+    contexto_tokens: 400000
+    salida_max_tokens: 128000
+    precio_entrada: 0.2
+    precio_salida: 1.25
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Marcado como deprecado; se apaga el 2027-04-01 (reemplazo gpt-6-luna)."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.4-nano
+    etiqueta: null
+  - id: gpt-5.3-codex
+    nombre: GPT-5.3-Codex
+    categoria: codigo
+    lanzamiento: 2026-02-05
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 1.75
+    precio_salida: 14.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Modelo agéntico de código. Deprecado: se apaga el 2027-04-01 (reemplazo gpt-6-sol). Contexto, salida y modalidades no confirmados en fuente."
+    fuente: https://developers.openai.com/api/docs/deprecations
+    etiqueta: BRECHA
+  - id: gpt-5.2
+    nombre: GPT-5.2
+    categoria: insignia
+    lanzamiento: 2025-12-11
+    estado: legado
+    contexto_tokens: 400000
+    salida_max_tokens: 128000
+    precio_entrada: 1.75
+    precio_salida: 14.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Snapshot gpt-5.2-2025-12-11. Retirado de ChatGPT el 2026-06-12; sigue en la API."
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.2
+    etiqueta: null
+  - id: o3
+    nombre: OpenAI o3
+    categoria: razonamiento
+    lanzamiento: 2025-04-16
+    estado: legado
+    contexto_tokens: 200000
+    salida_max_tokens: 100000
+    precio_entrada: 2.0
+    precio_salida: 8.0
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Último o-series en la API; se apaga el 2026-12-11 (reemplazo gpt-6.1-sol). Retirado de ChatGPT el 2026-08-26. Contexto y salida tomados de la ficha previa, no reverificados."
+    fuente: https://developers.openai.com/api/docs/deprecations
+    etiqueta: SUPUESTO
+  # Imagen
+  - id: gpt-image-2.6-sunburst
+    nombre: GPT Image 2.6 Sunburst
+    categoria: imagen
+    lanzamiento: 2026-11-04
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 5.0
+    precio_salida: 30.0
+    entrada: [texto, imagen]
+    salida: [imagen]
+    en_app: true
+    notas: "Para trabajo visual detallado. Entrada de texto 5, entrada de imagen 8, salida de imagen 30 por millón de tokens. Base de ChatGPT Images 2.6 [SUPUESTO: cuál de las dos variantes usa la app]."
+    fuente: https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst
+    etiqueta: null
+  - id: gpt-image-2.6-flare
+    nombre: GPT Image 2.6 Flare
+    categoria: imagen
+    lanzamiento: 2026-11-04
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 5.0
+    precio_salida: 30.0
+    entrada: [texto, imagen]
+    salida: [imagen]
+    en_app: true
+    notas: "Para iteración rápida; edición guiada por marcas, salida SVG y GIF animado. Mismos precios que Sunburst."
+    fuente: https://developers.openai.com/api/docs/models/gpt-image-2.6-flare
+    etiqueta: null
+  - id: gpt-image-2.5-sunburst
+    nombre: GPT Image 2.5 Sunburst
+    categoria: imagen
+    lanzamiento: 2026-09-08
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 5.0
+    precio_salida: 30.0
+    entrada: [texto, imagen]
+    salida: [imagen]
+    en_app: false
+    notas: "Generación previa (ChatGPT Images 2.5). También existe gpt-image-2.5-flare con los mismos precios."
+    fuente: https://developers.openai.com/api/docs/pricing
+    etiqueta: null
+  - id: gpt-image-2
+    nombre: GPT Image 2
+    categoria: imagen
+    lanzamiento: 2026-04-21
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 5.0
+    precio_salida: 30.0
+    entrada: [texto, imagen]
+    salida: [imagen]
+    en_app: false
+    notas: "Snapshot gpt-image-2-2026-04-21 (ChatGPT Images 2.0). Se apaga el 2027-02-10."
+    fuente: https://developers.openai.com/api/docs/deprecations
+    etiqueta: null
+  # Audio y tiempo real
+  - id: gpt-realtime-2.1
+    nombre: GPT-Realtime-2.1
+    categoria: audio
+    lanzamiento: 2026-07-06
+    estado: vigente
+    contexto_tokens: 128000
+    salida_max_tokens: 32000
+    precio_entrada: 4.0
+    precio_salida: 24.0
+    entrada: [texto, audio, imagen]
+    salida: [texto, audio]
+    en_app: false
+    notas: "Modelo de voz con razonamiento y herramientas para la Realtime API. Precios de texto; audio 32 entrada y 64 salida. Existe gpt-realtime-2.1-mini (texto 0.60/2.40, audio 10/20)."
+    fuente: https://developers.openai.com/api/docs/models/gpt-realtime-2.1
+    etiqueta: null
+  - id: gpt-live-1.1
+    nombre: GPT-Live-1.1
+    categoria: audio
+    lanzamiento: 2026-10-15
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, audio]
+    salida: [texto, audio]
+    en_app: true
+    notas: "Voz dúplex completa multilingüe; es la voz de ChatGPT. Se cobra por minuto: 0.05 USD activo y 0.02 USD en espera, más el modelo de fondo."
+    fuente: https://developers.openai.com/api/docs/models/gpt-live-1.1
+    etiqueta: null
+  - id: gpt-transcribe
+    nombre: GPT-Transcribe
+    categoria: audio
+    lanzamiento: null
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [audio, texto]
+    salida: [texto]
+    en_app: false
+    notas: "Voz a texto de alta precisión; 0.0045 USD por minuto. Reemplaza a whisper-1 y gpt-4o-transcribe (se apagan el 2027-02-26). Fecha de lanzamiento no confirmada."
+    fuente: https://developers.openai.com/api/docs/models/gpt-transcribe
+    etiqueta: BRECHA
+  # Video
+  - id: sora-2
+    nombre: Sora 2
+    categoria: video
+    lanzamiento: 2025-09-30
+    estado: retirado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [video, audio]
+    en_app: false
+    notas: "Videos API apagada el 2026-09-24 junto con sora-2-pro, sin reemplazo. App Sora cerrada el 2026-04-26. Último precio publicado 0.10 USD por segundo a 720p (fuente secundaria). Fecha de lanzamiento de memoria, no reverificada."
+    fuente: https://developers.openai.com/api/docs/deprecations
+    etiqueta: SUPUESTO
+  # Embeddings
+  - id: text-embedding-3-large
+    nombre: text-embedding-3-large
+    categoria: embeddings
+    lanzamiento: 2024-01-25
+    estado: vigente
+    contexto_tokens: 8191
+    salida_max_tokens: null
+    precio_entrada: 0.13
+    precio_salida: null
+    entrada: [texto]
+    salida: [embedding]
+    en_app: false
+    notas: "Sigue siendo el embedding más capaz; no hay sucesor. text-embedding-3-small cuesta 0.02. Fecha y contexto de memoria, no reverificados en la página."
+    fuente: https://developers.openai.com/api/docs/models/text-embedding-3-large
+    etiqueta: SUPUESTO
+  # Pesos abiertos
+  - id: gpt-oss-120b
+    nombre: gpt-oss-120b
+    categoria: abierto
+    lanzamiento: 2025-08-05
+    estado: vigente
+    contexto_tokens: 131072
+    salida_max_tokens: 131072
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto]
+    salida: [texto]
+    en_app: false
+    notas: "Pesos abiertos Apache 2.0; 117B parámetros (5.1B activos); corre en una GPU de 80 GB. Existe gpt-oss-20b para equipos de 16 GB. Sin precio propio en la API de OpenAI."
+    fuente: https://developers.openai.com/api/docs/models/gpt-oss-120b
+    etiqueta: null
+
+hitos:
+  - fecha: 2025-12-11
+    titulo: "Lanza GPT-5.2 (Instant, Thinking y Pro)"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2025-12-16
+    titulo: "Nuevo modelo de ChatGPT Images (gpt-image-1.5)"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2025-12-18
+    titulo: "Directorio de apps reemplaza a los conectores en ChatGPT"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-01-16
+    titulo: "ChatGPT Go disponible en todo el mundo (8 USD al mes en EUA)"
+    fuente: https://openai.com/index/introducing-chatgpt-go/
+  - fecha: 2026-02-02
+    titulo: "App de Codex para macOS"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-02-05
+    titulo: "Lanza GPT-5.3-Codex"
+    fuente: https://help.openai.com/en/articles/9624314-model-release-notes
+  - fecha: 2026-02-09
+    titulo: "Prueba de anuncios en EUA para Free y Go"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-02-13
+    titulo: "Se retiran de ChatGPT GPT-4o, GPT-4.1, o4-mini y GPT-5"
+    fuente: https://help.openai.com/en/articles/9624314-model-release-notes
+  - fecha: 2026-03-05
+    titulo: "Lanza GPT-5.4 (Thinking en ChatGPT y en la API)"
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.4
+  - fecha: 2026-03-24
+    titulo: "OpenAI anuncia el cierre de Sora (app el 2026-04-26, API el 2026-09-24)"
+    fuente: https://help.openai.com/articles/20001152-what-to-know-about-the-sora-discontinuation
+  - fecha: 2026-04-09
+    titulo: "Nuevo plan Pro de 100 USD"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-04-21
+    titulo: "ChatGPT Images 2.0 (gpt-image-2)"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-04-23
+    titulo: "Lanza GPT-5.5 y GPT-5.5 Pro"
+    fuente: https://developers.openai.com/api/docs/models/gpt-5.5
+  - fecha: 2026-06-26
+    titulo: "Vista previa limitada de GPT-5.6 (Sol, Terra y Luna) por revisión del gobierno de EUA"
+    fuente: https://openai.com/index/previewing-gpt-5-6-sol/
+  - fecha: 2026-07-06
+    titulo: "gpt-realtime-2.1 y gpt-realtime-2.1-mini en la API"
+    fuente: https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896
+  - fecha: 2026-07-08
+    titulo: "GPT-Live-1, voz dúplex completa en ChatGPT"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-07-09
+    titulo: "ChatGPT Work y GPT-5.6 en disponibilidad general; se anuncia el retiro del navegador Atlas"
+    fuente: https://openai.com/index/chatgpt-for-your-most-ambitious-work
+  - fecha: 2026-08-25
+    titulo: "Asientos Premium en ChatGPT Business (125 USD mensual)"
+    fuente: https://openai.com/index/premium-seats-chatgpt-business
+  - fecha: 2026-09-03
+    titulo: "Lanza GPT-6 Astra (despliegue limitado)"
+    fuente: https://openai.com/index/gpt-6-astra/
+  - fecha: 2026-09-08
+    titulo: "ChatGPT Images 2.5"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-09-22
+    titulo: "GPT-6 Sol y GPT-6 Luna"
+    fuente: https://openai.com/index/gpt-6-astra/
+  - fecha: 2026-09-24
+    titulo: "Se apaga la API de video de Sora"
+    fuente: https://developers.openai.com/api/docs/deprecations
+  - fecha: 2026-09-29
+    titulo: "DevDay 2026: GPT-6.1 Sol, plan Pro 500 con Ultrafast, dots, Codex Cloud y Space"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-10-07
+    titulo: "GPT-6 en Chat con Intelligent UI (Sol en planes de pago, Luna en Free y Go)"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-10-14
+    titulo: "Se retira GPT-5.5 de ChatGPT, Work y Codex"
+    fuente: https://help.openai.com/en/articles/9624314-model-release-notes
+  - fecha: 2026-10-26
+    titulo: "Lanza GPT-6.1 Terra"
+    fuente: https://help.openai.com/en/articles/9624314-model-release-notes
+  - fecha: 2026-10-30
+    titulo: "GPT-6 Rosalind Research para ciencias de la vida (clientes aprobados)"
+    fuente: https://help.openai.com/en/articles/9624314-model-release-notes
+  - fecha: 2026-11-04
+    titulo: "ChatGPT Images 2.6 y gpt-image-2.6 (Sunburst y Flare)"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-11-10
+    titulo: "Se anuncia el retiro de Advanced y Standard Voice (2026-12-11) en favor de GPT-Live"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  - fecha: 2026-11-17
+    titulo: "Lanzan GPT-6.2 Astra y GPT-6.2 Sol"
+    fuente: https://openai.com/index/introducing-gpt-6-2-astra-sol
+  - fecha: 2026-11-23
+    titulo: "GPT-6.2 optimizado para Chat llega a Plus, Pro, Business y Enterprise"
+    fuente: https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+
+pendientes:
+  - "Una captura de chatgpt.com/pricing mostró Go a 7.50 USD; learn.chatgpt.com y el anuncio oficial dicen 8 USD. Se usó 8."
+  - "No se confirmó si GPT-6.2 en Chat llega a Free y Go ni qué id de API corresponde a la versión de Chat (chat-latest cuesta 5/30)."
+  - "El API de GPT-6 Pro no tiene id propio: se usa reasoning.mode: pro sobre gpt-6.1-sol; no se encontró precio de ese modo."
+  - "Fechas de lanzamiento en API de gpt-6-sol, gpt-6-luna y gpt-6.1-sol tomadas de las notas de ChatGPT y de la página de GPT-6 Astra; las fichas de modelo no publican fecha."
+  - "Contexto y salida de gpt-5.3-codex no confirmados."
+  - "Estado del ChatGPT agent de 2025 dentro de ChatGPT Work no se confirmó explícitamente; Atlas sí se retiró."
+  - "Enterprise y Edu no publican precio."

@@ -1,0 +1,71 @@
+name: Actualizar datos
+
+# Ciudad de México usa UTC-6 todo el año desde 2022.
+#   13:00 UTC = 07:00 en CDMX, para amanecer con lo de la víspera.
+#   01:00 UTC = 19:00 en CDMX, para lo que se anuncia en la tarde de EE.UU.
+# Una fuente que falla se salta y se conserva lo guardado; la corrida solo falla si fallan todas.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-datos
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Leer las fuentes
+        run: TZ=America/Mexico_City uv run --frozen modelos-al-dia -v update
+
+      - name: Reconstruir sitio y TABLAS.md
+        run: uv run --frozen modelos-al-dia build
+
+      - name: Validar
+        run: |
+          uv run --frozen modelos-al-dia check
+          uv run --frozen pytest -q tests/test_datos.py
+
+      - name: Commit si algo cambió
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs TABLAS.md
+          if git diff --cached --quiet; then
+            echo "Sin novedades en las fuentes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          modelos=$(jq -r .vigentes data/meta.json)
+          novedades=$(jq -r .novedades data/meta.json)
+          git commit -m "chore(datos): actualización $(TZ=America/Mexico_City date +%F) (${modelos} modelos vigentes, ${novedades} novedades)"
+          git pull --rebase origin main
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

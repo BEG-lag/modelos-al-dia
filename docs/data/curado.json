@@ -1,0 +1,4268 @@
+{
+ "agentes_codigo": {
+  "hitos": [
+   {
+    "fecha": "2026-02-02",
+    "fuente": "https://jules.google/docs/changelog/",
+    "producto": "jules",
+    "titulo": "Jules agrega soporte MCP"
+   },
+   {
+    "fecha": "2026-02-03",
+    "fuente": "https://openai.com/index/introducing-the-codex-app/",
+    "producto": "codex",
+    "titulo": "Lanza la app de escritorio de Codex para macOS (Windows el 4 de marzo)"
+   },
+   {
+    "fecha": "2026-04-01",
+    "fuente": "https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent",
+    "producto": "github-copilot",
+    "titulo": "Copilot coding agent pasa a llamarse Copilot cloud agent y deja de limitarse a PR"
+   },
+   {
+    "fecha": "2026-04-02",
+    "fuente": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/",
+    "producto": "github-copilot",
+    "titulo": "GitHub Copilot SDK en vista previa pública"
+   },
+   {
+    "fecha": "2026-05-19",
+    "fuente": "https://antigravity.google/blog",
+    "producto": "antigravity",
+    "titulo": "Antigravity 2.0 con app de escritorio, Antigravity CLI, SDK, subagentes, hooks y tareas programadas; nuevos planes AI Ultra de 100 y 200 USD"
+   },
+   {
+    "fecha": "2026-05-25",
+    "fuente": "https://x.ai/news/grok-build-cli",
+    "producto": "grok-build",
+    "titulo": "xAI lanza Grok Build en beta para SuperGrok y X Premium+"
+   },
+   {
+    "fecha": "2026-06-18",
+    "fuente": "https://github.com/google-gemini/gemini-cli",
+    "producto": "gemini-cli",
+    "titulo": "Gemini CLI deja de servir a usuarios gratuitos y de Google AI Pro/Ultra, que pasan a Antigravity CLI"
+   },
+   {
+    "fecha": "2026-07-09",
+    "fuente": "https://neowin.net/news/openai-launches-chatgpt-work-and-unveils-unified-desktop-app-with-codex-built-in/",
+    "producto": "codex",
+    "titulo": "OpenAI integra la app de Codex en la nueva app de escritorio de ChatGPT junto con ChatGPT Work"
+   },
+   {
+    "fecha": "2026-07-14",
+    "fuente": "https://cognition.com/blog/one-year-of-building-together",
+    "producto": "devin",
+    "titulo": "Cognition confirma que Windsurf quedó unificado bajo Devin Desktop (fecha de la publicación, no del cambio)"
+   },
+   {
+    "fecha": "2026-07-29",
+    "fuente": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+    "producto": "github-copilot",
+    "titulo": "Copilot code review con agent skills y MCP llega a disponibilidad general"
+   },
+   {
+    "fecha": "2026-08-04",
+    "fuente": "https://kiro.dev/blog/introducing-kiro-crew/",
+    "producto": "kiro",
+    "titulo": "AWS lanza Kiro Crew, espacio abierto para agentes de larga duración"
+   },
+   {
+    "fecha": "2026-08-07",
+    "fuente": "https://github.com/xai-org/grok-build",
+    "producto": "grok-build",
+    "titulo": "Grok Build 1.0 sale de beta (código publicado en Apache 2.0)"
+   },
+   {
+    "fecha": "2026-08-14",
+    "fuente": "https://www.techzine.eu/news/devops/143619/spacex-completes-acquisition-of-cursor/",
+    "producto": "cursor",
+    "titulo": "SpaceX cierra la compra de Anysphere (Cursor) por unos 60,000 millones de USD"
+   },
+   {
+    "fecha": "2026-09-01",
+    "fuente": "https://kiro.dev/changelog/web/kiro-web-is-now-generally-available/",
+    "producto": "kiro",
+    "titulo": "Kiro Web llega a disponibilidad general"
+   },
+   {
+    "fecha": "2026-09-10",
+    "fuente": "https://runtimewire.com/article/cognition-swe-2-coding-model-scott-wu",
+    "producto": "devin",
+    "titulo": "Cognition lanza SWE-2 en Devin Desktop y Devin CLI (SWE-2 Flash el 4 de noviembre)"
+   },
+   {
+    "fecha": "2026-09-22",
+    "fuente": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+    "producto": "claude-code",
+    "titulo": "Anthropic lanza Claude Opus 5.5, nuevo modelo por defecto en Claude Code (Sonnet 5.5 el 28 de septiembre)"
+   },
+   {
+    "fecha": "2026-10-13",
+    "fuente": "https://antigravity.google/blog",
+    "producto": "antigravity",
+    "titulo": "Gemini 4 Argon llega a Antigravity"
+   },
+   {
+    "fecha": "2026-10-20",
+    "fuente": "https://cursor.com/changelog",
+    "producto": "cursor",
+    "titulo": "Cursor lanza su Agent SDK"
+   },
+   {
+    "fecha": "2026-10-29",
+    "fuente": "https://jules.google/docs/changelog/",
+    "producto": "jules",
+    "titulo": "Google anuncia el cierre de Jules el 31 de diciembre de 2026 (solo lectura desde el 11 de noviembre)"
+   },
+   {
+    "fecha": "2026-11-09",
+    "fuente": "https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/",
+    "producto": "claude-code",
+    "titulo": "Claude Fable 5.2 disponible en Claude Code"
+   },
+   {
+    "fecha": "2026-11-17",
+    "fuente": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "producto": "codex",
+    "titulo": "GPT-6.2 Astra y GPT-6.2 Sol llegan a Codex; Sol queda por defecto en Codex CLI 0.171.0"
+   },
+   {
+    "fecha": "2026-11-23",
+    "fuente": "https://antigravity.google/blog",
+    "producto": "antigravity",
+    "titulo": "Google amplía el ecosistema de plugins de Antigravity"
+   }
+  ],
+  "pendientes": [
+   "Grok Build: confirmar en fuente oficial el modelo por defecto actual (Grok 4.5 según fuentes secundarias de agosto; podría ser Grok 4.7), qué planes lo incluyen hoy y el precio de SuperGrok. x.ai bloquea la lectura automática (403).",
+   "Grok Build: verificar si permite modelos de otros proveedores (multi_proveedor en brecha).",
+   "Codex: confirmar si la app de escritorio sigue como experiencia separada dentro de ChatGPT tras la fusión con ChatGPT Work.",
+   "Antigravity: Claude Opus 4.6, Claude Sonnet 4.6 y GPT-OSS-120b se retiran el 30 de noviembre de 2026; revisar después de esa fecha si queda algún modelo gratuito no Gemini.",
+   "Antigravity: confirmar ejecución en la nube y PR automáticos nativos.",
+   "Gemini CLI: confirmar los modelos actuales (la página de modelos es de marzo de 2026) y el precio de Gemini Code Assist Standard.",
+   "Devin: confirmar fecha exacta del cambio de Windsurf a Devin Desktop (una wiki de terceros dice 2 de junio de 2026), navegador, hooks y memoria.",
+   "Cursor: la página de precios usa planes nuevos (Plus, Premium, Super); confirmar fecha del cambio y si el CLI está en todos los planes.",
+   "GitHub Copilot: precios de Business y Enterprise ya no aparecen en la página pública; confirmar si el SDK salió de vista previa.",
+   "Cline y OpenCode: revisar documentación de nube, PR, revisión de código y navegador; fecha de lanzamiento de OpenCode es aproximada.",
+   "Aider quedó fuera: su último release es de agosto de 2025 y el repositorio no recibe cambios desde mayo de 2026."
+  ],
+  "productos": [
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Sesiones en la nube (claude.ai/code, claude --cloud) y tareas programadas en la nube",
+      "estado": "si"
+     },
+     "hooks_extensiones": {
+      "detalle": "Hooks, skills, plugins y marketplaces de plugins",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "Servidores MCP locales y remotos; claude mcp add-json",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "CLAUDE.md (lee AGENTS.md) y auto memory entre sesiones",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "Integración con Chrome para depurar apps web; uso de computadora en macOS",
+      "estado": "si"
+     },
+     "pr_automaticos": {
+      "detalle": "Crea ramas, commits y PR; @Claude en Slack devuelve un PR; GitHub Actions y GitLab CI/CD",
+      "estado": "si"
+     },
+     "revision_codigo": {
+      "detalle": "GitHub Code Review automático en cada PR y comando /code-review",
+      "estado": "si"
+     },
+     "sdk": {
+      "detalle": "Claude Agent SDK",
+      "estado": "si"
+     },
+     "subagentes": {
+      "detalle": "Subagentes, equipos de agentes y workflows dinámicos; agentes en segundo plano",
+      "estado": "si"
+     }
+    },
+    "clave": "claude-code",
+    "codigo_abierto": "no",
+    "empresa": "Anthropic",
+    "etiqueta": null,
+    "fuente": "https://code.claude.com/docs/en/overview",
+    "fuerte_en": "El conjunto más completo de superficies y extensibilidad (hooks, skills, plugins, subagentes) sobre los modelos Claude.",
+    "lanzamiento": "2025-02-24",
+    "modelos": [
+     "Claude Opus 5.5",
+     "Claude Sonnet 5.5",
+     "Claude Haiku 5.5",
+     "Claude Fable 5.2"
+    ],
+    "multi_proveedor": "no",
+    "nombre": "Claude Code",
+    "plan_minimo_usd_mes": 20,
+    "precio": "Incluido en Pro (20 USD/mes mensual o 17 USD/mes anual), Max (desde 100 USD/mes), Team y Enterprise; o pago por uso con API. Fable 5.2 puede cobrarse aparte con créditos de uso.",
+    "superficies": [
+     "cli",
+     "ide",
+     "escritorio",
+     "web",
+     "movil",
+     "nube",
+     "slack"
+    ],
+    "tipo": "agente de terminal, IDE, escritorio y nube"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Codex Cloud: tareas en segundo plano en contenedores de OpenAI",
+      "estado": "si"
+     },
+     "hooks_extensiones": {
+      "detalle": "Hooks, skills y plugins",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "MCP en CLI, IDE y app",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "AGENTS.md y Memories",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "Navegador, extensión de navegador y uso de computadora",
+      "estado": "si"
+     },
+     "pr_automaticos": {
+      "detalle": "Abre PR desde tareas en la nube; integración con Slack",
+      "estado": "si"
+     },
+     "revision_codigo": {
+      "detalle": "Code review en GitHub y GitHub Action (requiere plan de ChatGPT, no API key)",
+      "estado": "si"
+     },
+     "sdk": {
+      "detalle": "Codex SDK",
+      "estado": "si"
+     },
+     "subagentes": {
+      "detalle": "Subagentes con transcripciones en la TUI",
+      "estado": "si"
+     }
+    },
+    "clave": "codex",
+    "codigo_abierto": "parcial",
+    "empresa": "OpenAI",
+    "etiqueta": null,
+    "fuente": "https://learn.chatgpt.com/docs/pricing",
+    "fuerte_en": "Integración total con ChatGPT (escritorio, web, móvil) y los modelos GPT-6.2; CLI abierto con proveedores alternos.",
+    "lanzamiento": "2025-04-16",
+    "modelos": [
+     "GPT-6.2 Sol",
+     "GPT-6.2 Astra",
+     "GPT-6.1 Terra",
+     "GPT-6.1 Sol",
+     "GPT-6 Luna"
+    ],
+    "multi_proveedor": "parcial",
+    "nombre": "Codex",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Incluido en ChatGPT Free y Go (8 USD) con límites y solo GPT-6 Luna; Plus 20 USD; Pro desde 100 USD (100, 200 y 500); Business 20 USD/usuario anual (25 mensual); Enterprise y Edu a cotizar; o pago por uso con API key (sin funciones de nube).",
+    "superficies": [
+     "cli",
+     "ide",
+     "escritorio",
+     "web",
+     "movil",
+     "nube",
+     "slack"
+    ],
+    "tipo": "agente de terminal, IDE, app de escritorio y nube"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Managed Agents en la Gemini API corren sobre el arnés de Antigravity; ejecución en la nube dentro de Antigravity reportada como próxima",
+      "estado": "parcial"
+     },
+     "hooks_extensiones": {
+      "detalle": "Hooks, skills, plugins, marketplace de plugins y extensiones de IDE",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "Configuración de MCP desde comandos slash del CLI",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "Reglas y base de conocimiento conocidas desde 2025; no reverificadas en la fuente de noviembre 2026",
+      "estado": "parcial"
+     },
+     "navegador": {
+      "detalle": "Agentes con navegador en el ciclo para probar UI",
+      "estado": "si"
+     },
+     "pr_automaticos": {
+      "detalle": "No se confirmó flujo nativo de PR en fuente oficial",
+      "estado": "brecha"
+     },
+     "revision_codigo": {
+      "detalle": "CodeMender (agente de seguridad de código) integrado desde I/O 2026",
+      "estado": "parcial"
+     },
+     "sdk": {
+      "detalle": "Antigravity SDK (Python)",
+      "estado": "si"
+     },
+     "subagentes": {
+      "detalle": "Subagentes en segundo plano, agentes personalizados, /swarm y Orchestrator",
+      "estado": "si"
+     }
+    },
+    "clave": "antigravity",
+    "codigo_abierto": "no",
+    "empresa": "Google",
+    "etiqueta": null,
+    "fuente": "https://antigravity.google/docs/models",
+    "fuerte_en": "Orquestación de muchos agentes en paralelo con los modelos Gemini 4, tareas programadas y verificación con navegador.",
+    "lanzamiento": "2025-11-18",
+    "modelos": [
+     "Gemini 4 Neon",
+     "Gemini 4 Argon",
+     "Gemini 4 Hydrogen",
+     "Gemini 4 Carbon",
+     "Orchestrator",
+     "Gemini 3.8 Flash",
+     "Claude Opus 5.5",
+     "Claude Sonnet 5.5",
+     "GPT-OSS-120b"
+    ],
+    "multi_proveedor": "si",
+    "nombre": "Google Antigravity",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Sin costo para desarrolladores con Gemini 3.8 Flash y modelos legados; Google AI Pro (20 USD) con cuota de entrada; AI Ultra de 100 USD (5x Pro) y de 200 USD (20x Pro); empresas vía Gemini Enterprise Agent Platform.",
+    "superficies": [
+     "escritorio",
+     "ide",
+     "cli",
+     "web"
+    ],
+    "tipo": "plataforma agéntica (app de escritorio, IDE, CLI y SDK)"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Corre local; no tiene nube propia",
+      "estado": "no"
+     },
+     "hooks_extensiones": {
+      "detalle": "Hooks, extensiones y Agent Skills",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "Servidores MCP",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "GEMINI.md",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "pr_automaticos": {
+      "detalle": "Existe GitHub Action en versiones previas; no reverificado para noviembre 2026",
+      "estado": "brecha"
+     },
+     "revision_codigo": {
+      "detalle": "No confirmado en la documentación actual",
+      "estado": "brecha"
+     },
+     "sdk": {
+      "detalle": "Modo headless y modo ACP para integrarse con editores",
+      "estado": "parcial"
+     },
+     "subagentes": {
+      "detalle": "Subagentes en modo experimental",
+      "estado": "parcial"
+     }
+    },
+    "clave": "gemini-cli",
+    "codigo_abierto": "si",
+    "empresa": "Google",
+    "etiqueta": null,
+    "fuente": "https://github.com/google-gemini/gemini-cli",
+    "fuerte_en": "Agente de terminal abierto (Apache 2.0) para empresas con Gemini Code Assist en Google Cloud.",
+    "lanzamiento": "2025-06-25",
+    "modelos": [
+     "Gemini 3.1 Pro",
+     "Gemini 3 Flash",
+     "Gemini 2.5 Pro",
+     "Gemini 2.5 Flash"
+    ],
+    "multi_proveedor": "no",
+    "nombre": "Gemini CLI",
+    "plan_minimo_usd_mes": null,
+    "precio": "Ya no hay acceso gratuito ni con Google AI Pro o Ultra (pasaron a Antigravity CLI el 18 de junio de 2026). Se usa con licencias Gemini Code Assist Standard o Enterprise, Code Assist for GitHub, o llaves de pago de API o Vertex AI.",
+    "superficies": [
+     "cli",
+     "ide"
+    ],
+    "tipo": "agente de terminal (ahora solo para Gemini Code Assist empresarial)"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Clona el repositorio en una VM de Google Cloud; ya no acepta trabajo nuevo",
+      "estado": "si"
+     },
+     "hooks_extensiones": {
+      "detalle": "",
+      "estado": "no"
+     },
+     "mcp": {
+      "detalle": "Soporte MCP desde febrero de 2026",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "Memorias y scripts de configuración (exportables)",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "pr_automaticos": {
+      "detalle": "Crea PR en GitHub; etiqueta 'jules' en issues; autocorrección de fallas de CI",
+      "estado": "si"
+     },
+     "revision_codigo": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "sdk": {
+      "detalle": "API pública y Jules Tools (CLI)",
+      "estado": "parcial"
+     },
+     "subagentes": {
+      "detalle": "No documentado",
+      "estado": "brecha"
+     }
+    },
+    "clave": "jules",
+    "codigo_abierto": "no",
+    "empresa": "Google",
+    "etiqueta": null,
+    "fuente": "https://jules.google/docs/changelog/",
+    "fuerte_en": "Fue el agente asíncrono de Google para issues de GitHub; su sucesor oficial es Antigravity.",
+    "lanzamiento": "2025-05-20",
+    "modelos": [
+     "Gemini 3.1 Pro",
+     "Gemini 3 Flash"
+    ],
+    "multi_proveedor": "no",
+    "nombre": "Jules",
+    "plan_minimo_usd_mes": 0,
+    "precio": "En cierre: solo lectura desde el 11 de noviembre de 2026 y se apaga el 31 de diciembre de 2026. Antes tenía nivel gratuito y cuotas mayores en Google AI Pro y Ultra.",
+    "superficies": [
+     "web",
+     "nube",
+     "cli"
+    ],
+    "tipo": "agente asíncrono en la nube (en cierre)"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "No confirmado; el trabajo en equipo en la nube lo cubre Grok Bot",
+      "estado": "brecha"
+     },
+     "hooks_extensiones": {
+      "detalle": "Hooks, skills y plugins",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "Lee servidores MCP del proyecto",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "AGENTS.md (y CLAUDE.md según fuente secundaria)",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "Búsqueda web, sin agente de navegador confirmado",
+      "estado": "no"
+     },
+     "pr_automaticos": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "revision_codigo": {
+      "detalle": "Plugin oficial para que Claude Code delegue revisiones a Grok Build",
+      "estado": "parcial"
+     },
+     "sdk": {
+      "detalle": "Modo headless (-p) y soporte completo de ACP",
+      "estado": "parcial"
+     },
+     "subagentes": {
+      "detalle": "Subagentes en paralelo, cada uno en su git worktree",
+      "estado": "si"
+     }
+    },
+    "clave": "grok-build",
+    "codigo_abierto": "si",
+    "empresa": "SpaceXAI (antes xAI)",
+    "etiqueta": "SUPUESTO",
+    "fuente": "https://x.ai/news/grok-build-cli",
+    "fuerte_en": "CLI en Rust, abierto (Apache 2.0), con subagentes en worktrees y modelos Grok baratos para código.",
+    "lanzamiento": "2026-05-25",
+    "modelos": [
+     "Grok 4.5",
+     "grok-build-0.1"
+    ],
+    "multi_proveedor": "brecha",
+    "nombre": "Grok Build",
+    "plan_minimo_usd_mes": 30,
+    "precio": "Incluido en suscripciones de Grok (SuperGrok, X Premium+ y, según fuentes secundarias, todos los planes desde agosto de 2026) o pago por uso con API key.",
+    "superficies": [
+     "cli",
+     "ide"
+    ],
+    "tipo": "agente de terminal"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Copilot cloud agent (antes coding agent), con tareas programadas",
+      "estado": "si"
+     },
+     "hooks_extensiones": {
+      "detalle": "Hooks, agent skills y Agent Plugins 1.0",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "MCP en IDE, CLI, cloud agent y code review",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "Instrucciones de repositorio y Copilot Memory",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "Prueba de UI con Playwright en el cloud agent; no reverificado en noviembre 2026",
+      "estado": "parcial"
+     },
+     "pr_automaticos": {
+      "detalle": "De issue a PR; también desde Linear y Slack",
+      "estado": "si"
+     },
+     "revision_codigo": {
+      "detalle": "Copilot code review con skills y MCP (GA julio 2026)",
+      "estado": "si"
+     },
+     "sdk": {
+      "detalle": "GitHub Copilot SDK (vista previa pública desde abril de 2026)",
+      "estado": "si"
+     },
+     "subagentes": {
+      "detalle": "Agentes personalizados y agentes de terceros (Claude, Codex) dentro de Copilot",
+      "estado": "si"
+     }
+    },
+    "clave": "github-copilot",
+    "codigo_abierto": "parcial",
+    "empresa": "GitHub (Microsoft)",
+    "etiqueta": null,
+    "fuente": "https://github.com/features/copilot/plans",
+    "fuerte_en": "La mayor variedad de modelos de varios proveedores, integrada en GitHub, VS Code, JetBrains y Xcode.",
+    "lanzamiento": "2025-05-19",
+    "modelos": [
+     "Claude Opus 5.5",
+     "Claude Sonnet 5.5",
+     "Claude Fable 5.2",
+     "GPT-6.2 Astra",
+     "GPT-6.2 Sol",
+     "Gemini 4 Neon",
+     "Gemini 4 Carbon",
+     "Grok 4.7",
+     "MAI Code 2",
+     "Kimi K3"
+    ],
+    "multi_proveedor": "si",
+    "nombre": "GitHub Copilot (modo agente y cloud agent)",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Free 0 USD (chat y agente limitados, sin cloud agent); Pro 10 USD; Pro+ 39 USD; Max 100 USD; Business y Enterprise a cotizar. Se cobra en GitHub AI Credits (1 crédito = 0.01 USD).",
+    "superficies": [
+     "ide",
+     "cli",
+     "escritorio",
+     "web",
+     "movil",
+     "nube",
+     "slack"
+    ],
+    "tipo": "asistente en IDE, CLI, app y agente en la nube"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Cloud agents con entornos de hasta 300 repositorios y automatizaciones (desde Premium)",
+      "estado": "si"
+     },
+     "hooks_extensiones": {
+      "detalle": "Hooks, reglas y marketplace de apps",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "Reglas de proyecto y AGENTS.md",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "Navegador integrado; apps en vivo publicadas por cloud agents",
+      "estado": "si"
+     },
+     "pr_automaticos": {
+      "detalle": "Cloud agents abren PR; canales en GitHub, GitLab, Bitbucket y Slack",
+      "estado": "si"
+     },
+     "revision_codigo": {
+      "detalle": "Bugbot (desde Premium)",
+      "estado": "si"
+     },
+     "sdk": {
+      "detalle": "Agent SDK (octubre 2026)",
+      "estado": "si"
+     },
+     "subagentes": {
+      "detalle": "Varios agentes en paralelo en la ventana de Agentes",
+      "estado": "si"
+     }
+    },
+    "clave": "cursor",
+    "codigo_abierto": "no",
+    "empresa": "Anysphere (subsidiaria de SpaceX)",
+    "etiqueta": null,
+    "fuente": "https://cursor.com/pricing",
+    "fuerte_en": "Editor con agentes paralelos, modelo propio Composer y catálogo amplio de modelos de terceros.",
+    "lanzamiento": "2023-03-14",
+    "modelos": [
+     "Composer 2.5",
+     "Grok 4.7",
+     "Claude Opus 5.5",
+     "Claude Sonnet 5.5",
+     "GPT-5.6 Sol",
+     "Gemini 4 Argon",
+     "Kimi K3"
+    ],
+    "multi_proveedor": "si",
+    "nombre": "Cursor",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Free 0 USD; Plus 8 USD (solo Grok y Composer); Premium 30 USD (agrega cloud agents, Bugbot y modelos de terceros a precio de API); Super 100 USD; Ultra 200 USD; Teams desde 30 USD/usuario; Enterprise a cotizar.",
+    "superficies": [
+     "ide",
+     "escritorio",
+     "cli",
+     "web",
+     "movil",
+     "nube",
+     "slack"
+    ],
+    "tipo": "IDE agéntico, CLI y agentes en la nube"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Devin Cloud; sesiones pasan de local a nube con el mismo contexto",
+      "estado": "si"
+     },
+     "hooks_extensiones": {
+      "detalle": "Plugins e integraciones; hooks no confirmados",
+      "estado": "parcial"
+     },
+     "mcp": {
+      "detalle": "Integraciones MCP (Notion, Datadog, Sentry, Figma, Vercel, Stripe)",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "Reglas y memorias no confirmadas en la fuente actual",
+      "estado": "brecha"
+     },
+     "navegador": {
+      "detalle": "No mencionado en la página actual de Devin Desktop",
+      "estado": "brecha"
+     },
+     "pr_automaticos": {
+      "detalle": "",
+      "estado": "si"
+     },
+     "revision_codigo": {
+      "detalle": "Devin Review",
+      "estado": "si"
+     },
+     "sdk": {
+      "detalle": "ACP para manejar agentes de otros proveedores; API de Devin no reverificada",
+      "estado": "parcial"
+     },
+     "subagentes": {
+      "detalle": "Devin coordina subagentes y cada uno abre su PR; Fusion combina modelo líder y modelo ejecutor",
+      "estado": "si"
+     }
+    },
+    "clave": "devin",
+    "codigo_abierto": "no",
+    "empresa": "Cognition",
+    "etiqueta": null,
+    "fuente": "https://devin.ai/pricing",
+    "fuerte_en": "Agentes autónomos de largo aliento en la nube más un IDE de escritorio, con modelos propios SWE-2 de bajo costo.",
+    "lanzamiento": "2024-03-12",
+    "modelos": [
+     "SWE-2",
+     "SWE-2 Flash",
+     "Claude Fable 5.1",
+     "modelos de OpenAI, Anthropic, Google y abiertos"
+    ],
+    "multi_proveedor": "si",
+    "nombre": "Devin (Devin Desktop, antes Windsurf)",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Free 0 USD; Pro 20 USD (incluye Devin Cloud y uso de tu plan de ChatGPT); Max 200 USD; Teams 80 USD; Enterprise a cotizar.",
+    "superficies": [
+     "ide",
+     "escritorio",
+     "cli",
+     "web",
+     "nube",
+     "slack"
+    ],
+    "tipo": "IDE de escritorio, CLI y agentes autónomos en la nube"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Kiro Web (GA septiembre 2026)",
+      "estado": "si"
+     },
+     "hooks_extensiones": {
+      "detalle": "Agent hooks, Powers y skills",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "Steering files y specs",
+      "estado": "si"
+     },
+     "navegador": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "pr_automaticos": {
+      "detalle": "Kiro Web abre PR en GitHub y GitLab",
+      "estado": "si"
+     },
+     "revision_codigo": {
+      "detalle": "Revisiones de código en CI/CD",
+      "estado": "parcial"
+     },
+     "sdk": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "subagentes": {
+      "detalle": "Subagentes personalizados; Kiro Crew como espacio de agentes 24/7",
+      "estado": "si"
+     }
+    },
+    "clave": "kiro",
+    "codigo_abierto": "parcial",
+    "empresa": "Amazon Web Services",
+    "etiqueta": null,
+    "fuente": "https://kiro.dev/pricing/",
+    "fuerte_en": "Desarrollo guiado por especificaciones (specs) con integración AWS y planes por créditos.",
+    "lanzamiento": "2025-07-14",
+    "modelos": [
+     "Auto",
+     "Claude Opus 5.5",
+     "Claude Sonnet 5.5",
+     "GPT-5.6 Sol",
+     "Grok 4.7",
+     "Kimi K3",
+     "Qwen3 Coder Next"
+    ],
+    "multi_proveedor": "si",
+    "nombre": "Kiro",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Free 0 USD (50 créditos); Pro 20 USD (1,000); Pro+ 40 USD (2,000); Pro Max 100 USD (5,000); Power 200 USD (10,000); Teams 20 USD por asiento; crédito extra 0.04 USD.",
+    "superficies": [
+     "ide",
+     "cli",
+     "web",
+     "nube"
+    ],
+    "tipo": "IDE con desarrollo por especificaciones, CLI y agente web"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "Aparece 'Cloud' en el sitio, sin documentación revisada",
+      "estado": "brecha"
+     },
+     "hooks_extensiones": {
+      "detalle": "Plugins, rutinas y automatizaciones programadas",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "MCP Marketplace",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "Reglas de proyecto no reverificadas",
+      "estado": "brecha"
+     },
+     "navegador": {
+      "detalle": "No reverificado en noviembre 2026",
+      "estado": "brecha"
+     },
+     "pr_automaticos": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "revision_codigo": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "sdk": {
+      "detalle": "@cline/sdk",
+      "estado": "si"
+     },
+     "subagentes": {
+      "detalle": "Equipos multiagente vía SDK",
+      "estado": "si"
+     }
+    },
+    "clave": "cline",
+    "codigo_abierto": "si",
+    "empresa": "Cline Bot Inc.",
+    "etiqueta": null,
+    "fuente": "https://github.com/cline/cline",
+    "fuerte_en": "Agente abierto con modelo de traer tu propia llave y control de costos de inferencia.",
+    "lanzamiento": "2024-07-01",
+    "modelos": [
+     "cualquier modelo vía tu propia API key o el proveedor Cline"
+    ],
+    "multi_proveedor": "si",
+    "nombre": "Cline",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Gratis para individuos (Apache 2.0); se paga solo la inferencia (BYOK o proveedor Cline). Enterprise a cotizar (incluye plugin de JetBrains).",
+    "superficies": [
+     "ide",
+     "cli",
+     "escritorio"
+    ],
+    "tipo": "agente abierto para IDE, CLI y escritorio"
+   },
+   {
+    "capacidades": {
+     "ejecucion_en_nube": {
+      "detalle": "",
+      "estado": "no"
+     },
+     "hooks_extensiones": {
+      "detalle": "Plugins con eventos, skills (SKILL.md) y comandos propios",
+      "estado": "si"
+     },
+     "mcp": {
+      "detalle": "Servidores MCP locales y remotos",
+      "estado": "si"
+     },
+     "memoria_proyecto": {
+      "detalle": "AGENTS.md no mencionado en la página principal",
+      "estado": "brecha"
+     },
+     "navegador": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "pr_automaticos": {
+      "detalle": "Integración con GitHub no reverificada",
+      "estado": "brecha"
+     },
+     "revision_codigo": {
+      "detalle": "No confirmado",
+      "estado": "brecha"
+     },
+     "sdk": {
+      "detalle": "SDK para scripts, CI y herramientas",
+      "estado": "si"
+     },
+     "subagentes": {
+      "detalle": "Agentes personalizados y sesiones paralelas",
+      "estado": "si"
+     }
+    },
+    "clave": "opencode",
+    "codigo_abierto": "si",
+    "empresa": "Anomaly (antes SST)",
+    "etiqueta": "ESTIMADO",
+    "fuente": "https://opencode.ai/",
+    "fuerte_en": "El agente abierto más popular en GitHub, agnóstico de proveedor y con app de escritorio y móvil.",
+    "lanzamiento": "2025-06-19",
+    "modelos": [
+     "más de 200 proveedores vía Models.dev, incluidos modelos locales y suscripciones de ChatGPT o Copilot"
+    ],
+    "multi_proveedor": "si",
+    "nombre": "OpenCode",
+    "plan_minimo_usd_mes": 0,
+    "precio": "Gratis (MIT) con modelos gratuitos sin cuenta; OpenCode Go desde 10 USD/mes con modelos seleccionados; o tus propias llaves y suscripciones.",
+    "superficies": [
+     "cli",
+     "escritorio",
+     "movil"
+    ],
+    "tipo": "agente abierto de terminal y escritorio"
+   }
+  ],
+  "verificado": "2026-11-23"
+ },
+ "proveedores": {
+  "anthropic": {
+   "app": {
+    "nombre": "Claude",
+    "planes": [
+     {
+      "fuente": "https://claude.com/pricing",
+      "incluye": "Uso limitado cada 5 horas y por semana; Sonnet y Haiku, búsqueda web, creación de archivos, ejecución de código, memoria, conectores, Artifacts, Claude Design/Slides/Docs y hasta 5 Proyectos. Sin Opus, Research ni Claude Code",
+      "nombre": "Gratis",
+      "precio_usd_mes": 0
+     },
+     {
+      "fuente": "https://claude.com/pricing",
+      "incluye": "17 USD/mes con pago anual (200 USD por adelantado). Más uso que Gratis, Opus y más modelos, Research, memoria, Claude Code, Claude in Chrome, Microsoft 365, tareas programadas; Fable con créditos de uso o cupo parcial (ver pendientes)",
+      "nombre": "Pro",
+      "precio_usd_mes": 20
+     },
+     {
+      "fuente": "https://claude.com/pricing",
+      "incluye": "Antes Max 5x. Todo lo de Pro, 5x el uso de Pro, Fable hasta la mitad del límite semanal, 100 USD/mes en créditos de API, acceso anticipado y prioridad en horas pico",
+      "nombre": "Max",
+      "precio_usd_mes": 100
+     },
+     {
+      "fuente": "https://claude.com/pricing",
+      "incluye": "Antes Max 20x. Todo lo de Max, sin límite de 5 horas para cuentas verificadas, 10x el uso semanal de Pro y 200 USD/mes en créditos de API",
+      "nombre": "Ultra",
+      "precio_usd_mes": 200
+     },
+     {
+      "fuente": "https://claude.com/pricing",
+      "incluye": "Por asiento; 20 USD con pago anual. 2 a 150 usuarios. Todas las funciones con más uso que Pro: Claude Code, Cowork, Design/Slides/Docs, Microsoft 365, Claude Tag (Slack); hasta 500 USD/mes de créditos de API compartidos",
+      "nombre": "Team (asiento Standard)",
+      "precio_usd_mes": 25
+     },
+     {
+      "fuente": "https://claude.com/pricing",
+      "incluye": "Por asiento; 100 USD con pago anual. 5x el uso del asiento Standard y Fable hasta 50% del límite semanal; se pueden mezclar tipos de asiento",
+      "nombre": "Team (asiento Premium)",
+      "precio_usd_mes": 125
+     },
+     {
+      "fuente": "https://claude.com/pricing",
+      "incluye": "20 USD por asiento al mes con pago anual (mínimo 20 asientos) más el uso a tarifas de API. Todo lo de Team, SCIM, bitácoras de auditoría, Compliance API, retención personalizada, opción HIPAA, Claude Security (beta). Versión autoservicio y versión con ventas",
+      "nombre": "Enterprise",
+      "precio_usd_mes": 20
+     },
+     {
+      "etiqueta": "BRECHA",
+      "fuente": "https://claude.com/pricing",
+      "incluye": "Plan institucional para alumnos, docentes y personal; precio solo por contacto con ventas",
+      "nombre": "Education",
+      "precio_usd_mes": null
+     }
+    ],
+    "url": "https://claude.ai"
+   },
+   "capacidades": {
+    "agente_codigo": {
+     "detalle": "Claude Code (terminal, IDE, escritorio y web), incluido desde Pro y en asientos Team Standard",
+     "estado": "si",
+     "fuente": "https://claude.com/pricing"
+    },
+    "agente_navegador": {
+     "detalle": "Claude in Chrome, disponible en general desde 2026-08-26 para planes de pago; solo Google Chrome de escritorio",
+     "estado": "si",
+     "fuente": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome"
+    },
+    "busqueda_web": {
+     "detalle": "En todos los planes, incluido Gratis",
+     "estado": "si",
+     "fuente": "https://claude.com/pricing"
+    },
+    "conectores_mcp": {
+     "detalle": "Conectores MCP, directorio de plugins y Agent Skills (estándar abierto donado a la Agentic AI Foundation en octubre de 2026)",
+     "estado": "si",
+     "fuente": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    },
+    "ejecucion_codigo": {
+     "detalle": "Ejecución de código y creación de archivos en todos los planes; Artifacts en todos los planes",
+     "estado": "si",
+     "fuente": "https://claude.com/pricing"
+    },
+    "generacion_imagen": {
+     "detalle": "No genera fotos ni ilustraciones; sí hace visuales interactivos en HTML/SVG, diagramas, gráficas y diseños con Claude Design",
+     "estado": "no",
+     "fuente": "https://support.claude.com/en/articles/9002504-can-claude-produce-images"
+    },
+    "generacion_video": {
+     "detalle": "Sin generación de video en planes, anuncios ni notas de versión",
+     "estado": "no",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://claude.com/pricing"
+    },
+    "investigacion_profunda": {
+     "detalle": "Research en planes de pago (Pro, Max, Ultra, Team, Enterprise), web, escritorio y móvil; usa búsqueda web y conectores",
+     "estado": "si",
+     "fuente": "https://support.claude.com/en/articles/11088861-using-research-on-claude"
+    },
+    "memoria": {
+     "detalle": "Memoria de historial (Gratis desde 2026-03-02), entradas categorizadas y editables, compartida entre chat y Cowork en la nube",
+     "estado": "si",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    "modelos_abiertos": {
+     "detalle": "No publica pesos abiertos; postura publicada en julio de 2026",
+     "estado": "no",
+     "fuente": "https://www.anthropic.com/news/position-open-weights-models"
+    },
+    "razonamiento": {
+     "detalle": "Pensamiento adaptativo con selector de esfuerzo (Low a Max); siempre activo en Fable 5.2 y Opus 5.5",
+     "estado": "si",
+     "fuente": "https://support.claude.com/en/articles/8664678-what-claude-models-can-i-access"
+    },
+    "uso_computadora": {
+     "detalle": "Computer use en Cowork (vista previa Pro y Max desde 2026-03-23; beta Team y Enterprise desde 2026-11-20) y herramientas computer/browser use en la API",
+     "estado": "si",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    "vision_archivos": {
+     "detalle": "Imágenes, PDF, hojas de cálculo y documentos; todos los modelos vigentes aceptan imagen y PDF",
+     "estado": "si",
+     "fuente": "https://platform.claude.com/docs/en/build-with-claude/pdf-support"
+    },
+    "voz_tiempo_real": {
+     "detalle": "Modo de voz (beta) en todos los planes, en web, escritorio y móvil; corre con Opus, Sonnet y Haiku desde julio de 2026 (no con Fable); usa conectores; 14 idiomas",
+     "estado": "si",
+     "fuente": "https://support.claude.com/en/articles/11101966-use-voice-mode"
+    }
+   },
+   "clave": "anthropic",
+   "hitos": [
+    {
+     "fecha": "2025-11-24",
+     "fuente": "https://www.anthropic.com/news/claude-opus-4-5",
+     "titulo": "Lanza Claude Opus 4.5 y Claude for Excel (beta)"
+    },
+    {
+     "fecha": "2025-12-18",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Agent Skills como estándar abierto y Claude in Chrome en beta para todos los planes de pago"
+    },
+    {
+     "fecha": "2026-01-12",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Cowork en vista previa de investigación (Max, macOS)"
+    },
+    {
+     "fecha": "2026-02-05",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanza Claude Opus 4.6"
+    },
+    {
+     "fecha": "2026-02-17",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanza Claude Sonnet 4.6"
+    },
+    {
+     "fecha": "2026-03-23",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Computer use en Cowork (vista previa para Pro y Max)"
+    },
+    {
+     "fecha": "2026-04-07",
+     "fuente": "https://www.anthropic.com/project/glasswing",
+     "titulo": "Project Glasswing y Claude Mythos Preview (acceso restringido a socios de ciberseguridad)"
+    },
+    {
+     "fecha": "2026-04-09",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Cowork disponible en general en macOS y Windows"
+    },
+    {
+     "fecha": "2026-04-16",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanza Claude Opus 4.7"
+    },
+    {
+     "fecha": "2026-04-17",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Claude Design (Anthropic Labs) para diseños, prototipos y presentaciones"
+    },
+    {
+     "fecha": "2026-05-28",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanza Claude Opus 4.8"
+    },
+    {
+     "fecha": "2026-06-09",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanzan Claude Fable 5 y Claude Mythos 5"
+    },
+    {
+     "fecha": "2026-06-30",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanza Claude Sonnet 5"
+    },
+    {
+     "fecha": "2026-07-24",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanza Claude Opus 5"
+    },
+    {
+     "fecha": "2026-08-26",
+     "fuente": "https://claude.com/resources/articles/claude-in-chrome-generally-available",
+     "titulo": "Claude in Chrome disponible en general"
+    },
+    {
+     "fecha": "2026-09-01",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Lanzan Claude Fable 5.1 y Claude Mythos 5.1"
+    },
+    {
+     "fecha": "2026-09-16",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Cowork integrado en todas las conversaciones; Artifacts en todos los planes"
+    },
+    {
+     "fecha": "2026-09-22",
+     "fuente": "https://www.anthropic.com/news/claude-opus-5-5",
+     "titulo": "Lanza Claude Opus 5.5 (4/20 USD por millón de tokens)"
+    },
+    {
+     "fecha": "2026-09-28",
+     "fuente": "https://www.anthropic.com/claude-sonnet-5-5",
+     "titulo": "Lanza Claude Sonnet 5.5"
+    },
+    {
+     "fecha": "2026-10-07",
+     "fuente": "https://www.anthropic.com/claude-haiku-5-5",
+     "titulo": "Lanza Claude Haiku 5.5; créditos mensuales de API para Max y Team"
+    },
+    {
+     "fecha": "2026-10-21",
+     "fuente": "https://support.claude.com/en/articles/12138966-release-notes",
+     "titulo": "Claude Duet, app de agente proactivo (vista previa para Pro y Max)"
+    },
+    {
+     "fecha": "2026-10-22",
+     "fuente": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "titulo": "Anthropic dona Agent Skills a la Agentic AI Foundation"
+    },
+    {
+     "fecha": "2026-10-26",
+     "fuente": "https://www.anthropic.com/news/s1-sec",
+     "titulo": "Anthropic presenta su S-1 ante la SEC para salir a bolsa"
+    },
+    {
+     "etiqueta": "SUPUESTO",
+     "fecha": "2026-10-30",
+     "fuente": "https://www.buildmvpfast.com/blog/claude-max-plan-changes-ultra-5-hour-limit-2026",
+     "titulo": "Max 20x se renombra Ultra (200 USD) y Max 5x pasa a Max (100 USD)"
+    },
+    {
+     "fecha": "2026-11-09",
+     "fuente": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "titulo": "Lanzan Claude Fable 5.2 y Claude Mythos 5.2"
+    },
+    {
+     "fecha": "2026-11-20",
+     "fuente": "https://www.anthropic.com/news/ipo-close",
+     "titulo": "Cierre de la oferta pública inicial de Anthropic; computer use en beta para Team y Enterprise"
+    },
+    {
+     "fecha": "2026-11-23",
+     "fuente": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+     "titulo": "Aviso de deprecación de Claude Opus 4.5 (retiro el 2027-01-22)"
+    }
+   ],
+   "matriz": null,
+   "modelos": [
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-fable-5-2",
+     "lanzamiento": "2026-11-09",
+     "nombre": "Claude Fable 5.2",
+     "notas": "Modelo más capaz para razonamiento exigente y trabajo agéntico largo. Pensamiento adaptativo siempre activo. Modo rápido a 16/80 USD. En la app con créditos de uso o cupo parcial según plan",
+     "precio_entrada": 8.0,
+     "precio_salida": 40.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-opus-5-5",
+     "lanzamiento": "2026-09-22",
+     "nombre": "Claude Opus 5.5",
+     "notas": "Recomendado por Anthropic para la mayoría de las cargas; desempeño cercano a Fable 5.1 a menor precio. Pensamiento siempre activo. Modo rápido a 8/40 USD",
+     "precio_entrada": 4.0,
+     "precio_salida": 20.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-sonnet-5-5",
+     "lanzamiento": "2026-09-28",
+     "nombre": "Claude Sonnet 5.5",
+     "notas": "Mejor combinación de velocidad e inteligencia; reemplazo recomendado de Sonnet 4.5",
+     "precio_entrada": 2.0,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "id": "claude-haiku-5-5",
+     "lanzamiento": "2026-10-07",
+     "nombre": "Claude Haiku 5.5",
+     "notas": "Precio por tramos: 0.10/0.50 USD hasta 100 mil tokens de prompt; 0.50/2.50 USD arriba de 100 mil. Primer Haiku con selector de esfuerzo",
+     "precio_entrada": 0.1,
+     "precio_salida": 0.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "id": "claude-mythos-5-2",
+     "lanzamiento": "2026-11-09",
+     "nombre": "Claude Mythos 5.2",
+     "notas": "Mismo modelo que Fable 5.2 sin ciertas salvaguardas de ciberseguridad y biología; acceso limitado a organizaciones verificadas (Cyber y Life Sciences Verification Programs). Sucede a Mythos 5.1 y Mythos 5 (también activos) y a Mythos Preview (2026-04-07, deprecado). Impulsa Claude Security en Enterprise",
+     "precio_entrada": 8.0,
+     "precio_salida": 40.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-fable-5-1",
+     "lanzamiento": "2026-09-01",
+     "nombre": "Claude Fable 5.1",
+     "notas": "Generación anterior de Fable; retiro no antes del 2027-09-01",
+     "precio_entrada": 10.0,
+     "precio_salida": 50.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-fable-5",
+     "lanzamiento": "2026-06-09",
+     "nombre": "Claude Fable 5",
+     "notas": "Primer Fable; acceso suspendido del 2026-06-12 al 2026-07-01. Retiro no antes del 2027-06-09",
+     "precio_entrada": 10.0,
+     "precio_salida": 50.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-opus-5",
+     "lanzamiento": "2026-07-24",
+     "nombre": "Claude Opus 5",
+     "notas": "Antecesor de Opus 5.5; modo rápido en vista previa a 10/50 USD",
+     "precio_entrada": 5.0,
+     "precio_salida": 25.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "id": "claude-sonnet-5",
+     "lanzamiento": "2026-06-30",
+     "nombre": "Claude Sonnet 5",
+     "notas": "El precio introductorio de 2/10 USD quedó como precio estándar; se canceló el aumento a 3/15 USD previsto para el 2026-09-01",
+     "precio_entrada": 2.0,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-opus-4-8",
+     "lanzamiento": "2026-05-28",
+     "nombre": "Claude Opus 4.8",
+     "notas": "Activo en API (retiro no antes del 2027-05-28); modo rápido deprecado. No aparece en la lista del selector de la app",
+     "precio_entrada": 5.0,
+     "precio_salida": 25.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-opus-4-7",
+     "lanzamiento": "2026-04-16",
+     "nombre": "Claude Opus 4.7",
+     "notas": "Introdujo el tokenizador nuevo (~30% más tokens por texto). Retiro no antes del 2027-04-16",
+     "precio_entrada": 5.0,
+     "precio_salida": 25.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-opus-4-6",
+     "lanzamiento": "2026-02-05",
+     "nombre": "Claude Opus 4.6",
+     "notas": "Primera generación con ID sin fecha. Retiro no antes del 2027-02-05",
+     "precio_entrada": 5.0,
+     "precio_salida": 25.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "id": "claude-sonnet-4-6",
+     "lanzamiento": "2026-02-17",
+     "nombre": "Claude Sonnet 4.6",
+     "notas": "Tokenizador anterior. Retiro no antes del 2027-02-17",
+     "precio_entrada": 3.0,
+     "precio_salida": 15.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 200000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "legado",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+     "id": "claude-opus-4-5-20251101",
+     "lanzamiento": "2025-11-24",
+     "nombre": "Claude Opus 4.5",
+     "notas": "Deprecado el 2026-11-23; se retira de la API el 2027-01-22 (reemplazo: claude-opus-5-5). Presencia en la app no confirmada",
+     "precio_entrada": 5.0,
+     "precio_salida": 25.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 64000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 200000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "legado",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+     "id": "claude-sonnet-4-5-20250929",
+     "lanzamiento": "2025-09-29",
+     "nombre": "Claude Sonnet 4.5",
+     "notas": "Deprecado el 2026-09-30; se retira de la API el 2026-11-30 (reemplazo: claude-sonnet-5-5). Presencia en la app no confirmada",
+     "precio_entrada": 3.0,
+     "precio_salida": 15.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 64000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 200000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+     "id": "claude-haiku-4-5-20251001",
+     "lanzamiento": "2025-10-15",
+     "nombre": "Claude Haiku 4.5",
+     "notas": "Sigue activo en API (compromiso de retiro no antes del 2026-10-15, ya vencido, sin aviso de deprecación). Presencia en la app no confirmada",
+     "precio_entrada": 1.0,
+     "precio_salida": 5.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 64000
+    }
+   ],
+   "pendientes": [
+    "Fable en Pro: claude.com/pricing dice que requiere créditos de uso, pero el anuncio de Fable 5.2 dice que se incluye hasta 50% del límite semanal en Pro y Team Standard. Confirmar cuál rige.",
+    "Fecha exacta del cambio Max 20x a Ultra: solo fuentes secundarias (30 de octubre de 2026); no se halló anuncio oficial.",
+    "Lista completa del selector de modelos de la app: el artículo de soporte puede estar incompleto ('More models'); en_app de Opus 4.8, Opus 4.5, Sonnet 4.5 y Haiku 4.5 no confirmado.",
+    "Precio de Education no publicado.",
+    "Mythos 5.1, Mythos 5 y Mythos Preview no tienen ficha propia (acceso limitado); ver notas de Mythos 5.2.",
+    "Haiku 4.5 sigue activo pese a que su compromiso de retiro (no antes del 2026-10-15) ya venció; vigilar aviso de deprecación."
+   ],
+   "proveedor": "Anthropic PBC",
+   "sitio_novedades": "https://www.anthropic.com/news",
+   "verificado": "2026-11-23"
+  },
+  "google": {
+   "app": {
+    "nombre": "Gemini",
+    "planes": [
+     {
+      "fuente": "https://gemini.google/us/subscriptions/?hl=en",
+      "incluye": "Gemini 4 Hydrogen con selección automática de modelo, Deep Research, Gemini Live, Canvas, generación de imagen, Gemini Notebook, límites básicos semanales en Google Antigravity, 15 GB",
+      "nombre": "Gratis",
+      "precio_usd_mes": 0
+     },
+     {
+      "fuente": "https://gemini.google/us/subscriptions/?hl=en",
+      "incluye": "Gemini 4 Hydrogen con 2x el uso de Gratis, generación de video (Gemini Omni), Google Flow (200 créditos), Gemini en Chrome con auto browse, Gemini en apps de Google, 400 GB. Bajó de 7.99 a 4.99 en junio de 2026",
+      "nombre": "Google AI Plus",
+      "precio_usd_mes": 4.99
+     },
+     {
+      "fuente": "https://gemini.google/us/subscriptions/?hl=en",
+      "incluye": "Gemini 4 Neon y Hydrogen, Gemini 3.1 Pro, Deep Research, contexto de 1M, 4x el uso de Gratis, Flow (1,000 créditos), auto browse ampliado en Chrome, Antigravity con límites de entrada, Tasks en Gemini, 5 TB",
+      "nombre": "Google AI Pro",
+      "precio_usd_mes": 19.99
+     },
+     {
+      "fuente": "https://gemini.google/us/subscriptions/?hl=en",
+      "incluye": "Máximo acceso a Gemini 4 Carbon, Neon y Hydrogen; 5x los límites de AI Pro en la app y Antigravity; Veo 3.1; acceso anticipado a Agent Mode; Gemini Spark (beta, sólo EE.UU.); Flow (10,000 créditos); YouTube Premium; 20 TB. Nivel creado en I/O 2026 (19 may 2026)",
+      "nombre": "Google AI Ultra (5x)",
+      "precio_usd_mes": 99.99
+     },
+     {
+      "fuente": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "incluye": "Todo lo de Ultra 5x con 20x los límites de AI Pro, Project Genie, Flow (25,000 créditos), 30 TB. Bajó de 249.99 a 199.99 en I/O 2026",
+      "nombre": "Google AI Ultra (20x)",
+      "precio_usd_mes": 199.99
+     }
+    ],
+    "url": "https://gemini.google.com"
+   },
+   "capacidades": {
+    "agente_codigo": {
+     "detalle": "Google Antigravity 2.0 (escritorio, CLI, SDK y dentro de la app de Gemini para macOS). Gemini CLI migró a Antigravity CLI (acceso de consumo terminó 18 jun 2026). Jules cierra el 31 dic 2026 (sólo lectura desde 11 nov 2026)",
+     "estado": "si",
+     "fuente": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+    },
+    "agente_navegador": {
+     "detalle": "Gemini en Chrome con auto browse (AI Plus, Pro y Ultra; empezó en EE.UU. en ene 2026); Agent Mode en acceso anticipado para Ultra. Project Mariner cerrado en mayo 2026 según reportes [SUPUESTO]",
+     "estado": "si",
+     "fuente": "https://gemini.google/us/subscriptions/?hl=en"
+    },
+    "busqueda_web": {
+     "detalle": "Búsqueda de Google integrada en la app; en la API, grounding con Google Search y Google Maps",
+     "estado": "si",
+     "fuente": "https://aistudio.google.com/docs/models/gemini-4-carbon"
+    },
+    "conectores_mcp": {
+     "detalle": "App: más de 40 apps conectadas y Connected Apps Platform basada en MCP en vista previa por solicitud; apps personalizadas por URL de servidor MCP remoto según reportes [SUPUESTO]. MCP pleno en Antigravity y Gemini Enterprise",
+     "estado": "parcial",
+     "fuente": "https://developers.google.com/connected-apps/mcp"
+    },
+    "ejecucion_codigo": {
+     "detalle": "Herramienta de ejecución de código en la API; Canvas en la app",
+     "estado": "si",
+     "fuente": "https://aistudio.google.com/docs/models/gemini-4-carbon"
+    },
+    "generacion_imagen": {
+     "detalle": "Nano Banana (2.1, 2, Pro y 2 Lite) en app, Flow, Google Pics y API",
+     "estado": "si",
+     "fuente": "https://aistudio.google.com/docs/models"
+    },
+    "generacion_video": {
+     "detalle": "Gemini Omni Flash en app y Flow desde AI Plus; Veo 3.1 en Ultra. En la API: gemini-omni-1.2-flash y genie-4; Veo 3.1 preview se retiró de la API Gemini el 22 oct 2026 (sigue en Gemini Enterprise Agent Platform)",
+     "estado": "si",
+     "fuente": "https://aistudio.google.com/docs/video"
+    },
+    "investigacion_profunda": {
+     "detalle": "Deep Research en la app desde el plan Gratis; en la API, agentes deep-research-preview-04-2026 y deep-research-max-preview-04-2026 (Interactions API)",
+     "estado": "si",
+     "fuente": "https://aistudio.google.com/docs/changelog"
+    },
+    "memoria": {
+     "detalle": "Memories (antes past chats), importación de memorias de otras apps (mar 2026), menú Personalize y Personal Intelligence con Gmail y Photos",
+     "estado": "si",
+     "fuente": "https://gemini.google/release-notes/"
+    },
+    "modelos_abiertos": {
+     "detalle": "Gemma 4 (E2B, E4B, 12B Unified, 26B A4B MoE, 31B) con licencia Apache 2.0",
+     "estado": "si",
+     "fuente": "https://gemma.ai/models/gemma-4/model-card/"
+    },
+    "razonamiento": {
+     "detalle": "Niveles de pensamiento en Gemini 4 (low, medium, high; Neon y Hydrogen agregan xhigh). Deep Think: último anuncio oficial es la actualización de Gemini 3 Deep Think (12 feb 2026, sólo Ultra); la página de planes vigente ya no lo menciona [BRECHA DE DATO]",
+     "estado": "si",
+     "fuente": "https://gemini.google/release-notes/"
+    },
+    "uso_computadora": {
+     "detalle": "Computer Use GA en la API (30 oct 2026) en Gemini 4 y 3.x Flash; en consumo, Gemini Spark en macOS (Ultra) y Tasks en Gemini",
+     "estado": "si",
+     "fuente": "https://aistudio.google.com/docs/changelog"
+    },
+    "vision_archivos": {
+     "detalle": "Texto, imagen, video, audio, PDF y, desde nov 2026, archivos de Office y OpenDocument (DOC, PPT, ODP, ODS)",
+     "estado": "si",
+     "fuente": "https://aistudio.google.com/docs/changelog"
+    },
+    "voz_tiempo_real": {
+     "detalle": "Gemini Live (voz y cámara, integrado en el chat desde I/O 2026); API Live con gemini-3.8-live",
+     "estado": "si",
+     "fuente": "https://gemini.google/release-notes/"
+    }
+   },
+   "clave": "google",
+   "hitos": [
+    {
+     "fecha": "2025-11-18",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini 3 Pro (preview) en API y app, primer modelo de la serie 3"
+    },
+    {
+     "fecha": "2025-11-20",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Nano Banana Pro (gemini-3-pro-image-preview)"
+    },
+    {
+     "fecha": "2025-12-04",
+     "fuente": "https://gemini.google/release-notes/",
+     "titulo": "Gemini 3 Deep Think en la app para AI Ultra"
+    },
+    {
+     "fecha": "2025-12-11",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Interactions API y agente Deep Research en preview en la API"
+    },
+    {
+     "fecha": "2025-12-17",
+     "fuente": "https://gemini.google/release-notes/",
+     "titulo": "Gemini 3 Flash, nuevo modelo por defecto de la app"
+    },
+    {
+     "fecha": "2026-01-27",
+     "fuente": "https://techcrunch.com/2026/01/27/googles-ai-plus-plan-rolls-out-to-all-markets-including-the-u-s",
+     "titulo": "Google AI Plus llega a EE.UU. a 7.99 USD al mes"
+    },
+    {
+     "fecha": "2026-01-28",
+     "fuente": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/",
+     "titulo": "Auto browse de Gemini en Chrome (preview, AI Pro y Ultra en EE.UU.)"
+    },
+    {
+     "fecha": "2026-02-12",
+     "fuente": "https://gemini.google/release-notes/",
+     "titulo": "Actualización de Gemini 3 Deep Think para ciencia e ingeniería"
+    },
+    {
+     "fecha": "2026-02-19",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini 3.1 Pro (preview)"
+    },
+    {
+     "fecha": "2026-02-26",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Nano Banana 2 (gemini-3.1-flash-image-preview)"
+    },
+    {
+     "fecha": "2026-03-25",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Lyria 3 para música en la API"
+    },
+    {
+     "fecha": "2026-04-02",
+     "fuente": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+     "titulo": "Gemma 4 (E2B, E4B, 26B A4B, 31B) con licencia Apache 2.0"
+    },
+    {
+     "fecha": "2026-04-15",
+     "fuente": "https://gemini.google/release-notes/",
+     "titulo": "App nativa de Gemini para Mac"
+    },
+    {
+     "fecha": "2026-04-21",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Nuevos agentes Deep Research y Deep Research Max en la API"
+    },
+    {
+     "fecha": "2026-05-19",
+     "fuente": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+     "titulo": "I/O 2026: Gemini 3.5 Flash, Gemini Omni (video), Gemini Spark y Antigravity 2.0"
+    },
+    {
+     "fecha": "2026-05-19",
+     "fuente": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+     "titulo": "Nuevo AI Ultra de 99.99 USD y baja del Ultra superior de 249.99 a 199.99 USD"
+    },
+    {
+     "fecha": "2026-05-19",
+     "fuente": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+     "titulo": "Gemini CLI migra a Antigravity CLI (acceso de consumo termina el 18 jun 2026)"
+    },
+    {
+     "fecha": "2026-06-08",
+     "fuente": "https://9to5google.com/2026/06/08/google-ai-plus-price-drop/",
+     "titulo": "AI Plus baja a 4.99 USD y duplica almacenamiento a 400 GB"
+    },
+    {
+     "fecha": "2026-06-30",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini Omni Flash en preview en la API; Nano Banana 2 Lite GA"
+    },
+    {
+     "fecha": "2026-07-21",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini 3.6 Flash y 3.5 Flash-Lite GA"
+    },
+    {
+     "fecha": "2026-09-02",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini 3.8 Flash GA"
+    },
+    {
+     "fecha": "2026-09-15",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini 3.8 Live GA para la Live API"
+    },
+    {
+     "fecha": "2026-09-30",
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+     "titulo": "Anuncio de Gemini 4 Argon para ciberdefensores (programa Fairwind)"
+    },
+    {
+     "fecha": "2026-10-06",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Nano Banana 2.1 GA"
+    },
+    {
+     "fecha": "2026-10-13",
+     "fuente": "https://gemini.google/release-notes/",
+     "titulo": "Gemini 4 Argon GA en API, app (Pro y Ultra) y AI Mode"
+    },
+    {
+     "fecha": "2026-10-22",
+     "fuente": "https://aistudio.google.com/docs/video",
+     "titulo": "Veo 3.1 preview se retira de la API Gemini"
+    },
+    {
+     "fecha": "2026-10-28",
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "titulo": "Anuncio de Gemini 4 Carbon para ciberdefensores"
+    },
+    {
+     "fecha": "2026-10-29",
+     "fuente": "https://jules.google/docs/changelog/",
+     "titulo": "Google anuncia el cierre de Jules (31 dic 2026) y su integración en Antigravity"
+    },
+    {
+     "fecha": "2026-10-30",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Computer Use GA en la API Gemini"
+    },
+    {
+     "fecha": "2026-11-02",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini 2.5 Pro y 2.5 Flash deprecados (redirección el 1 dic 2026)"
+    },
+    {
+     "fecha": "2026-11-05",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Gemini Omni Flash 1.2 GA (videos de hasta 15 s, 30% más barato)"
+    },
+    {
+     "fecha": "2026-11-10",
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+     "titulo": "Gemini 4 Carbon disponible en API, app (Ultra), AI Mode y Antigravity"
+    },
+    {
+     "fecha": "2026-11-12",
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "titulo": "Gemini 4 Hydrogen, nuevo modelo base para todos"
+    },
+    {
+     "fecha": "2026-11-17",
+     "fuente": "https://gemini.google/release-notes/",
+     "titulo": "Tasks en Gemini gratis en seis países, con llamadas a negocios y pagos con Google Pay"
+    },
+    {
+     "fecha": "2026-11-18",
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+     "titulo": "Gemini 4 Neon para AI Pro y Ultra y en la API"
+    },
+    {
+     "fecha": "2026-11-19",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "titulo": "Genie 4 GA en la API (mundos interactivos en tiempo real)"
+    }
+   ],
+   "matriz": "Alphabet",
+   "modelos": [
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1048576,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+     "id": "gemini-4-carbon",
+     "lanzamiento": "2026-11-10",
+     "nombre": "Gemini 4 Carbon",
+     "notas": "Modelo más capaz de Google. Precio introductorio hasta el 30 nov 2026; desde el 1 dic 2026 sube a 4.00 / 20.00. Sin escalones por longitud de prompt. Salida de 65,536 por defecto, hasta 1M con long decode. Anunciado el 28 oct 2026 sólo para ciberdefensores (programa Fairwind); GA el 10 nov. En la app sólo para AI Ultra",
+     "precio_entrada": 2.0,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1048576,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+     "id": "gemini-4-neon",
+     "lanzamiento": "2026-11-18",
+     "nombre": "Gemini 4 Neon",
+     "notas": "Punto medio entre Carbon y Hydrogen para ingeniería de software, trabajo de conocimiento y ciencia. Cuatro niveles de pensamiento (hasta xhigh). Precio plano en todo el contexto; caché 0.15. Salida hasta 1M con long decode. En la app para AI Pro y Ultra",
+     "precio_entrada": 3.0,
+     "precio_salida": 15.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://aistudio.google.com/docs/models/gemini-4-argon",
+     "id": "gemini-4-argon",
+     "lanzamiento": "2026-10-13",
+     "nombre": "Gemini 4 Argon",
+     "notas": "Modelo de razonamiento de frontera más eficiente que Carbon. Anunciado el 30 sep 2026 (Fairwind), GA el 13 oct. Precio sube a 4.00 / 20.00 el 1 dic 2026. Llegó a la app para Pro y Ultra en oct 2026, pero la página de planes vigente ya no lo lista; reportes dicen que Neon lo reemplazó en el selector (en_app false es supuesto)",
+     "precio_entrada": 2.0,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1048576,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "id": "gemini-4-hydrogen",
+     "lanzamiento": "2026-11-12",
+     "nombre": "Gemini 4 Hydrogen",
+     "notas": "Modelo de uso diario para código y flujos agénticos; modelo base del plan Gratis y del agente de Antigravity. Precio plano en 1M de contexto; también en el nivel gratuito de la API",
+     "precio_entrada": 1.5,
+     "precio_salida": 7.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/models/gemini-3.8-flash",
+     "id": "gemini-3.8-flash",
+     "lanzamiento": "2026-09-02",
+     "nombre": "Gemini 3.8 Flash",
+     "notas": "Flash más capaz. Precio introductorio hasta el 31 dic 2026; desde el 1 ene 2027 sube a 1.50 / 7.50. Recibe el tráfico de gemini-3.7-flash (deprecado 8 oct 2026) y, desde el 1 dic 2026, el de gemini-2.5-pro. No aparece en la página de planes de la app",
+     "precio_entrada": 0.75,
+     "precio_salida": 3.75,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/models/gemini-3.6-flash",
+     "id": "gemini-3.6-flash",
+     "lanzamiento": "2026-07-21",
+     "nombre": "Gemini 3.6 Flash",
+     "notas": "Generación anterior de Flash, sigue disponible. Mismo esquema de precio que 3.8 Flash (sube a 1.50 / 7.50 el 1 ene 2027). Recibe el tráfico de gemini-3.5-flash. Fue modelo de la app en julio 2026; hoy la página de planes no lo lista",
+     "precio_entrada": 0.75,
+     "precio_salida": 3.75,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "retirado",
+     "etiqueta": "BRECHA",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "id": "gemini-3.5-flash",
+     "lanzamiento": "2026-05-19",
+     "nombre": "Gemini 3.5 Flash",
+     "notas": "Presentado en I/O 2026 como modelo por defecto de la app y de AI Mode. Deprecado el 8 oct 2026; las llamadas se redirigen a gemini-3.6-flash. Ya no se publican sus límites ni precio. Gemini 3.5 Pro se prometió para junio 2026 y nunca salió de forma general",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/models/gemini-3.5-flash-lite",
+     "id": "gemini-3.5-flash-lite",
+     "lanzamiento": "2026-07-21",
+     "nombre": "Gemini 3.5 Flash-Lite",
+     "notas": "Baja latencia y alto volumen (subagentes, extracción). Precio igual para texto, imagen, video y audio; caché 0.03. Recibe el tráfico de gemini-2.5-flash desde el 1 dic 2026",
+     "precio_entrada": 0.3,
+     "precio_salida": 2.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "gemini-3.1-flash-lite",
+     "lanzamiento": "2026-05-07",
+     "nombre": "Gemini 3.1 Flash-Lite",
+     "notas": "GA el 7 may 2026 (preview desde 3 mar 2026). Entrada de audio a 0.50",
+     "precio_entrada": 0.25,
+     "precio_salida": 1.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": 1048576,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "preliminar",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "gemini-3.1-pro-preview",
+     "lanzamiento": "2026-02-19",
+     "nombre": "Gemini 3.1 Pro (preview)",
+     "notas": "Escalón base para prompts de hasta 200k tokens; arriba de 200k cuesta 4.00 entrada / 18.00 salida. Variante gemini-3.1-pro-preview-customtools. Nunca pasó a GA; gemini-3-pro-preview (18 nov 2025) se apagó el 9 mar 2026 y apunta aquí. Listado en planes Pro y Ultra de la app",
+     "precio_entrada": 2.0,
+     "precio_salida": 12.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "legado",
+     "etiqueta": "BRECHA",
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "gemini-3-flash-preview",
+     "lanzamiento": "2025-12-17",
+     "nombre": "Gemini 3 Flash (preview)",
+     "notas": "Fue modelo por defecto de la app desde dic 2025. Sigue en la lista de modelos como preview. Entrada de audio a 1.00. Límites de contexto no verificados en esta revisión",
+     "precio_entrada": 0.5,
+     "precio_salida": 3.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "id": "gemini-2.5-pro",
+     "lanzamiento": "2025-06-17",
+     "nombre": "Gemini 2.5 Pro",
+     "notas": "Deprecado el 2 nov 2026; desde el 1 dic 2026 las llamadas se redirigen a gemini-3.8-flash. Escalón base hasta 200k tokens; arriba cuesta 2.50 / 15.00. Acceso limitado a usuarios con uso reciente desde 18 sep 2026",
+     "precio_entrada": 1.25,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "id": "gemini-2.5-flash",
+     "lanzamiento": "2025-06-17",
+     "nombre": "Gemini 2.5 Flash",
+     "notas": "Deprecado el 2 nov 2026; desde el 1 dic 2026 se redirige a gemini-3.5-flash-lite. Entrada de audio a 1.00",
+     "precio_entrada": 0.3,
+     "precio_salida": 2.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1048576,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "gemini-2.5-flash-lite",
+     "lanzamiento": "2025-07-22",
+     "nombre": "Gemini 2.5 Flash-Lite",
+     "notas": "No deprecado, pero con acceso limitado a usuarios con uso reciente desde 18 sep 2026. Entrada de audio a 0.30",
+     "precio_entrada": 0.1,
+     "precio_salida": 0.4,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": 131072,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://aistudio.google.com/docs/models/gemini-nano-banana-2.1",
+     "id": "gemini-nano-banana-2.1",
+     "lanzamiento": "2026-10-06",
+     "nombre": "Nano Banana 2.1",
+     "notas": "precio_salida es por tokens de imagen; texto y pensamiento cuestan 7.50. Por imagen: 0.0336 (1K), 0.0504 (2K), 0.113 (4K). La app usa Nano Banana, pero no se confirmó que sea esta versión",
+     "precio_entrada": 1.5,
+     "precio_salida": 30.0,
+     "salida": [
+      "imagen",
+      "texto"
+     ],
+     "salida_max_tokens": 32768
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": 65536,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/models/gemini-3-pro-image",
+     "id": "gemini-3-pro-image",
+     "lanzamiento": "2026-05-28",
+     "nombre": "Nano Banana Pro",
+     "notas": "GA el 28 may 2026 (preview desde 20 nov 2025). precio_salida por tokens de imagen; texto 12.00. Por imagen: 0.134 (1K/2K), 0.24 (4K). Plan Gratis lo menciona con acceso limitado en Flow",
+     "precio_entrada": 2.0,
+     "precio_salida": 120.0,
+     "salida": [
+      "imagen",
+      "texto"
+     ],
+     "salida_max_tokens": 32768
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": 131072,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "pdf"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "id": "gemini-3.1-flash-image",
+     "lanzamiento": "2026-05-28",
+     "nombre": "Nano Banana 2",
+     "notas": "GA el 28 may 2026 (preview desde 26 feb 2026). Deprecado el 6 oct 2026 a favor de Nano Banana 2.1, sin fecha de apagado. precio_salida por tokens de imagen; por imagen 0.067 (1K) a 0.151 (4K)",
+     "precio_entrada": 0.5,
+     "precio_salida": 60.0,
+     "salida": [
+      "imagen",
+      "texto"
+     ],
+     "salida_max_tokens": 32768
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video"
+     ],
+     "estado": "vigente",
+     "etiqueta": "BRECHA",
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "gemini-3.1-flash-lite-image",
+     "lanzamiento": "2026-06-30",
+     "nombre": "Nano Banana 2 Lite",
+     "notas": "precio_salida por tokens de imagen (0.0336 por imagen 1K); texto 1.50. Límites de contexto no verificados",
+     "precio_entrada": 0.25,
+     "precio_salida": 30.0,
+     "salida": [
+      "imagen",
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "video",
+     "contexto_tokens": 131072,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/models/gemini-omni-flash",
+     "id": "gemini-omni-1.2-flash",
+     "lanzamiento": "2026-11-05",
+     "nombre": "Gemini Omni Flash 1.2",
+     "notas": "Generación y edición conversacional de video de 3 a 15 s, 360p a 4K, con audio nativo. precio_salida por tokens de video (unos 0.07 USD por segundo a 720p); texto 9.00. gemini-omni-1.1-flash se redirige aquí el 3 dic 2026. Omni Flash está en la app desde AI Plus; versión exacta en la app no confirmada",
+     "precio_entrada": 1.5,
+     "precio_salida": 12.0,
+     "salida": [
+      "video",
+      "audio",
+      "texto"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "video",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "retirado",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/video",
+     "id": "veo-3.1-generate-preview",
+     "lanzamiento": "2025-10-15",
+     "nombre": "Veo 3.1 (preview)",
+     "notas": "Veo 3.1, 3.1 Fast y 3.1 Lite preview se retiraron de la API Gemini el 22 oct 2026; Veo GA sigue en Gemini Enterprise Agent Platform. En la app, Veo 3.1 sigue listado para AI Ultra. Se cobraba por segundo, no por tokens",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "video",
+      "audio"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "video",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "genie-4",
+     "lanzamiento": "2026-11-19",
+     "nombre": "Genie 4",
+     "notas": "Mundos interactivos en tiempo real (24 fps, 16:9, audio estéreo) por WebRTC/WebSockets. precio_salida por tokens de video con audio (unos 0.10 USD por segundo); texto 9.00. En consumo existe Project Genie para Ultra 20x",
+     "precio_entrada": 1.5,
+     "precio_salida": 17.5,
+     "salida": [
+      "video",
+      "audio"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": 131072,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "audio"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://aistudio.google.com/docs/models/gemini-3.8-live",
+     "id": "gemini-3.8-live",
+     "lanzamiento": "2026-09-15",
+     "nombre": "Gemini 3.8 Live",
+     "notas": "Voz a voz de baja latencia para la Live API. Precios de audio; texto cuesta 0.75 entrada / 4.50 salida. Variante gemini-3.8-live-extended-thinking. Que Gemini Live en la app use este modelo es supuesto",
+     "precio_entrada": 3.0,
+     "precio_salida": 12.0,
+     "salida": [
+      "texto",
+      "audio"
+     ],
+     "salida_max_tokens": 65536
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": 8192,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/models/gemini-3.8-flash-tts",
+     "id": "gemini-3.8-flash-tts",
+     "lanzamiento": "2026-09-22",
+     "nombre": "Gemini 3.8 Flash TTS",
+     "notas": "Texto a voz, más de 130 idiomas, diseño y réplica de voz. Precio hasta el 31 dic 2026; desde el 1 ene 2027 sube a 1.00 / 18.00. Existe gemini-3.8-flash-lite-tts (0.50 / 6.00)",
+     "precio_entrada": 0.5,
+     "precio_salida": 9.0,
+     "salida": [
+      "audio"
+     ],
+     "salida_max_tokens": 16384
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "audio"
+     ],
+     "estado": "vigente",
+     "etiqueta": "BRECHA",
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "gemini-3.5-transcribe",
+     "lanzamiento": "2026-08-26",
+     "nombre": "Gemini 3.5 Transcribe",
+     "notas": "Voz a texto (unos 0.003 USD por minuto de audio). Variante gemini-3.5-transcribe-live (3.50 / 21.00). Límites no verificados",
+     "precio_entrada": 2.0,
+     "precio_salida": 12.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "lyria-3.5",
+     "lanzamiento": "2026-09-03",
+     "nombre": "Lyria 3.5",
+     "notas": "Música: canciones completas a 0.08 USD por canción (no se cobra por tokens). Sucede a lyria-3-clip-preview y lyria-3-pro-preview (25 mar 2026)",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "audio"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "pdf"
+     ],
+     "estado": "preliminar",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "id": "deep-research-preview-04-2026",
+     "lanzamiento": "2026-04-21",
+     "nombre": "Deep Research (agente)",
+     "notas": "Agente de investigación en la Interactions API; variante deep-research-max-preview-04-2026. Se cobra a tarifa del modelo Gemini subyacente más herramientas. Sucede a deep-research-pro-preview-12-2025 (apagado 23 oct 2026). Modalidades de entrada no verificadas",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "codigo",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "preliminar",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/changelog",
+     "id": "antigravity-preview-09-2026",
+     "lanzamiento": "2026-09-17",
+     "nombre": "Antigravity Agent",
+     "notas": "Agente gestionado con sandbox (Managed Agents). Se cobra a tarifa del modelo (por defecto Gemini 4 Hydrogen); el cómputo del entorno no se cobra en preview. Sustituye a antigravity-preview-05-2026",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "embeddings",
+     "contexto_tokens": 8192,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen",
+      "video",
+      "audio",
+      "pdf"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://aistudio.google.com/docs/models/gemini-embedding-2",
+     "id": "gemini-embedding-2",
+     "lanzamiento": "2026-04-22",
+     "nombre": "Gemini Embedding 2",
+     "notas": "Multimodal, dimensiones de 128 a 3072. Precio de texto; imagen 0.45, audio 6.50, video 12.00 por millón. gemini-embedding-2-preview se redirige aquí desde nov 2026",
+     "precio_entrada": 0.2,
+     "precio_salida": null,
+     "salida": [
+      "embedding"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "embeddings",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "legado",
+     "etiqueta": "BRECHA",
+     "fuente": "https://aistudio.google.com/docs/pricing",
+     "id": "gemini-embedding-001",
+     "lanzamiento": "2025-07-14",
+     "nombre": "Gemini Embedding",
+     "notas": "Sólo texto. Sigue listado. Límite de entrada no verificado en esta revisión",
+     "precio_entrada": 0.15,
+     "precio_salida": null,
+     "salida": [
+      "embedding"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "abierto",
+     "contexto_tokens": 262144,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "ESTIMADO",
+     "fuente": "https://gemma.ai/models/gemma-4/model-card/",
+     "id": "gemma-4-31b-it",
+     "lanzamiento": "2026-04-02",
+     "nombre": "Gemma 4 31B",
+     "notas": "Denso, Apache 2.0. Ficha oficial indica contexto de 256K (262144 es la conversión). En la API Gemini sólo en nivel gratuito; sin precio de pago. Familia: E2B y E4B (128K, con audio), 12B Unified (256K, con audio, 3 jun 2026), 26B A4B",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "abierto",
+     "contexto_tokens": 262144,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "ESTIMADO",
+     "fuente": "https://gemma.ai/models/gemma-4/model-card/",
+     "id": "gemma-4-26b-a4b-it",
+     "lanzamiento": "2026-04-02",
+     "nombre": "Gemma 4 26B A4B",
+     "notas": "Mezcla de expertos con 4B activos, Apache 2.0. Contexto 256K según ficha oficial (262144 es la conversión). Sólo nivel gratuito en la API Gemini",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    }
+   ],
+   "pendientes": [
+    "Deep Think: no hay anuncio oficial posterior a Gemini 3 Deep Think (12 feb 2026) y la página de planes vigente no lo menciona; confirmar si sigue en Ultra o si lo absorbió Gemini 4 Carbon",
+    "Precios de planes: la página de EE.UU. muestra un banner de Black Friday ('ahorra hasta 50%'); los precios listados no muestran tachado, se asumen precios regulares",
+    "Gemini 4 Argon: confirmar si sigue en el selector de la app tras la llegada de Neon",
+    "Versiones exactas de modelos en la app (Nano Banana, Omni Flash, modelo de Gemini Live) no confirmadas",
+    "Project Mariner: cierre en mayo 2026 sólo confirmado por prensa (androidheadlines), no por fuente oficial",
+    "MCP en la app de consumo: apps personalizadas por URL MCP sólo confirmadas por prensa; la página oficial de Connected Apps Platform no dice si es preview o GA",
+    "Gemini 3.5 Pro nunca salió de forma general; no hay comunicado oficial de cancelación",
+    "Límites de contexto no verificados: gemini-3-flash-preview, gemini-3.1-flash-lite-image, gemini-3.5-transcribe, gemini-embedding-001"
+   ],
+   "proveedor": "Google (Google DeepMind)",
+   "sitio_novedades": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
+   "verificado": "2026-11-23"
+  },
+  "openai": {
+   "app": {
+    "nombre": "ChatGPT",
+    "planes": [
+     {
+      "fuente": "https://chatgpt.com/pricing",
+      "incluye": "GPT-6 Luna en Chat; imagen, voz, deep research, memoria y Codex limitados; Work sólo en la app de escritorio y limitado; puede incluir anuncios",
+      "nombre": "Free",
+      "precio_usd_mes": 0
+     },
+     {
+      "fuente": "https://learn.chatgpt.com/docs/pricing",
+      "incluye": "Más mensajes, cargas, imágenes y voz que Free; memoria más larga; tareas programadas; GPT-6 Luna; Codex y deep research limitados; puede incluir anuncios",
+      "nombre": "Go",
+      "precio_usd_mes": 8
+     },
+     {
+      "fuente": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+      "incluye": "Modelos de razonamiento (GPT-6.2 en Chat; GPT-6.2 Astra y Sol en Work y Codex), deep research y memoria ampliados, proyectos, GPTs, Sites, Space, Codex ampliado, ChatGPT Work en escritorio, web y móvil",
+      "nombre": "Plus",
+      "precio_usd_mes": 20
+     },
+     {
+      "fuente": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "incluye": "Todo Plus; GPT-6 Pro; dots (agentes siempre activos); sesiones más largas de Work y Codex; imagen ilimitada; voz ilimitada; sin Ultrafast",
+      "nombre": "Pro 100",
+      "precio_usd_mes": 100
+     },
+     {
+      "fuente": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "incluye": "Todo Pro 100 con más uso de Work y Codex; Ultrafast sólo con GPT-6.2 Sol en Codex",
+      "nombre": "Pro 200",
+      "precio_usd_mes": 200
+     },
+     {
+      "fuente": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+      "incluye": "Mayor uso incluido de los planes Pro; Ultrafast con GPT-6 Astra, GPT-6.1 Sol y modelos GPT-6.2 en Work y Codex",
+      "nombre": "Pro 500",
+      "precio_usd_mes": 500
+     },
+     {
+      "fuente": "https://openai.com/business/pricing",
+      "incluye": "Por usuario, pago mensual (20 USD por usuario al mes con pago anual). ChatGPT, Work y Codex, Company Knowledge, agente, deep research, controles de administración, sin entrenamiento con datos de la empresa",
+      "nombre": "Business Standard",
+      "precio_usd_mes": 25
+     },
+     {
+      "fuente": "https://openai.com/business/pricing",
+      "incluye": "Por usuario, pago mensual (100 USD por usuario al mes con pago anual). Lo mismo que Standard con 5 veces más uso, sin límite de 5 horas y acceso a dots",
+      "nombre": "Business Premium",
+      "precio_usd_mes": 125
+     },
+     {
+      "fuente": "https://learn.chatgpt.com/docs/pricing",
+      "incluye": "Precio no publicado (contactar a ventas, facturación anual). Todo Business más SCIM, EKM, RBAC, residencia de datos y procesamiento prioritario",
+      "nombre": "Enterprise",
+      "precio_usd_mes": null
+     }
+    ],
+    "url": "https://chatgpt.com"
+   },
+   "capacidades": {
+    "agente_codigo": {
+     "detalle": "Codex (CLI, IDE, app de escritorio, web, móvil, Codex Cloud, code review)",
+     "estado": "si",
+     "fuente": "https://learn.chatgpt.com/docs/pricing"
+    },
+    "agente_navegador": {
+     "detalle": "ChatGPT Work con navegador integrado y extensión de Chrome; dots con computadora y navegador en la nube. El navegador Atlas se retiró en 2026",
+     "estado": "si",
+     "fuente": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
+    },
+    "busqueda_web": {
+     "detalle": "Búsqueda en ChatGPT y herramienta web_search en la Responses API",
+     "estado": "si",
+     "fuente": "https://developers.openai.com/api/docs/guides/tools"
+    },
+    "conectores_mcp": {
+     "detalle": "Plugins (antes apps y conectores) y modo desarrollador con servidores MCP remotos; Remote MCP en la Responses API",
+     "estado": "si",
+     "fuente": "https://developers.openai.com/api/docs/guides/developer-mode"
+    },
+    "ejecucion_codigo": {
+     "detalle": "Análisis de datos en ChatGPT; herramienta Shell en contenedores alojados en la API",
+     "estado": "si",
+     "fuente": "https://developers.openai.com/api/docs/guides/tools"
+    },
+    "generacion_imagen": {
+     "detalle": "ChatGPT Images 2.6 (GIF animados, imágenes de referencia); API gpt-image-2.6-sunburst y -flare",
+     "estado": "si",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    "generacion_video": {
+     "detalle": "Sora descontinuado: app y sora.com cerraron el 2026-04-26 y la API de video el 2026-09-24, sin reemplazo",
+     "estado": "no",
+     "fuente": "https://help.openai.com/articles/20001152-what-to-know-about-the-sora-discontinuation"
+    },
+    "investigacion_profunda": {
+     "detalle": "Deep research en todos los planes (limitado en Free y Go, máximo en Pro)",
+     "estado": "si",
+     "fuente": "https://chatgpt.com/pricing"
+    },
+    "memoria": {
+     "detalle": "Memoria que se actualiza sola, referencias a chats anteriores, memoria por proyecto",
+     "estado": "si",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    "modelos_abiertos": {
+     "detalle": "gpt-oss-120b y gpt-oss-20b (Apache 2.0, agosto de 2025); sin sucesor anunciado",
+     "estado": "si",
+     "fuente": "https://openai.com/index/introducing-gpt-oss/"
+    },
+    "razonamiento": {
+     "detalle": "Niveles de pensamiento en el selector (Instant a Extra High) y GPT-6 Pro con agentes en paralelo; en API, reasoning effort y modo pro",
+     "estado": "si",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    "uso_computadora": {
+     "detalle": "Computer Use en la app de escritorio (Work y Codex, macOS y Windows); herramienta computer use en la Responses API",
+     "estado": "si",
+     "fuente": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
+    },
+    "vision_archivos": {
+     "detalle": "Imágenes, PDF, hojas de cálculo, audio (transcripción y resumen) y escaneo de documentos; modelos de API aceptan texto e imagen",
+     "estado": "si",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    "voz_tiempo_real": {
+     "detalle": "GPT-Live (dúplex completo) en ChatGPT; Advanced y Standard Voice se retiran el 2026-12-11; API gpt-realtime-2.1 y gpt-live-1.1",
+     "estado": "si",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    }
+   },
+   "clave": "openai",
+   "hitos": [
+    {
+     "fecha": "2025-12-11",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "Lanza GPT-5.2 (Instant, Thinking y Pro)"
+    },
+    {
+     "fecha": "2025-12-16",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "Nuevo modelo de ChatGPT Images (gpt-image-1.5)"
+    },
+    {
+     "fecha": "2025-12-18",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "Directorio de apps reemplaza a los conectores en ChatGPT"
+    },
+    {
+     "fecha": "2026-01-16",
+     "fuente": "https://openai.com/index/introducing-chatgpt-go/",
+     "titulo": "ChatGPT Go disponible en todo el mundo (8 USD al mes en EUA)"
+    },
+    {
+     "fecha": "2026-02-02",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "App de Codex para macOS"
+    },
+    {
+     "fecha": "2026-02-05",
+     "fuente": "https://help.openai.com/en/articles/9624314-model-release-notes",
+     "titulo": "Lanza GPT-5.3-Codex"
+    },
+    {
+     "fecha": "2026-02-09",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "Prueba de anuncios en EUA para Free y Go"
+    },
+    {
+     "fecha": "2026-02-13",
+     "fuente": "https://help.openai.com/en/articles/9624314-model-release-notes",
+     "titulo": "Se retiran de ChatGPT GPT-4o, GPT-4.1, o4-mini y GPT-5"
+    },
+    {
+     "fecha": "2026-03-05",
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.4",
+     "titulo": "Lanza GPT-5.4 (Thinking en ChatGPT y en la API)"
+    },
+    {
+     "fecha": "2026-03-24",
+     "fuente": "https://help.openai.com/articles/20001152-what-to-know-about-the-sora-discontinuation",
+     "titulo": "OpenAI anuncia el cierre de Sora (app el 2026-04-26, API el 2026-09-24)"
+    },
+    {
+     "fecha": "2026-04-09",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "Nuevo plan Pro de 100 USD"
+    },
+    {
+     "fecha": "2026-04-21",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "ChatGPT Images 2.0 (gpt-image-2)"
+    },
+    {
+     "fecha": "2026-04-23",
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.5",
+     "titulo": "Lanza GPT-5.5 y GPT-5.5 Pro"
+    },
+    {
+     "fecha": "2026-06-26",
+     "fuente": "https://openai.com/index/previewing-gpt-5-6-sol/",
+     "titulo": "Vista previa limitada de GPT-5.6 (Sol, Terra y Luna) por revisión del gobierno de EUA"
+    },
+    {
+     "fecha": "2026-07-06",
+     "fuente": "https://community.openai.com/t/new-realtime-models-on-the-api-gpt-realtime-2-1-and-gpt-realtime-2-1-mini/1385896",
+     "titulo": "gpt-realtime-2.1 y gpt-realtime-2.1-mini en la API"
+    },
+    {
+     "fecha": "2026-07-08",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "GPT-Live-1, voz dúplex completa en ChatGPT"
+    },
+    {
+     "fecha": "2026-07-09",
+     "fuente": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+     "titulo": "ChatGPT Work y GPT-5.6 en disponibilidad general; se anuncia el retiro del navegador Atlas"
+    },
+    {
+     "fecha": "2026-08-25",
+     "fuente": "https://openai.com/index/premium-seats-chatgpt-business",
+     "titulo": "Asientos Premium en ChatGPT Business (125 USD mensual)"
+    },
+    {
+     "fecha": "2026-09-03",
+     "fuente": "https://openai.com/index/gpt-6-astra/",
+     "titulo": "Lanza GPT-6 Astra (despliegue limitado)"
+    },
+    {
+     "fecha": "2026-09-08",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "ChatGPT Images 2.5"
+    },
+    {
+     "fecha": "2026-09-22",
+     "fuente": "https://openai.com/index/gpt-6-astra/",
+     "titulo": "GPT-6 Sol y GPT-6 Luna"
+    },
+    {
+     "fecha": "2026-09-24",
+     "fuente": "https://developers.openai.com/api/docs/deprecations",
+     "titulo": "Se apaga la API de video de Sora"
+    },
+    {
+     "fecha": "2026-09-29",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "DevDay 2026: GPT-6.1 Sol, plan Pro 500 con Ultrafast, dots, Codex Cloud y Space"
+    },
+    {
+     "fecha": "2026-10-07",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "GPT-6 en Chat con Intelligent UI (Sol en planes de pago, Luna en Free y Go)"
+    },
+    {
+     "fecha": "2026-10-14",
+     "fuente": "https://help.openai.com/en/articles/9624314-model-release-notes",
+     "titulo": "Se retira GPT-5.5 de ChatGPT, Work y Codex"
+    },
+    {
+     "fecha": "2026-10-26",
+     "fuente": "https://help.openai.com/en/articles/9624314-model-release-notes",
+     "titulo": "Lanza GPT-6.1 Terra"
+    },
+    {
+     "fecha": "2026-10-30",
+     "fuente": "https://help.openai.com/en/articles/9624314-model-release-notes",
+     "titulo": "GPT-6 Rosalind Research para ciencias de la vida (clientes aprobados)"
+    },
+    {
+     "fecha": "2026-11-04",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "ChatGPT Images 2.6 y gpt-image-2.6 (Sunburst y Flare)"
+    },
+    {
+     "fecha": "2026-11-10",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "Se anuncia el retiro de Advanced y Standard Voice (2026-12-11) en favor de GPT-Live"
+    },
+    {
+     "fecha": "2026-11-17",
+     "fuente": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+     "titulo": "Lanzan GPT-6.2 Astra y GPT-6.2 Sol"
+    },
+    {
+     "fecha": "2026-11-23",
+     "fuente": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "titulo": "GPT-6.2 optimizado para Chat llega a Plus, Pro, Business y Enterprise"
+    }
+   ],
+   "matriz": "OpenAI Foundation",
+   "modelos": [
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1050000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-6.2-astra",
+     "id": "gpt-6.2-astra",
+     "lanzamiento": "2026-11-17",
+     "nombre": "GPT-6.2 Astra",
+     "notas": "Modelo más capaz. Entrada en caché 0.40. En ChatGPT Work y Codex (Plus, Pro, Enterprise, Edu); modo Ultrafast. Arriba de 272K tokens de entrada aplica tarifa de contexto largo.",
+     "precio_entrada": 8.0,
+     "precio_salida": 40.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1050000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
+     "id": "gpt-6.2-sol",
+     "lanzamiento": "2026-11-17",
+     "nombre": "GPT-6.2 Sol",
+     "notas": "Modelo de uso diario para código y agentes; cerca de Astra a una quinta parte del costo. Entrada en caché 0.10. En Work y Codex.",
+     "precio_entrada": 2.0,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1050000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+     "id": "gpt-6.1-terra",
+     "lanzamiento": "2026-10-26",
+     "nombre": "GPT-6.1 Terra",
+     "notas": "Rápido y eficiente para razonamiento visual, uso de computadora y redacción. En Work y Codex, no en Chat.",
+     "precio_entrada": 1.0,
+     "precio_salida": 5.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1050000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+     "id": "gpt-6-luna",
+     "lanzamiento": "2026-09-22",
+     "nombre": "GPT-6 Luna",
+     "notas": "El más eficiente, para tareas de alto volumen. Modelo de Chat en Free y Go. Reemplazo de gpt-5-nano y GPT-4o/4.1 en la API.",
+     "precio_entrada": 0.1,
+     "precio_salida": 0.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1050000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+     "id": "gpt-6.1-sol",
+     "lanzamiento": "2026-09-29",
+     "nombre": "GPT-6.1 Sol",
+     "notas": "Presentado en DevDay 2026. Superado por GPT-6.2 Sol al mismo precio; sigue en la API y en Codex de Plus.",
+     "precio_entrada": 2.0,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1050000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://openai.com/index/gpt-6-astra/",
+     "id": "gpt-6-astra",
+     "lanzamiento": "2026-09-03",
+     "nombre": "GPT-6 Astra",
+     "notas": "Primer modelo GPT-6 (despliegue limitado el 2026-09-03). Superado por GPT-6.2 Astra. Base de GPT-6 Pro y de los dots en ChatGPT.",
+     "precio_entrada": 10.0,
+     "precio_salida": 50.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1050000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+     "id": "gpt-6-sol",
+     "lanzamiento": "2026-09-22",
+     "nombre": "GPT-6 Sol",
+     "notas": "Modelo de Chat para planes de pago desde el 2026-10-07 (GPT-6 con Intelligent UI). Entrada en caché 0.20.",
+     "precio_entrada": 2.0,
+     "precio_salida": 10.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 1050000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+     "id": "gpt-5.6-sol",
+     "lanzamiento": "2026-07-09",
+     "nombre": "GPT-5.6 Sol",
+     "notas": "Vista previa limitada el 2026-06-26 por revisión del gobierno de EUA; disponibilidad general el 2026-07-09 junto con ChatGPT Work. Alias gpt-5.6. Precio promocional hasta el 2026-11-30. Ya no es el modelo por defecto de la app.",
+     "precio_entrada": 4.0,
+     "precio_salida": 20.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1050000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+     "id": "gpt-5.6-terra",
+     "lanzamiento": "2026-07-09",
+     "nombre": "GPT-5.6 Terra",
+     "notas": "Intermedio de la familia 5.6. Reemplazo sugerido de computer-use-preview y gpt-5.1-codex-mini.",
+     "precio_entrada": 2.0,
+     "precio_salida": 12.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1050000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+     "id": "gpt-5.6-luna",
+     "lanzamiento": "2026-07-09",
+     "nombre": "GPT-5.6 Luna",
+     "notas": "Fue el modelo por defecto de Free y Go desde agosto de 2026 hasta la llegada de GPT-6 Luna.",
+     "precio_entrada": 0.2,
+     "precio_salida": 1.2,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1050000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.5",
+     "id": "gpt-5.5",
+     "lanzamiento": "2026-04-23",
+     "nombre": "GPT-5.5",
+     "notas": "Snapshot gpt-5.5-2026-04-23. Retirado de ChatGPT, Work y Codex el 2026-10-14; sigue en la API.",
+     "precio_entrada": 5.0,
+     "precio_salida": 30.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": 1050000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.5-pro",
+     "id": "gpt-5.5-pro",
+     "lanzamiento": "2026-04-23",
+     "nombre": "GPT-5.5 Pro",
+     "notas": "Versión de más cómputo de GPT-5.5, sin descuento de caché. En la API el modo pro se pide ahora con reasoning.mode: pro sobre modelos GPT-6.",
+     "precio_entrada": 30.0,
+     "precio_salida": 180.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 1050000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.4",
+     "id": "gpt-5.4",
+     "lanzamiento": "2026-03-05",
+     "nombre": "GPT-5.4",
+     "notas": "Snapshot gpt-5.4-2026-03-05. Primer modelo con tool_search.",
+     "precio_entrada": 2.5,
+     "precio_salida": 15.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 400000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+     "id": "gpt-5.4-mini",
+     "lanzamiento": "2026-03-17",
+     "nombre": "GPT-5.4 mini",
+     "notas": "Snapshot gpt-5.4-mini-2026-03-17. Máximo 272K tokens de entrada.",
+     "precio_entrada": 0.75,
+     "precio_salida": 4.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 400000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+     "id": "gpt-5.4-nano",
+     "lanzamiento": "2026-03-17",
+     "nombre": "GPT-5.4 nano",
+     "notas": "Marcado como deprecado; se apaga el 2027-04-01 (reemplazo gpt-6-luna).",
+     "precio_entrada": 0.2,
+     "precio_salida": 1.25,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "codigo",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": "BRECHA",
+     "fuente": "https://developers.openai.com/api/docs/deprecations",
+     "id": "gpt-5.3-codex",
+     "lanzamiento": "2026-02-05",
+     "nombre": "GPT-5.3-Codex",
+     "notas": "Modelo agéntico de código. Deprecado: se apaga el 2027-04-01 (reemplazo gpt-6-sol). Contexto, salida y modalidades no confirmados en fuente.",
+     "precio_entrada": 1.75,
+     "precio_salida": 14.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 400000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-5.2",
+     "id": "gpt-5.2",
+     "lanzamiento": "2025-12-11",
+     "nombre": "GPT-5.2",
+     "notas": "Snapshot gpt-5.2-2025-12-11. Retirado de ChatGPT el 2026-06-12; sigue en la API.",
+     "precio_entrada": 1.75,
+     "precio_salida": 14.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 128000
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": 200000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://developers.openai.com/api/docs/deprecations",
+     "id": "o3",
+     "lanzamiento": "2025-04-16",
+     "nombre": "OpenAI o3",
+     "notas": "Último o-series en la API; se apaga el 2026-12-11 (reemplazo gpt-6.1-sol). Retirado de ChatGPT el 2026-08-26. Contexto y salida tomados de la ficha previa, no reverificados.",
+     "precio_entrada": 2.0,
+     "precio_salida": 8.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 100000
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst",
+     "id": "gpt-image-2.6-sunburst",
+     "lanzamiento": "2026-11-04",
+     "nombre": "GPT Image 2.6 Sunburst",
+     "notas": "Para trabajo visual detallado. Entrada de texto 5, entrada de imagen 8, salida de imagen 30 por millón de tokens. Base de ChatGPT Images 2.6 [SUPUESTO: cuál de las dos variantes usa la app].",
+     "precio_entrada": 5.0,
+     "precio_salida": 30.0,
+     "salida": [
+      "imagen"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-image-2.6-flare",
+     "id": "gpt-image-2.6-flare",
+     "lanzamiento": "2026-11-04",
+     "nombre": "GPT Image 2.6 Flare",
+     "notas": "Para iteración rápida; edición guiada por marcas, salida SVG y GIF animado. Mismos precios que Sunburst.",
+     "precio_entrada": 5.0,
+     "precio_salida": 30.0,
+     "salida": [
+      "imagen"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/pricing",
+     "id": "gpt-image-2.5-sunburst",
+     "lanzamiento": "2026-09-08",
+     "nombre": "GPT Image 2.5 Sunburst",
+     "notas": "Generación previa (ChatGPT Images 2.5). También existe gpt-image-2.5-flare con los mismos precios.",
+     "precio_entrada": 5.0,
+     "precio_salida": 30.0,
+     "salida": [
+      "imagen"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/deprecations",
+     "id": "gpt-image-2",
+     "lanzamiento": "2026-04-21",
+     "nombre": "GPT Image 2",
+     "notas": "Snapshot gpt-image-2-2026-04-21 (ChatGPT Images 2.0). Se apaga el 2027-02-10.",
+     "precio_entrada": 5.0,
+     "precio_salida": 30.0,
+     "salida": [
+      "imagen"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": 128000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "audio",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1",
+     "id": "gpt-realtime-2.1",
+     "lanzamiento": "2026-07-06",
+     "nombre": "GPT-Realtime-2.1",
+     "notas": "Modelo de voz con razonamiento y herramientas para la Realtime API. Precios de texto; audio 32 entrada y 64 salida. Existe gpt-realtime-2.1-mini (texto 0.60/2.40, audio 10/20).",
+     "precio_entrada": 4.0,
+     "precio_salida": 24.0,
+     "salida": [
+      "texto",
+      "audio"
+     ],
+     "salida_max_tokens": 32000
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "audio"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-live-1.1",
+     "id": "gpt-live-1.1",
+     "lanzamiento": "2026-10-15",
+     "nombre": "GPT-Live-1.1",
+     "notas": "Voz dúplex completa multilingüe; es la voz de ChatGPT. Se cobra por minuto: 0.05 USD activo y 0.02 USD en espera, más el modelo de fondo.",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto",
+      "audio"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "audio",
+      "texto"
+     ],
+     "estado": "vigente",
+     "etiqueta": "BRECHA",
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-transcribe",
+     "id": "gpt-transcribe",
+     "lanzamiento": null,
+     "nombre": "GPT-Transcribe",
+     "notas": "Voz a texto de alta precisión; 0.0045 USD por minuto. Reemplaza a whisper-1 y gpt-4o-transcribe (se apagan el 2027-02-26). Fecha de lanzamiento no confirmada.",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "video",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "retirado",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://developers.openai.com/api/docs/deprecations",
+     "id": "sora-2",
+     "lanzamiento": "2025-09-30",
+     "nombre": "Sora 2",
+     "notas": "Videos API apagada el 2026-09-24 junto con sora-2-pro, sin reemplazo. App Sora cerrada el 2026-04-26. Último precio publicado 0.10 USD por segundo a 720p (fuente secundaria). Fecha de lanzamiento de memoria, no reverificada.",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "video",
+      "audio"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "embeddings",
+     "contexto_tokens": 8191,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://developers.openai.com/api/docs/models/text-embedding-3-large",
+     "id": "text-embedding-3-large",
+     "lanzamiento": "2024-01-25",
+     "nombre": "text-embedding-3-large",
+     "notas": "Sigue siendo el embedding más capaz; no hay sucesor. text-embedding-3-small cuesta 0.02. Fecha y contexto de memoria, no reverificados en la página.",
+     "precio_entrada": 0.13,
+     "precio_salida": null,
+     "salida": [
+      "embedding"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "abierto",
+     "contexto_tokens": 131072,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://developers.openai.com/api/docs/models/gpt-oss-120b",
+     "id": "gpt-oss-120b",
+     "lanzamiento": "2025-08-05",
+     "nombre": "gpt-oss-120b",
+     "notas": "Pesos abiertos Apache 2.0; 117B parámetros (5.1B activos); corre en una GPU de 80 GB. Existe gpt-oss-20b para equipos de 16 GB. Sin precio propio en la API de OpenAI.",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": 131072
+    }
+   ],
+   "pendientes": [
+    "Una captura de chatgpt.com/pricing mostró Go a 7.50 USD; learn.chatgpt.com y el anuncio oficial dicen 8 USD. Se usó 8.",
+    "No se confirmó si GPT-6.2 en Chat llega a Free y Go ni qué id de API corresponde a la versión de Chat (chat-latest cuesta 5/30).",
+    "El API de GPT-6 Pro no tiene id propio: se usa reasoning.mode: pro sobre gpt-6.1-sol; no se encontró precio de ese modo.",
+    "Fechas de lanzamiento en API de gpt-6-sol, gpt-6-luna y gpt-6.1-sol tomadas de las notas de ChatGPT y de la página de GPT-6 Astra; las fichas de modelo no publican fecha.",
+    "Contexto y salida de gpt-5.3-codex no confirmados.",
+    "Estado del ChatGPT agent de 2025 dentro de ChatGPT Work no se confirmó explícitamente; Atlas sí se retiró.",
+    "Enterprise y Edu no publican precio."
+   ],
+   "proveedor": "OpenAI Group PBC",
+   "sitio_novedades": "https://openai.com/news/",
+   "verificado": "2026-11-23"
+  },
+  "xai": {
+   "app": {
+    "nombre": "Grok",
+    "planes": [
+     {
+      "etiqueta": null,
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "Acceso diario a Grok con límites, cuota inicial de agentes de Cursor, X estándar",
+      "nombre": "Gratis",
+      "precio_usd_mes": 0
+     },
+     {
+      "etiqueta": null,
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "Más uso de Grok (chat, voz, imagen) y Cursor; palomita de X, herramientas de creador, menos anuncios. Sin video ni Grok Bot según terceros",
+      "nombre": "Plus",
+      "precio_usd_mes": 8
+     },
+     {
+      "etiqueta": null,
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "4x el uso de Plus; beneficios de SuperGrok, Cursor Pro y X Premium+; video, Grok Bot y modelos Grok más recientes",
+      "nombre": "Premium",
+      "precio_usd_mes": 30
+     },
+     {
+      "etiqueta": null,
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "15x el uso de Plus; todo lo de Premium y prioridad en horas pico",
+      "nombre": "Super",
+      "precio_usd_mes": 100
+     },
+     {
+      "etiqueta": null,
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "50x el uso de Plus; todo lo anterior y acceso anticipado a productos y modelos",
+      "nombre": "Ultra",
+      "precio_usd_mes": 200
+     },
+     {
+      "etiqueta": null,
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "Mismos precios por asiento que los planes individuales (30, 100 o 200 USD); Plus no se ofrece a equipos",
+      "nombre": "Equipos (Premium, Super o Ultra por asiento)",
+      "precio_usd_mes": 30
+     },
+     {
+      "etiqueta": "SUPUESTO",
+      "fuente": "https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26",
+      "incluye": "Plan anterior, sólo para suscriptores existentes (lanzado en marzo de 2026)",
+      "nombre": "SuperGrok Lite (legado)",
+      "precio_usd_mes": 10
+     },
+     {
+      "etiqueta": "SUPUESTO",
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "Plan anterior; quien lo tenga lo conserva o migra a The X Subscription con reembolso prorrateado",
+      "nombre": "SuperGrok (legado)",
+      "precio_usd_mes": 30
+     },
+     {
+      "etiqueta": "SUPUESTO",
+      "fuente": "https://www.roborhythms.com/?p=35730",
+      "incluye": "Plan anterior, sólo para suscriptores existentes (precio según ficha de App Store citada por terceros)",
+      "nombre": "SuperGrok Plus (legado)",
+      "precio_usd_mes": 100
+     },
+     {
+      "etiqueta": "SUPUESTO",
+      "fuente": "https://www.roborhythms.com/?p=35730",
+      "incluye": "Plan anterior de máxima capacidad (modelos Heavy/multiagente, acceso anticipado a Grok Build y Grok Bot)",
+      "nombre": "SuperGrok Heavy (legado)",
+      "precio_usd_mes": 300
+     },
+     {
+      "etiqueta": "BRECHA",
+      "fuente": "https://x.ai/news/x-subscription",
+      "incluye": "Los suscriptores existentes conservan su plan; Premium+ quedó integrado como beneficio del plan Premium de 30 USD. Precio vigente de los planes sueltos no confirmado",
+      "nombre": "X Premium / Premium+ (legado)",
+      "precio_usd_mes": null
+     }
+    ],
+    "url": "https://grok.com"
+   },
+   "capacidades": {
+    "agente_codigo": {
+     "detalle": "Grok Build (CLI con subagentes, modo headless, ACP) y Cursor, incluido en The X Subscription (SpaceX acordó comprar Cursor en junio de 2026)",
+     "estado": "si",
+     "fuente": "https://x.ai/news/grok-build-cli"
+    },
+    "agente_navegador": {
+     "detalle": "Grok Bot (beta desde 2026-08-11): agentes 24/7 que operan sitios web, correo y apps desde su propia computadora en la nube",
+     "estado": "si",
+     "fuente": "https://x.ai/news/introducing-grok-bot"
+    },
+    "busqueda_web": {
+     "detalle": "Búsqueda web y búsqueda en X (posts, usuarios, hilos) en la app y como herramientas del servidor en la API",
+     "estado": "si",
+     "fuente": "https://docs.x.ai/docs/guides/tools/overview"
+    },
+    "conectores_mcp": {
+     "detalle": "Conectores y MCP propio en grok.com desde 2026-05-06; Remote MCP en la API desde noviembre de 2025",
+     "estado": "si",
+     "fuente": "https://docs.x.ai/grok/connectors"
+    },
+    "ejecucion_codigo": {
+     "detalle": "Herramienta Code Execution (Python en sandbox) en la API; en la app vía agentes",
+     "estado": "si",
+     "fuente": "https://docs.x.ai/docs/guides/tools/overview"
+    },
+    "generacion_imagen": {
+     "detalle": "Grok Imagine Image 2.0 (modo Calidad en grok.com/imagine y apps; API grok-imagine-image-2.0)",
+     "estado": "si",
+     "fuente": "https://x.ai/news/grok-imagine-image-2"
+    },
+    "generacion_video": {
+     "detalle": "Grok Imagine Video 1.5 con audio, referencias de imagen y voz, hasta 1080p; en la app la variante Fast. Video requiere plan Premium o superior",
+     "estado": "si",
+     "fuente": "https://x.ai/news/grok-imagine-video-1-5"
+    },
+    "investigacion_profunda": {
+     "detalle": "DeepSearch en la app (desde 2025) y Grok 4.20 multiagente para investigación; nombre y alcance actuales en la app [SUPUESTO]",
+     "estado": "si",
+     "fuente": "https://x.ai/news/grok-3"
+    },
+    "memoria": {
+     "detalle": "Memoria de conversaciones en la app (desde abril de 2025, desactivable); Grok Bot recuerda conversaciones y flujos. Estado 2026 en la app no reverificado",
+     "estado": "si",
+     "fuente": "https://techcrunch.com/2025/04/16/xai-adds-a-memory-feature-to-grok"
+    },
+    "modelos_abiertos": {
+     "detalle": "Pesos de Grok 1 y Grok 2.5 en Hugging Face (licencia restrictiva en Grok 2.5); Grok 3 prometido, no publicado",
+     "estado": "parcial",
+     "fuente": "https://huggingface.co/xai-org"
+    },
+    "razonamiento": {
+     "detalle": "Todos los modelos 4.x razonan con esfuerzo configurable (none/low a xhigh); en la app, modos Think/Auto y multiagente (Grok 4.20)",
+     "estado": "si",
+     "fuente": "https://docs.x.ai/docs/models/grok-4.7"
+    },
+    "uso_computadora": {
+     "detalle": "Grok Bot opera una computadora propia en la nube (macOS e iOS para el cliente); sin herramienta de uso de computadora en la API",
+     "estado": "si",
+     "fuente": "https://x.ai/news/introducing-grok-bot"
+    },
+    "vision_archivos": {
+     "detalle": "Entrada de imagen en todos los modelos de texto; Files API y Collections Search para documentos",
+     "estado": "si",
+     "fuente": "https://docs.x.ai/docs/models"
+    },
+    "voz_tiempo_real": {
+     "detalle": "Modo de voz en la app; API Voice Agent con grok-voice-3.0 (voz a voz), STT y TTS, voces personalizadas",
+     "estado": "si",
+     "fuente": "https://x.ai/news/grok-voice-3"
+    }
+   },
+   "clave": "xai",
+   "hitos": [
+    {
+     "fecha": "2025-11-17",
+     "fuente": "https://x.ai/news/grok-4-1",
+     "titulo": "Lanza Grok 4.1 en grok.com, X y apps"
+    },
+    {
+     "fecha": "2026-01-28",
+     "fuente": "https://x.ai/news/grok-imagine-api",
+     "titulo": "API de Grok Imagine (imagen y video con audio, edición de video)"
+    },
+    {
+     "fecha": "2026-02-02",
+     "fuente": "https://x.ai/news/xai-joins-spacex",
+     "titulo": "SpaceX adquiere xAI"
+    },
+    {
+     "fecha": "2026-03-09",
+     "fuente": "https://docs.x.ai/docs/release-notes",
+     "titulo": "Grok 4.20 y Grok 4.20 Multi-agent en la API (fecha según id del modelo)"
+    },
+    {
+     "fecha": "2026-03-26",
+     "fuente": "https://www.businesstoday.in/technology/story/xai-makes-grok-affordable-with-new-supergrok-lite-plan-check-price-and-what-it-offers-522462-2026-03-26",
+     "titulo": "Plan SuperGrok Lite de 10 USD al mes"
+    },
+    {
+     "fecha": "2026-04-30",
+     "fuente": "https://venturebeat.com/ai/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite/",
+     "titulo": "Grok 4.3, modelo de 1M de contexto a 1.25/2.50 USD (fecha aproximada)"
+    },
+    {
+     "fecha": "2026-05-06",
+     "fuente": "https://x.ai/news/grok-connectors",
+     "titulo": "Conectores y MCP propio en Grok (web, iOS y Android)"
+    },
+    {
+     "fecha": "2026-05-14",
+     "fuente": "https://x.ai/news/grok-build-cli",
+     "titulo": "Grok Build, agente de código en terminal (beta)"
+    },
+    {
+     "fecha": "2026-05-15",
+     "fuente": "https://docs.x.ai/docs/migration/may-15-retirement",
+     "titulo": "Retiro de ocho modelos de la API (Grok 4, 4 Fast, 4.1 Fast, Code Fast 1, Grok 3, Imagine Pro)"
+    },
+    {
+     "fecha": "2026-06-12",
+     "fuente": "https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk",
+     "titulo": "SpaceX sale a bolsa en Nasdaq (SPCX)"
+    },
+    {
+     "fecha": "2026-06-16",
+     "fuente": "https://x.ai/news/grok-imagine-video-1-5",
+     "titulo": "Grok Imagine Video 1.5 disponible en la API; Video 1.5 Fast en la app"
+    },
+    {
+     "fecha": "2026-06-16",
+     "fuente": "https://siliconangle.com/2026/06-16/spacex-acquire-vibe-coding-startup-cursor-60b/",
+     "titulo": "SpaceX acuerda comprar Cursor (Anysphere) por 60 mil millones de USD en acciones"
+    },
+    {
+     "fecha": "2026-07-16",
+     "fuente": "https://x.ai/news/grok-4-5",
+     "titulo": "Lanza Grok 4.5, enfocado en código y agentes"
+    },
+    {
+     "fecha": "2026-07-31",
+     "fuente": "https://x.ai/news/grok-imagine-video-1-5-references",
+     "titulo": "Imagine Video 1.5 con referencias de imagen y voz y 1080p"
+    },
+    {
+     "fecha": "2026-08-07",
+     "fuente": "https://x.ai/news/grok-imagine-image-2",
+     "titulo": "Grok Imagine Image 2.0"
+    },
+    {
+     "fecha": "2026-08-11",
+     "fuente": "https://x.ai/news/introducing-grok-bot",
+     "titulo": "Grok Bot, agentes 24/7 con computadora propia en la nube (beta)"
+    },
+    {
+     "fecha": "2026-08-12",
+     "fuente": "https://x.ai/news/grok-4-6",
+     "titulo": "Lanza Grok 4.6"
+    },
+    {
+     "fecha": "2026-09-21",
+     "fuente": "https://x.ai/news/grok-4-7",
+     "titulo": "Lanza Grok 4.7, modelo más capaz para código y trabajo de conocimiento"
+    },
+    {
+     "fecha": "2026-10-04",
+     "fuente": "https://www.khaleejtimes.com/world/americas/musk-renames-spacexai-to-spacexsi-trumps-super-intelligence",
+     "titulo": "Musk anuncia el cambio de nombre de SpaceXAI a SpaceXSI"
+    },
+    {
+     "fecha": "2026-10-12",
+     "fuente": "https://x.ai/news/x-subscription",
+     "titulo": "The X Subscription: un solo plan para Grok, Grok Bot, Cursor y X Premium (8 a 200 USD)"
+    },
+    {
+     "fecha": "2026-10-14",
+     "fuente": "https://x.ai/news/grok-voice-3",
+     "titulo": "Grok Voice 3.0 en la API Voice Agent"
+    },
+    {
+     "fecha": "2026-11-19",
+     "fuente": "https://docs.x.ai/docs/release-notes",
+     "titulo": "Fin de vida de grok-build-0.1 en la API"
+    }
+   ],
+   "matriz": "SpaceX (Space Exploration Technologies Corp., Nasdaq: SPCX)",
+   "modelos": [
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 500000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/models/grok-4.7",
+     "id": "grok-4.7",
+     "lanzamiento": "2026-09-21",
+     "nombre": "Grok 4.7",
+     "notas": "Modelo más capaz para código y trabajo de conocimiento. Entrada en caché 0.50. Esfuerzo low a xhigh. Variante Grok 4.7 Fast (doble velocidad, doble precio) sólo en Cursor y Grok Build. Salida máxima no publicada [BRECHA DE DATO]. Presencia en la app según Decrypt y Android Headlines, no en fuente oficial",
+     "precio_entrada": 2.0,
+     "precio_salida": 6.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "equilibrado",
+     "contexto_tokens": 500000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/models/grok-4.6",
+     "id": "grok-4.6",
+     "lanzamiento": "2026-08-12",
+     "nombre": "Grok 4.6",
+     "notas": "Enfocado en agentes y tareas largas. Entrada en caché 0.50. Variante fast al doble de precio. El anuncio sólo menciona Cursor, Grok Build y API; presencia en la app no confirmada. Salida máxima no publicada",
+     "precio_entrada": 2.0,
+     "precio_salida": 6.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "codigo",
+     "contexto_tokens": 500000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/models/grok-4.5",
+     "id": "grok-4.5",
+     "lanzamiento": "2026-07-16",
+     "nombre": "Grok 4.5",
+     "notas": "Alias grok-build-latest; fue el modelo por defecto de Grok Build. Entrenado junto con Cursor. Entrada en caché 0.30. Presencia en la app no confirmada. Salida máxima no publicada",
+     "precio_entrada": 2.0,
+     "precio_salida": 6.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "ESTIMADO",
+     "fuente": "https://docs.x.ai/docs/models/grok-4.3",
+     "id": "grok-4.3",
+     "lanzamiento": "2026-04-30",
+     "nombre": "Grok 4.3",
+     "notas": "Modelo económico de 1M de contexto; esfuerzo none a xhigh (low por defecto). Destino de los modelos retirados el 2026-05-15. Fecha de lanzamiento de catálogos de terceros (beta para SuperGrok en abril, GA ~2026-05-06). Salida máxima no publicada",
+     "precio_entrada": 1.25,
+     "precio_salida": 2.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/models/grok-4.20-0309-reasoning",
+     "id": "grok-4.20-0309-reasoning",
+     "lanzamiento": "2026-03-09",
+     "nombre": "Grok 4.20 (razonamiento)",
+     "notas": "Alias grok-4.20 y grok-4.20-reasoning. Fecha tomada del id (0309) y de las notas de versión (marzo). En la app desde la beta de febrero de 2026 [SUPUESTO]. Salida máxima no publicada",
+     "precio_entrada": 1.25,
+     "precio_salida": 2.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 1000000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/models",
+     "id": "grok-4.20-0309-non-reasoning",
+     "lanzamiento": "2026-03-09",
+     "nombre": "Grok 4.20 (sin razonamiento)",
+     "notas": "Variante sin razonamiento de Grok 4.20. Salida máxima no publicada",
+     "precio_entrada": 1.25,
+     "precio_salida": 2.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "razonamiento",
+     "contexto_tokens": 1000000,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/models",
+     "id": "grok-4.20-multi-agent-0309",
+     "lanzamiento": "2026-03-09",
+     "nombre": "Grok 4.20 Multi-agent",
+     "notas": "Varios agentes que debaten en paralelo para investigación profunda; en la app como modo de planes altos [SUPUESTO]. OpenRouter indica que no acepta herramientas propias. Salida máxima no publicada",
+     "precio_entrada": 1.25,
+     "precio_salida": 2.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "codigo",
+     "contexto_tokens": 500000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "retirado",
+     "etiqueta": null,
+     "fuente": "https://docs.x.ai/docs/release-notes",
+     "id": "grok-build-0.1",
+     "lanzamiento": "2026-05-14",
+     "nombre": "Grok Build 0.1",
+     "notas": "Primer modelo propio para el agente Grok Build (acceso anticipado en mayo). Fin de vida en la API el 2026-11-19, aunque aún aparece en la tabla de precios. Recibía las peticiones de grok-code-fast-1",
+     "precio_entrada": 1.0,
+     "precio_salida": 2.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://x.ai/news/grok-imagine-image-2",
+     "id": "grok-imagine-image-2.0",
+     "lanzamiento": "2026-08-07",
+     "nombre": "Grok Imagine Image 2.0",
+     "notas": "0.04 USD por imagen. Hasta cinco imágenes de referencia; variante grok-imagine-image-2.0-low sustituye a grok-imagine-image-quality y -pro (retirados en noviembre de 2026). Modo Calidad en grok.com/imagine",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "imagen"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "imagen",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/models",
+     "id": "grok-imagine-image",
+     "lanzamiento": "2026-01-28",
+     "nombre": "Grok Imagine Image",
+     "notas": "0.02 USD por imagen. Generación previa; fecha asociada al lanzamiento de la API de Imagine",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "imagen"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "video",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "texto",
+      "imagen",
+      "audio"
+     ],
+     "estado": "vigente",
+     "etiqueta": null,
+     "fuente": "https://x.ai/news/grok-imagine-video-1-5",
+     "id": "grok-imagine-video-1.5",
+     "lanzamiento": "2026-06-16",
+     "nombre": "Grok Imagine Video 1.5",
+     "notas": "0.08 USD por segundo. Texto, imagen o referencias a video; desde 2026-07-31 hasta siete imágenes de referencia, referencia de voz y 1080p nativo. En la app se usa Video 1.5 Fast",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "video",
+      "audio"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "video",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "vigente",
+     "etiqueta": "BRECHA",
+     "fuente": "https://docs.x.ai/docs/models",
+     "id": "grok-imagine-video-1.5-lite",
+     "lanzamiento": null,
+     "nombre": "Grok Imagine Video 1.5 Lite",
+     "notas": "0.02 USD por segundo. Aparece en la tabla de precios; no hay anuncio ni fecha en notas de versión. Posible equivalente API de Video 1.5 Fast [SUPUESTO]",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "video"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "video",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "legado",
+     "etiqueta": null,
+     "fuente": "https://x.ai/news/grok-imagine-api",
+     "id": "grok-imagine-video",
+     "lanzamiento": "2026-01-28",
+     "nombre": "Grok Imagine Video 1.0",
+     "notas": "0.05 USD por segundo. Video con audio de 720p hasta 10 s; API de Imagine del 2026-01-28 y Grok Imagine 1.0 en la app el 2026-02-02. Sigue en la tabla de precios",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "video",
+      "audio"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": null,
+     "en_app": true,
+     "entrada": [
+      "audio",
+      "texto"
+     ],
+     "estado": "vigente",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://x.ai/news/grok-voice-3",
+     "id": "grok-voice-3.0",
+     "lanzamiento": "2026-10-14",
+     "nombre": "Grok Voice 3.0",
+     "notas": "Voz a voz para agentes: 0.08 USD por minuto más 0.004 por entrada de texto. Alias grok-voice-latest. Usado en Tesla y en el modo de voz de Grok Bot; uso en la app de Grok [SUPUESTO]",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "audio",
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "audio",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "audio",
+      "texto"
+     ],
+     "estado": "legado",
+     "etiqueta": "ESTIMADO",
+     "fuente": "https://docs.x.ai/docs/release-notes",
+     "id": "grok-voice-2.0",
+     "lanzamiento": "2026-07-01",
+     "nombre": "Grok Voice 2.0",
+     "notas": "Obsoleto desde octubre de 2026; mismo precio que 3.0. Sólo se conoce el mes de lanzamiento (julio)",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "audio",
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "rapido",
+     "contexto_tokens": 2000000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "retirado",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/migration/may-15-retirement",
+     "id": "grok-4-1-fast-reasoning",
+     "lanzamiento": "2025-11-19",
+     "nombre": "Grok 4.1 Fast",
+     "notas": "Retirado el 2026-05-15; el id sigue respondiendo y redirige a grok-4.3 (y se cobra a esa tarifa). Contexto y precio históricos no reverificados",
+     "precio_entrada": 0.2,
+     "precio_salida": 0.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "codigo",
+     "contexto_tokens": 256000,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "retirado",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/migration/may-15-retirement",
+     "id": "grok-code-fast-1",
+     "lanzamiento": "2025-08-28",
+     "nombre": "Grok Code Fast 1",
+     "notas": "Retirado el 2026-05-15; redirigido a grok-build-0.1 según la guía oficial (que a su vez llegó a fin de vida el 2026-11-19). Contexto y precio históricos no reverificados",
+     "precio_entrada": 0.2,
+     "precio_salida": 1.5,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "insignia",
+     "contexto_tokens": 256000,
+     "en_app": false,
+     "entrada": [
+      "texto",
+      "imagen"
+     ],
+     "estado": "retirado",
+     "etiqueta": "SUPUESTO",
+     "fuente": "https://docs.x.ai/docs/migration/may-15-retirement",
+     "id": "grok-4-0709",
+     "lanzamiento": "2025-07-09",
+     "nombre": "Grok 4",
+     "notas": "Retirado el 2026-05-15 junto con grok-4-fast, grok-3 y grok-imagine-image-pro; redirige a grok-4.3. Contexto y precio históricos no reverificados",
+     "precio_entrada": 3.0,
+     "precio_salida": 15.0,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    },
+    {
+     "categoria": "abierto",
+     "contexto_tokens": null,
+     "en_app": false,
+     "entrada": [
+      "texto"
+     ],
+     "estado": "legado",
+     "etiqueta": "ESTIMADO",
+     "fuente": "https://huggingface.co/xai-org/grok-2",
+     "id": "xai-org/grok-2",
+     "lanzamiento": "2025-08-23",
+     "nombre": "Grok 2.5 (pesos abiertos)",
+     "notas": "Pesos descargables en Hugging Face con licencia de uso restringido; última actualización 2025-11-05. Grok 3 abierto anunciado en febrero de 2026 sin publicarse. Fecha de lanzamiento aproximada",
+     "precio_entrada": null,
+     "precio_salida": null,
+     "salida": [
+      "texto"
+     ],
+     "salida_max_tokens": null
+    }
+   ],
+   "pendientes": [
+    "Grok 5: no hay lanzamiento confirmado al 2026-11-23; Musk lo ubica antes de fin de 2026 y anunció Grok 4.8 y 4.9 antes [SUPUESTO].",
+    "Qué modelos usa hoy la app de Grok (selector de modelos) y si 4.5 y 4.6 estuvieron en grok.com; x.ai y grok.com bloquean la lectura automática.",
+    "Salida máxima (max output) de los modelos de texto: docs.x.ai no la publica.",
+    "Cierre de la compra de Cursor por SpaceX: unas fuentes dicen que cerró en agosto de 2026, otras que seguía pendiente.",
+    "Precios vigentes de planes legados (SuperGrok Lite, Plus, Heavy; X Premium y Premium+) sólo de terceros o App Store.",
+    "grok-imagine-video-1.5-lite: sin anuncio ni fecha; id de API de Grok 4.7 Fast no publicado.",
+    "Nombre legal de la entidad: la página oficial usa SpaceX Super Intelligence LLC; confirmar si xAI sigue como marca o desaparece."
+   ],
+   "proveedor": "SpaceXSI (SpaceX Super Intelligence LLC, antes xAI)",
+   "sitio_novedades": "https://x.ai/news",
+   "verificado": "2026-11-23"
+  }
+ }
+}

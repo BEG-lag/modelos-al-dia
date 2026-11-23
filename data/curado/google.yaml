@@ -1,0 +1,649 @@
+# Ficha curada de Google (Gemini). Formato: data/curado/_ejemplo.yaml.
+# Precios en USD. Precios de API en USD por millón de tokens, nivel Standard de pago.
+# Nota: la documentación de la API Gemini se mudó de ai.google.dev/gemini-api/docs a
+# aistudio.google.com/docs (redirección 301); las fuentes usan la URL nueva.
+
+clave: google
+proveedor: Google (Google DeepMind)
+matriz: Alphabet
+verificado: 2026-11-23
+sitio_novedades: https://blog.google/innovation-and-ai/models-and-research/gemini-models/
+
+app:
+  nombre: Gemini
+  url: https://gemini.google.com
+  planes:
+    - nombre: Gratis
+      precio_usd_mes: 0
+      incluye: "Gemini 4 Hydrogen con selección automática de modelo, Deep Research, Gemini Live, Canvas, generación de imagen, Gemini Notebook, límites básicos semanales en Google Antigravity, 15 GB"
+      fuente: https://gemini.google/us/subscriptions/?hl=en
+    - nombre: Google AI Plus
+      precio_usd_mes: 4.99
+      incluye: "Gemini 4 Hydrogen con 2x el uso de Gratis, generación de video (Gemini Omni), Google Flow (200 créditos), Gemini en Chrome con auto browse, Gemini en apps de Google, 400 GB. Bajó de 7.99 a 4.99 en junio de 2026"
+      fuente: https://gemini.google/us/subscriptions/?hl=en
+    - nombre: Google AI Pro
+      precio_usd_mes: 19.99
+      incluye: "Gemini 4 Neon y Hydrogen, Gemini 3.1 Pro, Deep Research, contexto de 1M, 4x el uso de Gratis, Flow (1,000 créditos), auto browse ampliado en Chrome, Antigravity con límites de entrada, Tasks en Gemini, 5 TB"
+      fuente: https://gemini.google/us/subscriptions/?hl=en
+    - nombre: Google AI Ultra (5x)
+      precio_usd_mes: 99.99
+      incluye: "Máximo acceso a Gemini 4 Carbon, Neon y Hydrogen; 5x los límites de AI Pro en la app y Antigravity; Veo 3.1; acceso anticipado a Agent Mode; Gemini Spark (beta, sólo EE.UU.); Flow (10,000 créditos); YouTube Premium; 20 TB. Nivel creado en I/O 2026 (19 may 2026)"
+      fuente: https://gemini.google/us/subscriptions/?hl=en
+    - nombre: Google AI Ultra (20x)
+      precio_usd_mes: 199.99
+      incluye: "Todo lo de Ultra 5x con 20x los límites de AI Pro, Project Genie, Flow (25,000 créditos), 30 TB. Bajó de 249.99 a 199.99 en I/O 2026"
+      fuente: https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/
+
+# Valores de `estado`: si | parcial | no | brecha
+capacidades:
+  razonamiento:          {estado: si, detalle: "Niveles de pensamiento en Gemini 4 (low, medium, high; Neon y Hydrogen agregan xhigh). Deep Think: último anuncio oficial es la actualización de Gemini 3 Deep Think (12 feb 2026, sólo Ultra); la página de planes vigente ya no lo menciona [BRECHA DE DATO]", fuente: "https://gemini.google/release-notes/"}
+  busqueda_web:          {estado: si, detalle: "Búsqueda de Google integrada en la app; en la API, grounding con Google Search y Google Maps", fuente: "https://aistudio.google.com/docs/models/gemini-4-carbon"}
+  investigacion_profunda: {estado: si, detalle: "Deep Research en la app desde el plan Gratis; en la API, agentes deep-research-preview-04-2026 y deep-research-max-preview-04-2026 (Interactions API)", fuente: "https://aistudio.google.com/docs/changelog"}
+  generacion_imagen:     {estado: si, detalle: "Nano Banana (2.1, 2, Pro y 2 Lite) en app, Flow, Google Pics y API", fuente: "https://aistudio.google.com/docs/models"}
+  generacion_video:      {estado: si, detalle: "Gemini Omni Flash en app y Flow desde AI Plus; Veo 3.1 en Ultra. En la API: gemini-omni-1.2-flash y genie-4; Veo 3.1 preview se retiró de la API Gemini el 22 oct 2026 (sigue en Gemini Enterprise Agent Platform)", fuente: "https://aistudio.google.com/docs/video"}
+  voz_tiempo_real:       {estado: si, detalle: "Gemini Live (voz y cámara, integrado en el chat desde I/O 2026); API Live con gemini-3.8-live", fuente: "https://gemini.google/release-notes/"}
+  vision_archivos:       {estado: si, detalle: "Texto, imagen, video, audio, PDF y, desde nov 2026, archivos de Office y OpenDocument (DOC, PPT, ODP, ODS)", fuente: "https://aistudio.google.com/docs/changelog"}
+  memoria:               {estado: si, detalle: "Memories (antes past chats), importación de memorias de otras apps (mar 2026), menú Personalize y Personal Intelligence con Gmail y Photos", fuente: "https://gemini.google/release-notes/"}
+  agente_navegador:      {estado: si, detalle: "Gemini en Chrome con auto browse (AI Plus, Pro y Ultra; empezó en EE.UU. en ene 2026); Agent Mode en acceso anticipado para Ultra. Project Mariner cerrado en mayo 2026 según reportes [SUPUESTO]", fuente: "https://gemini.google/us/subscriptions/?hl=en"}
+  uso_computadora:       {estado: si, detalle: "Computer Use GA en la API (30 oct 2026) en Gemini 4 y 3.x Flash; en consumo, Gemini Spark en macOS (Ultra) y Tasks en Gemini", fuente: "https://aistudio.google.com/docs/changelog"}
+  agente_codigo:         {estado: si, detalle: "Google Antigravity 2.0 (escritorio, CLI, SDK y dentro de la app de Gemini para macOS). Gemini CLI migró a Antigravity CLI (acceso de consumo terminó 18 jun 2026). Jules cierra el 31 dic 2026 (sólo lectura desde 11 nov 2026)", fuente: "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"}
+  ejecucion_codigo:      {estado: si, detalle: "Herramienta de ejecución de código en la API; Canvas en la app", fuente: "https://aistudio.google.com/docs/models/gemini-4-carbon"}
+  conectores_mcp:        {estado: parcial, detalle: "App: más de 40 apps conectadas y Connected Apps Platform basada en MCP en vista previa por solicitud; apps personalizadas por URL de servidor MCP remoto según reportes [SUPUESTO]. MCP pleno en Antigravity y Gemini Enterprise", fuente: "https://developers.google.com/connected-apps/mcp"}
+  modelos_abiertos:      {estado: si, detalle: "Gemma 4 (E2B, E4B, 12B Unified, 26B A4B MoE, 31B) con licencia Apache 2.0", fuente: "https://gemma.ai/models/gemma-4/model-card/"}
+
+# Categorías: insignia | razonamiento | equilibrado | rapido | codigo | imagen | video | audio | abierto | embeddings
+modelos:
+  # Gemini 4
+  - id: gemini-4-carbon
+    nombre: Gemini 4 Carbon
+    categoria: insignia
+    lanzamiento: 2026-11-10
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 2.0
+    precio_salida: 10.0
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo más capaz de Google. Precio introductorio hasta el 30 nov 2026; desde el 1 dic 2026 sube a 4.00 / 20.00. Sin escalones por longitud de prompt. Salida de 65,536 por defecto, hasta 1M con long decode. Anunciado el 28 oct 2026 sólo para ciberdefensores (programa Fairwind); GA el 10 nov. En la app sólo para AI Ultra"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+    etiqueta: null
+  - id: gemini-4-neon
+    nombre: Gemini 4 Neon
+    categoria: equilibrado
+    lanzamiento: 2026-11-18
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 3.0
+    precio_salida: 15.0
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Punto medio entre Carbon y Hydrogen para ingeniería de software, trabajo de conocimiento y ciencia. Cuatro niveles de pensamiento (hasta xhigh). Precio plano en todo el contexto; caché 0.15. Salida hasta 1M con long decode. En la app para AI Pro y Ultra"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+    etiqueta: null
+  - id: gemini-4-argon
+    nombre: Gemini 4 Argon
+    categoria: razonamiento
+    lanzamiento: 2026-10-13
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 2.0
+    precio_salida: 10.0
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Modelo de razonamiento de frontera más eficiente que Carbon. Anunciado el 30 sep 2026 (Fairwind), GA el 13 oct. Precio sube a 4.00 / 20.00 el 1 dic 2026. Llegó a la app para Pro y Ultra en oct 2026, pero la página de planes vigente ya no lo lista; reportes dicen que Neon lo reemplazó en el selector (en_app false es supuesto)"
+    fuente: https://aistudio.google.com/docs/models/gemini-4-argon
+    etiqueta: SUPUESTO
+  - id: gemini-4-hydrogen
+    nombre: Gemini 4 Hydrogen
+    categoria: equilibrado
+    lanzamiento: 2026-11-12
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 1.5
+    precio_salida: 7.5
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo de uso diario para código y flujos agénticos; modelo base del plan Gratis y del agente de Antigravity. Precio plano en 1M de contexto; también en el nivel gratuito de la API"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
+    etiqueta: null
+  # Gemini 3.x
+  - id: gemini-3.8-flash
+    nombre: Gemini 3.8 Flash
+    categoria: rapido
+    lanzamiento: 2026-09-02
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 0.75
+    precio_salida: 3.75
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Flash más capaz. Precio introductorio hasta el 31 dic 2026; desde el 1 ene 2027 sube a 1.50 / 7.50. Recibe el tráfico de gemini-3.7-flash (deprecado 8 oct 2026) y, desde el 1 dic 2026, el de gemini-2.5-pro. No aparece en la página de planes de la app"
+    fuente: https://aistudio.google.com/docs/models/gemini-3.8-flash
+    etiqueta: null
+  - id: gemini-3.6-flash
+    nombre: Gemini 3.6 Flash
+    categoria: rapido
+    lanzamiento: 2026-07-21
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 0.75
+    precio_salida: 3.75
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Generación anterior de Flash, sigue disponible. Mismo esquema de precio que 3.8 Flash (sube a 1.50 / 7.50 el 1 ene 2027). Recibe el tráfico de gemini-3.5-flash. Fue modelo de la app en julio 2026; hoy la página de planes no lo lista"
+    fuente: https://aistudio.google.com/docs/models/gemini-3.6-flash
+    etiqueta: null
+  - id: gemini-3.5-flash
+    nombre: Gemini 3.5 Flash
+    categoria: rapido
+    lanzamiento: 2026-05-19
+    estado: retirado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Presentado en I/O 2026 como modelo por defecto de la app y de AI Mode. Deprecado el 8 oct 2026; las llamadas se redirigen a gemini-3.6-flash. Ya no se publican sus límites ni precio. Gemini 3.5 Pro se prometió para junio 2026 y nunca salió de forma general"
+    fuente: https://aistudio.google.com/docs/changelog
+    etiqueta: BRECHA
+  - id: gemini-3.5-flash-lite
+    nombre: Gemini 3.5 Flash-Lite
+    categoria: rapido
+    lanzamiento: 2026-07-21
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 0.3
+    precio_salida: 2.5
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Baja latencia y alto volumen (subagentes, extracción). Precio igual para texto, imagen, video y audio; caché 0.03. Recibe el tráfico de gemini-2.5-flash desde el 1 dic 2026"
+    fuente: https://aistudio.google.com/docs/models/gemini-3.5-flash-lite
+    etiqueta: null
+  - id: gemini-3.1-flash-lite
+    nombre: Gemini 3.1 Flash-Lite
+    categoria: rapido
+    lanzamiento: 2026-05-07
+    estado: vigente
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 0.25
+    precio_salida: 1.5
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "GA el 7 may 2026 (preview desde 3 mar 2026). Entrada de audio a 0.50"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: null
+  - id: gemini-3.1-pro-preview
+    nombre: Gemini 3.1 Pro (preview)
+    categoria: razonamiento
+    lanzamiento: 2026-02-19
+    estado: preliminar
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 2.0
+    precio_salida: 12.0
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Escalón base para prompts de hasta 200k tokens; arriba de 200k cuesta 4.00 entrada / 18.00 salida. Variante gemini-3.1-pro-preview-customtools. Nunca pasó a GA; gemini-3-pro-preview (18 nov 2025) se apagó el 9 mar 2026 y apunta aquí. Listado en planes Pro y Ultra de la app"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: null
+  - id: gemini-3-flash-preview
+    nombre: Gemini 3 Flash (preview)
+    categoria: rapido
+    lanzamiento: 2025-12-17
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 0.5
+    precio_salida: 3.0
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Fue modelo por defecto de la app desde dic 2025. Sigue en la lista de modelos como preview. Entrada de audio a 1.00. Límites de contexto no verificados en esta revisión"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: BRECHA
+  # Gemini 2.5 (legado)
+  - id: gemini-2.5-pro
+    nombre: Gemini 2.5 Pro
+    categoria: razonamiento
+    lanzamiento: 2025-06-17
+    estado: legado
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 1.25
+    precio_salida: 10.0
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Deprecado el 2 nov 2026; desde el 1 dic 2026 las llamadas se redirigen a gemini-3.8-flash. Escalón base hasta 200k tokens; arriba cuesta 2.50 / 15.00. Acceso limitado a usuarios con uso reciente desde 18 sep 2026"
+    fuente: https://aistudio.google.com/docs/changelog
+    etiqueta: null
+  - id: gemini-2.5-flash
+    nombre: Gemini 2.5 Flash
+    categoria: rapido
+    lanzamiento: 2025-06-17
+    estado: legado
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 0.3
+    precio_salida: 2.5
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Deprecado el 2 nov 2026; desde el 1 dic 2026 se redirige a gemini-3.5-flash-lite. Entrada de audio a 1.00"
+    fuente: https://aistudio.google.com/docs/changelog
+    etiqueta: null
+  - id: gemini-2.5-flash-lite
+    nombre: Gemini 2.5 Flash-Lite
+    categoria: rapido
+    lanzamiento: 2025-07-22
+    estado: legado
+    contexto_tokens: 1048576
+    salida_max_tokens: 65536
+    precio_entrada: 0.1
+    precio_salida: 0.4
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "No deprecado, pero con acceso limitado a usuarios con uso reciente desde 18 sep 2026. Entrada de audio a 0.30"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: null
+  # Imagen
+  - id: gemini-nano-banana-2.1
+    nombre: Nano Banana 2.1
+    categoria: imagen
+    lanzamiento: 2026-10-06
+    estado: vigente
+    contexto_tokens: 131072
+    salida_max_tokens: 32768
+    precio_entrada: 1.5
+    precio_salida: 30.0
+    entrada: [texto, imagen, video, pdf]
+    salida: [imagen, texto]
+    en_app: true
+    notas: "precio_salida es por tokens de imagen; texto y pensamiento cuestan 7.50. Por imagen: 0.0336 (1K), 0.0504 (2K), 0.113 (4K). La app usa Nano Banana, pero no se confirmó que sea esta versión"
+    fuente: https://aistudio.google.com/docs/models/gemini-nano-banana-2.1
+    etiqueta: SUPUESTO
+  - id: gemini-3-pro-image
+    nombre: Nano Banana Pro
+    categoria: imagen
+    lanzamiento: 2026-05-28
+    estado: vigente
+    contexto_tokens: 65536
+    salida_max_tokens: 32768
+    precio_entrada: 2.0
+    precio_salida: 120.0
+    entrada: [texto, imagen]
+    salida: [imagen, texto]
+    en_app: true
+    notas: "GA el 28 may 2026 (preview desde 20 nov 2025). precio_salida por tokens de imagen; texto 12.00. Por imagen: 0.134 (1K/2K), 0.24 (4K). Plan Gratis lo menciona con acceso limitado en Flow"
+    fuente: https://aistudio.google.com/docs/models/gemini-3-pro-image
+    etiqueta: null
+  - id: gemini-3.1-flash-image
+    nombre: Nano Banana 2
+    categoria: imagen
+    lanzamiento: 2026-05-28
+    estado: legado
+    contexto_tokens: 131072
+    salida_max_tokens: 32768
+    precio_entrada: 0.5
+    precio_salida: 60.0
+    entrada: [texto, imagen, video, pdf]
+    salida: [imagen, texto]
+    en_app: false
+    notas: "GA el 28 may 2026 (preview desde 26 feb 2026). Deprecado el 6 oct 2026 a favor de Nano Banana 2.1, sin fecha de apagado. precio_salida por tokens de imagen; por imagen 0.067 (1K) a 0.151 (4K)"
+    fuente: https://aistudio.google.com/docs/changelog
+    etiqueta: null
+  - id: gemini-3.1-flash-lite-image
+    nombre: Nano Banana 2 Lite
+    categoria: imagen
+    lanzamiento: 2026-06-30
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 0.25
+    precio_salida: 30.0
+    entrada: [texto, imagen, video]
+    salida: [imagen, texto]
+    en_app: false
+    notas: "precio_salida por tokens de imagen (0.0336 por imagen 1K); texto 1.50. Límites de contexto no verificados"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: BRECHA
+  # Video y mundos
+  - id: gemini-omni-1.2-flash
+    nombre: Gemini Omni Flash 1.2
+    categoria: video
+    lanzamiento: 2026-11-05
+    estado: vigente
+    contexto_tokens: 131072
+    salida_max_tokens: 65536
+    precio_entrada: 1.5
+    precio_salida: 12.0
+    entrada: [texto, imagen, video]
+    salida: [video, audio, texto]
+    en_app: true
+    notas: "Generación y edición conversacional de video de 3 a 15 s, 360p a 4K, con audio nativo. precio_salida por tokens de video (unos 0.07 USD por segundo a 720p); texto 9.00. gemini-omni-1.1-flash se redirige aquí el 3 dic 2026. Omni Flash está en la app desde AI Plus; versión exacta en la app no confirmada"
+    fuente: https://aistudio.google.com/docs/models/gemini-omni-flash
+    etiqueta: null
+  - id: veo-3.1-generate-preview
+    nombre: Veo 3.1 (preview)
+    categoria: video
+    lanzamiento: 2025-10-15
+    estado: retirado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [video, audio]
+    en_app: true
+    notas: "Veo 3.1, 3.1 Fast y 3.1 Lite preview se retiraron de la API Gemini el 22 oct 2026; Veo GA sigue en Gemini Enterprise Agent Platform. En la app, Veo 3.1 sigue listado para AI Ultra. Se cobraba por segundo, no por tokens"
+    fuente: https://aistudio.google.com/docs/video
+    etiqueta: null
+  - id: genie-4
+    nombre: Genie 4
+    categoria: video
+    lanzamiento: 2026-11-19
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 1.5
+    precio_salida: 17.5
+    entrada: [texto, imagen]
+    salida: [video, audio]
+    en_app: false
+    notas: "Mundos interactivos en tiempo real (24 fps, 16:9, audio estéreo) por WebRTC/WebSockets. precio_salida por tokens de video con audio (unos 0.10 USD por segundo); texto 9.00. En consumo existe Project Genie para Ultra 20x"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: null
+  # Audio
+  - id: gemini-3.8-live
+    nombre: Gemini 3.8 Live
+    categoria: audio
+    lanzamiento: 2026-09-15
+    estado: vigente
+    contexto_tokens: 131072
+    salida_max_tokens: 65536
+    precio_entrada: 3.0
+    precio_salida: 12.0
+    entrada: [texto, imagen, audio]
+    salida: [texto, audio]
+    en_app: true
+    notas: "Voz a voz de baja latencia para la Live API. Precios de audio; texto cuesta 0.75 entrada / 4.50 salida. Variante gemini-3.8-live-extended-thinking. Que Gemini Live en la app use este modelo es supuesto"
+    fuente: https://aistudio.google.com/docs/models/gemini-3.8-live
+    etiqueta: SUPUESTO
+  - id: gemini-3.8-flash-tts
+    nombre: Gemini 3.8 Flash TTS
+    categoria: audio
+    lanzamiento: 2026-09-22
+    estado: vigente
+    contexto_tokens: 8192
+    salida_max_tokens: 16384
+    precio_entrada: 0.5
+    precio_salida: 9.0
+    entrada: [texto]
+    salida: [audio]
+    en_app: false
+    notas: "Texto a voz, más de 130 idiomas, diseño y réplica de voz. Precio hasta el 31 dic 2026; desde el 1 ene 2027 sube a 1.00 / 18.00. Existe gemini-3.8-flash-lite-tts (0.50 / 6.00)"
+    fuente: https://aistudio.google.com/docs/models/gemini-3.8-flash-tts
+    etiqueta: null
+  - id: gemini-3.5-transcribe
+    nombre: Gemini 3.5 Transcribe
+    categoria: audio
+    lanzamiento: 2026-08-26
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 2.0
+    precio_salida: 12.0
+    entrada: [audio]
+    salida: [texto]
+    en_app: false
+    notas: "Voz a texto (unos 0.003 USD por minuto de audio). Variante gemini-3.5-transcribe-live (3.50 / 21.00). Límites no verificados"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: BRECHA
+  - id: lyria-3.5
+    nombre: Lyria 3.5
+    categoria: audio
+    lanzamiento: 2026-09-03
+    estado: vigente
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto]
+    salida: [audio]
+    en_app: false
+    notas: "Música: canciones completas a 0.08 USD por canción (no se cobra por tokens). Sucede a lyria-3-clip-preview y lyria-3-pro-preview (25 mar 2026)"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: null
+  # Agentes en la API
+  - id: deep-research-preview-04-2026
+    nombre: Deep Research (agente)
+    categoria: razonamiento
+    lanzamiento: 2026-04-21
+    estado: preliminar
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Agente de investigación en la Interactions API; variante deep-research-max-preview-04-2026. Se cobra a tarifa del modelo Gemini subyacente más herramientas. Sucede a deep-research-pro-preview-12-2025 (apagado 23 oct 2026). Modalidades de entrada no verificadas"
+    fuente: https://aistudio.google.com/docs/changelog
+    etiqueta: SUPUESTO
+  - id: antigravity-preview-09-2026
+    nombre: Antigravity Agent
+    categoria: codigo
+    lanzamiento: 2026-09-17
+    estado: preliminar
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto]
+    salida: [texto]
+    en_app: false
+    notas: "Agente gestionado con sandbox (Managed Agents). Se cobra a tarifa del modelo (por defecto Gemini 4 Hydrogen); el cómputo del entorno no se cobra en preview. Sustituye a antigravity-preview-05-2026"
+    fuente: https://aistudio.google.com/docs/changelog
+    etiqueta: null
+  # Embeddings
+  - id: gemini-embedding-2
+    nombre: Gemini Embedding 2
+    categoria: embeddings
+    lanzamiento: 2026-04-22
+    estado: vigente
+    contexto_tokens: 8192
+    salida_max_tokens: null
+    precio_entrada: 0.2
+    precio_salida: null
+    entrada: [texto, imagen, video, audio, pdf]
+    salida: [embedding]
+    en_app: false
+    notas: "Multimodal, dimensiones de 128 a 3072. Precio de texto; imagen 0.45, audio 6.50, video 12.00 por millón. gemini-embedding-2-preview se redirige aquí desde nov 2026"
+    fuente: https://aistudio.google.com/docs/models/gemini-embedding-2
+    etiqueta: null
+  - id: gemini-embedding-001
+    nombre: Gemini Embedding
+    categoria: embeddings
+    lanzamiento: 2025-07-14
+    estado: legado
+    contexto_tokens: null
+    salida_max_tokens: null
+    precio_entrada: 0.15
+    precio_salida: null
+    entrada: [texto]
+    salida: [embedding]
+    en_app: false
+    notas: "Sólo texto. Sigue listado. Límite de entrada no verificado en esta revisión"
+    fuente: https://aistudio.google.com/docs/pricing
+    etiqueta: BRECHA
+  # Modelos abiertos
+  - id: gemma-4-31b-it
+    nombre: Gemma 4 31B
+    categoria: abierto
+    lanzamiento: 2026-04-02
+    estado: vigente
+    contexto_tokens: 262144
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Denso, Apache 2.0. Ficha oficial indica contexto de 256K (262144 es la conversión). En la API Gemini sólo en nivel gratuito; sin precio de pago. Familia: E2B y E4B (128K, con audio), 12B Unified (256K, con audio, 3 jun 2026), 26B A4B"
+    fuente: https://gemma.ai/models/gemma-4/model-card/
+    etiqueta: ESTIMADO
+  - id: gemma-4-26b-a4b-it
+    nombre: Gemma 4 26B A4B
+    categoria: abierto
+    lanzamiento: 2026-04-02
+    estado: vigente
+    contexto_tokens: 262144
+    salida_max_tokens: null
+    precio_entrada: null
+    precio_salida: null
+    entrada: [texto, imagen]
+    salida: [texto]
+    en_app: false
+    notas: "Mezcla de expertos con 4B activos, Apache 2.0. Contexto 256K según ficha oficial (262144 es la conversión). Sólo nivel gratuito en la API Gemini"
+    fuente: https://gemma.ai/models/gemma-4/model-card/
+    etiqueta: ESTIMADO
+
+hitos:
+  - fecha: 2025-11-18
+    titulo: "Gemini 3 Pro (preview) en API y app, primer modelo de la serie 3"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2025-11-20
+    titulo: "Nano Banana Pro (gemini-3-pro-image-preview)"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2025-12-04
+    titulo: "Gemini 3 Deep Think en la app para AI Ultra"
+    fuente: https://gemini.google/release-notes/
+  - fecha: 2025-12-11
+    titulo: "Interactions API y agente Deep Research en preview en la API"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2025-12-17
+    titulo: "Gemini 3 Flash, nuevo modelo por defecto de la app"
+    fuente: https://gemini.google/release-notes/
+  - fecha: 2026-01-27
+    titulo: "Google AI Plus llega a EE.UU. a 7.99 USD al mes"
+    fuente: https://techcrunch.com/2026/01/27/googles-ai-plus-plan-rolls-out-to-all-markets-including-the-u-s
+  - fecha: 2026-01-28
+    titulo: "Auto browse de Gemini en Chrome (preview, AI Pro y Ultra en EE.UU.)"
+    fuente: https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/
+  - fecha: 2026-02-12
+    titulo: "Actualización de Gemini 3 Deep Think para ciencia e ingeniería"
+    fuente: https://gemini.google/release-notes/
+  - fecha: 2026-02-19
+    titulo: "Gemini 3.1 Pro (preview)"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-02-26
+    titulo: "Nano Banana 2 (gemini-3.1-flash-image-preview)"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-03-25
+    titulo: "Lyria 3 para música en la API"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-04-02
+    titulo: "Gemma 4 (E2B, E4B, 26B A4B, 31B) con licencia Apache 2.0"
+    fuente: https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/
+  - fecha: 2026-04-15
+    titulo: "App nativa de Gemini para Mac"
+    fuente: https://gemini.google/release-notes/
+  - fecha: 2026-04-21
+    titulo: "Nuevos agentes Deep Research y Deep Research Max en la API"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-05-19
+    titulo: "I/O 2026: Gemini 3.5 Flash, Gemini Omni (video), Gemini Spark y Antigravity 2.0"
+    fuente: https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/
+  - fecha: 2026-05-19
+    titulo: "Nuevo AI Ultra de 99.99 USD y baja del Ultra superior de 249.99 a 199.99 USD"
+    fuente: https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/
+  - fecha: 2026-05-19
+    titulo: "Gemini CLI migra a Antigravity CLI (acceso de consumo termina el 18 jun 2026)"
+    fuente: https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
+  - fecha: 2026-06-08
+    titulo: "AI Plus baja a 4.99 USD y duplica almacenamiento a 400 GB"
+    fuente: https://9to5google.com/2026/06/08/google-ai-plus-price-drop/
+  - fecha: 2026-06-30
+    titulo: "Gemini Omni Flash en preview en la API; Nano Banana 2 Lite GA"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-07-21
+    titulo: "Gemini 3.6 Flash y 3.5 Flash-Lite GA"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-09-02
+    titulo: "Gemini 3.8 Flash GA"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-09-15
+    titulo: "Gemini 3.8 Live GA para la Live API"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-09-30
+    titulo: "Anuncio de Gemini 4 Argon para ciberdefensores (programa Fairwind)"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+  - fecha: 2026-10-06
+    titulo: "Nano Banana 2.1 GA"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-10-13
+    titulo: "Gemini 4 Argon GA en API, app (Pro y Ultra) y AI Mode"
+    fuente: https://gemini.google/release-notes/
+  - fecha: 2026-10-22
+    titulo: "Veo 3.1 preview se retira de la API Gemini"
+    fuente: https://aistudio.google.com/docs/video
+  - fecha: 2026-10-28
+    titulo: "Anuncio de Gemini 4 Carbon para ciberdefensores"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+  - fecha: 2026-10-29
+    titulo: "Google anuncia el cierre de Jules (31 dic 2026) y su integración en Antigravity"
+    fuente: https://jules.google/docs/changelog/
+  - fecha: 2026-10-30
+    titulo: "Computer Use GA en la API Gemini"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-11-02
+    titulo: "Gemini 2.5 Pro y 2.5 Flash deprecados (redirección el 1 dic 2026)"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-11-05
+    titulo: "Gemini Omni Flash 1.2 GA (videos de hasta 15 s, 30% más barato)"
+    fuente: https://aistudio.google.com/docs/changelog
+  - fecha: 2026-11-10
+    titulo: "Gemini 4 Carbon disponible en API, app (Ultra), AI Mode y Antigravity"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+  - fecha: 2026-11-12
+    titulo: "Gemini 4 Hydrogen, nuevo modelo base para todos"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/
+  - fecha: 2026-11-17
+    titulo: "Tasks en Gemini gratis en seis países, con llamadas a negocios y pagos con Google Pay"
+    fuente: https://gemini.google/release-notes/
+  - fecha: 2026-11-18
+    titulo: "Gemini 4 Neon para AI Pro y Ultra y en la API"
+    fuente: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+  - fecha: 2026-11-19
+    titulo: "Genie 4 GA en la API (mundos interactivos en tiempo real)"
+    fuente: https://aistudio.google.com/docs/changelog
+
+pendientes:
+  - "Deep Think: no hay anuncio oficial posterior a Gemini 3 Deep Think (12 feb 2026) y la página de planes vigente no lo menciona; confirmar si sigue en Ultra o si lo absorbió Gemini 4 Carbon"
+  - "Precios de planes: la página de EE.UU. muestra un banner de Black Friday ('ahorra hasta 50%'); los precios listados no muestran tachado, se asumen precios regulares"
+  - "Gemini 4 Argon: confirmar si sigue en el selector de la app tras la llegada de Neon"
+  - "Versiones exactas de modelos en la app (Nano Banana, Omni Flash, modelo de Gemini Live) no confirmadas"
+  - "Project Mariner: cierre en mayo 2026 sólo confirmado por prensa (androidheadlines), no por fuente oficial"
+  - "MCP en la app de consumo: apps personalizadas por URL MCP sólo confirmadas por prensa; la página oficial de Connected Apps Platform no dice si es preview o GA"
+  - "Gemini 3.5 Pro nunca salió de forma general; no hay comunicado oficial de cancelación"
+  - "Límites de contexto no verificados: gemini-3-flash-preview, gemini-3.1-flash-lite-image, gemini-3.5-transcribe, gemini-embedding-001"

@@ -1,0 +1,401 @@
+# Ficha curada de Anthropic (data/curado/anthropic.yaml).
+# Verificada el 2026-11-23 contra fuentes oficiales: platform.claude.com (models overview, pricing,
+# model deprecations), anthropic.com/news, claude.com/pricing y support.claude.com (notas de versión).
+# Fechas de lanzamiento de modelos 2026: notas de versión de support.claude.com y anuncios oficiales.
+# Precios en USD. Precios de API en USD por millón de tokens.
+
+clave: anthropic
+proveedor: Anthropic PBC
+matriz: null
+verificado: 2026-11-23
+sitio_novedades: https://www.anthropic.com/news
+
+app:
+  nombre: Claude
+  url: https://claude.ai
+  planes:
+    - nombre: Gratis
+      precio_usd_mes: 0
+      incluye: "Uso limitado cada 5 horas y por semana; Sonnet y Haiku, búsqueda web, creación de archivos, ejecución de código, memoria, conectores, Artifacts, Claude Design/Slides/Docs y hasta 5 Proyectos. Sin Opus, Research ni Claude Code"
+      fuente: https://claude.com/pricing
+    - nombre: Pro
+      precio_usd_mes: 20
+      incluye: "17 USD/mes con pago anual (200 USD por adelantado). Más uso que Gratis, Opus y más modelos, Research, memoria, Claude Code, Claude in Chrome, Microsoft 365, tareas programadas; Fable con créditos de uso o cupo parcial (ver pendientes)"
+      fuente: https://claude.com/pricing
+    - nombre: Max
+      precio_usd_mes: 100
+      incluye: "Antes Max 5x. Todo lo de Pro, 5x el uso de Pro, Fable hasta la mitad del límite semanal, 100 USD/mes en créditos de API, acceso anticipado y prioridad en horas pico"
+      fuente: https://claude.com/pricing
+    - nombre: Ultra
+      precio_usd_mes: 200
+      incluye: "Antes Max 20x. Todo lo de Max, sin límite de 5 horas para cuentas verificadas, 10x el uso semanal de Pro y 200 USD/mes en créditos de API"
+      fuente: https://claude.com/pricing
+    - nombre: Team (asiento Standard)
+      precio_usd_mes: 25
+      incluye: "Por asiento; 20 USD con pago anual. 2 a 150 usuarios. Todas las funciones con más uso que Pro: Claude Code, Cowork, Design/Slides/Docs, Microsoft 365, Claude Tag (Slack); hasta 500 USD/mes de créditos de API compartidos"
+      fuente: https://claude.com/pricing
+    - nombre: Team (asiento Premium)
+      precio_usd_mes: 125
+      incluye: "Por asiento; 100 USD con pago anual. 5x el uso del asiento Standard y Fable hasta 50% del límite semanal; se pueden mezclar tipos de asiento"
+      fuente: https://claude.com/pricing
+    - nombre: Enterprise
+      precio_usd_mes: 20
+      incluye: "20 USD por asiento al mes con pago anual (mínimo 20 asientos) más el uso a tarifas de API. Todo lo de Team, SCIM, bitácoras de auditoría, Compliance API, retención personalizada, opción HIPAA, Claude Security (beta). Versión autoservicio y versión con ventas"
+      fuente: https://claude.com/pricing
+    - nombre: Education
+      precio_usd_mes: null
+      incluye: "Plan institucional para alumnos, docentes y personal; precio solo por contacto con ventas"
+      fuente: https://claude.com/pricing
+      etiqueta: BRECHA
+
+# Valores de `estado`: si | parcial | no | brecha
+capacidades:
+  razonamiento:          {estado: si, detalle: "Pensamiento adaptativo con selector de esfuerzo (Low a Max); siempre activo en Fable 5.2 y Opus 5.5", fuente: https://support.claude.com/en/articles/8664678-what-claude-models-can-i-access}
+  busqueda_web:          {estado: si, detalle: "En todos los planes, incluido Gratis", fuente: https://claude.com/pricing}
+  investigacion_profunda: {estado: si, detalle: "Research en planes de pago (Pro, Max, Ultra, Team, Enterprise), web, escritorio y móvil; usa búsqueda web y conectores", fuente: https://support.claude.com/en/articles/11088861-using-research-on-claude}
+  generacion_imagen:     {estado: no, detalle: "No genera fotos ni ilustraciones; sí hace visuales interactivos en HTML/SVG, diagramas, gráficas y diseños con Claude Design", fuente: https://support.claude.com/en/articles/9002504-can-claude-produce-images}
+  generacion_video:      {estado: no, detalle: "Sin generación de video en planes, anuncios ni notas de versión", fuente: https://claude.com/pricing, etiqueta: SUPUESTO}
+  voz_tiempo_real:       {estado: si, detalle: "Modo de voz (beta) en todos los planes, en web, escritorio y móvil; corre con Opus, Sonnet y Haiku desde julio de 2026 (no con Fable); usa conectores; 14 idiomas", fuente: https://support.claude.com/en/articles/11101966-use-voice-mode}
+  vision_archivos:       {estado: si, detalle: "Imágenes, PDF, hojas de cálculo y documentos; todos los modelos vigentes aceptan imagen y PDF", fuente: https://platform.claude.com/docs/en/build-with-claude/pdf-support}
+  memoria:               {estado: si, detalle: "Memoria de historial (Gratis desde 2026-03-02), entradas categorizadas y editables, compartida entre chat y Cowork en la nube", fuente: https://support.claude.com/en/articles/12138966-release-notes}
+  agente_navegador:      {estado: si, detalle: "Claude in Chrome, disponible en general desde 2026-08-26 para planes de pago; solo Google Chrome de escritorio", fuente: https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome}
+  uso_computadora:       {estado: si, detalle: "Computer use en Cowork (vista previa Pro y Max desde 2026-03-23; beta Team y Enterprise desde 2026-11-20) y herramientas computer/browser use en la API", fuente: https://support.claude.com/en/articles/12138966-release-notes}
+  agente_codigo:         {estado: si, detalle: "Claude Code (terminal, IDE, escritorio y web), incluido desde Pro y en asientos Team Standard", fuente: https://claude.com/pricing}
+  ejecucion_codigo:      {estado: si, detalle: "Ejecución de código y creación de archivos en todos los planes; Artifacts en todos los planes", fuente: https://claude.com/pricing}
+  conectores_mcp:        {estado: si, detalle: "Conectores MCP, directorio de plugins y Agent Skills (estándar abierto donado a la Agentic AI Foundation en octubre de 2026)", fuente: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation}
+  modelos_abiertos:      {estado: no, detalle: "No publica pesos abiertos; postura publicada en julio de 2026", fuente: https://www.anthropic.com/news/position-open-weights-models}
+
+# Modelos vigentes y legados relevantes.
+modelos:
+  - id: claude-fable-5-2
+    nombre: Claude Fable 5.2
+    categoria: insignia
+    lanzamiento: 2026-11-09
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 8.0
+    precio_salida: 40.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Modelo más capaz para razonamiento exigente y trabajo agéntico largo. Pensamiento adaptativo siempre activo. Modo rápido a 16/80 USD. En la app con créditos de uso o cupo parcial según plan"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-opus-5-5
+    nombre: Claude Opus 5.5
+    categoria: insignia
+    lanzamiento: 2026-09-22
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 4.0
+    precio_salida: 20.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Recomendado por Anthropic para la mayoría de las cargas; desempeño cercano a Fable 5.1 a menor precio. Pensamiento siempre activo. Modo rápido a 8/40 USD"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-sonnet-5-5
+    nombre: Claude Sonnet 5.5
+    categoria: equilibrado
+    lanzamiento: 2026-09-28
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 2.0
+    precio_salida: 10.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Mejor combinación de velocidad e inteligencia; reemplazo recomendado de Sonnet 4.5"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-haiku-5-5
+    nombre: Claude Haiku 5.5
+    categoria: rapido
+    lanzamiento: 2026-10-07
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 0.10
+    precio_salida: 0.50
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Precio por tramos: 0.10/0.50 USD hasta 100 mil tokens de prompt; 0.50/2.50 USD arriba de 100 mil. Primer Haiku con selector de esfuerzo"
+    fuente: https://platform.claude.com/docs/en/about-claude/pricing
+    etiqueta: null
+  - id: claude-mythos-5-2
+    nombre: Claude Mythos 5.2
+    categoria: insignia
+    lanzamiento: 2026-11-09
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 8.0
+    precio_salida: 40.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Mismo modelo que Fable 5.2 sin ciertas salvaguardas de ciberseguridad y biología; acceso limitado a organizaciones verificadas (Cyber y Life Sciences Verification Programs). Sucede a Mythos 5.1 y Mythos 5 (también activos) y a Mythos Preview (2026-04-07, deprecado). Impulsa Claude Security en Enterprise"
+    fuente: https://www.anthropic.com/claude-fable-and-mythos-5-2
+    etiqueta: null
+  - id: claude-fable-5-1
+    nombre: Claude Fable 5.1
+    categoria: insignia
+    lanzamiento: 2026-09-01
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 10.0
+    precio_salida: 50.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Generación anterior de Fable; retiro no antes del 2027-09-01"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-fable-5
+    nombre: Claude Fable 5
+    categoria: insignia
+    lanzamiento: 2026-06-09
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 10.0
+    precio_salida: 50.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Primer Fable; acceso suspendido del 2026-06-12 al 2026-07-01. Retiro no antes del 2027-06-09"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-opus-5
+    nombre: Claude Opus 5
+    categoria: insignia
+    lanzamiento: 2026-07-24
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 5.0
+    precio_salida: 25.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Antecesor de Opus 5.5; modo rápido en vista previa a 10/50 USD"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-sonnet-5
+    nombre: Claude Sonnet 5
+    categoria: equilibrado
+    lanzamiento: 2026-06-30
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 2.0
+    precio_salida: 10.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "El precio introductorio de 2/10 USD quedó como precio estándar; se canceló el aumento a 3/15 USD previsto para el 2026-09-01"
+    fuente: https://platform.claude.com/docs/en/about-claude/pricing
+    etiqueta: null
+  - id: claude-opus-4-8
+    nombre: Claude Opus 4.8
+    categoria: insignia
+    lanzamiento: 2026-05-28
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 5.0
+    precio_salida: 25.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Activo en API (retiro no antes del 2027-05-28); modo rápido deprecado. No aparece en la lista del selector de la app"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: SUPUESTO
+  - id: claude-opus-4-7
+    nombre: Claude Opus 4.7
+    categoria: insignia
+    lanzamiento: 2026-04-16
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 5.0
+    precio_salida: 25.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Introdujo el tokenizador nuevo (~30% más tokens por texto). Retiro no antes del 2027-04-16"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-opus-4-6
+    nombre: Claude Opus 4.6
+    categoria: insignia
+    lanzamiento: 2026-02-05
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 5.0
+    precio_salida: 25.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Primera generación con ID sin fecha. Retiro no antes del 2027-02-05"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-sonnet-4-6
+    nombre: Claude Sonnet 4.6
+    categoria: equilibrado
+    lanzamiento: 2026-02-17
+    estado: vigente
+    contexto_tokens: 1000000
+    salida_max_tokens: 128000
+    precio_entrada: 3.0
+    precio_salida: 15.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: true
+    notas: "Tokenizador anterior. Retiro no antes del 2027-02-17"
+    fuente: https://platform.claude.com/docs/en/about-claude/models/overview
+    etiqueta: null
+  - id: claude-opus-4-5-20251101
+    nombre: Claude Opus 4.5
+    categoria: insignia
+    lanzamiento: 2025-11-24
+    estado: legado
+    contexto_tokens: 200000
+    salida_max_tokens: 64000
+    precio_entrada: 5.0
+    precio_salida: 25.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Deprecado el 2026-11-23; se retira de la API el 2027-01-22 (reemplazo: claude-opus-5-5). Presencia en la app no confirmada"
+    fuente: https://platform.claude.com/docs/en/about-claude/model-deprecations
+    etiqueta: SUPUESTO
+  - id: claude-sonnet-4-5-20250929
+    nombre: Claude Sonnet 4.5
+    categoria: equilibrado
+    lanzamiento: 2025-09-29
+    estado: legado
+    contexto_tokens: 200000
+    salida_max_tokens: 64000
+    precio_entrada: 3.0
+    precio_salida: 15.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Deprecado el 2026-09-30; se retira de la API el 2026-11-30 (reemplazo: claude-sonnet-5-5). Presencia en la app no confirmada"
+    fuente: https://platform.claude.com/docs/en/about-claude/model-deprecations
+    etiqueta: SUPUESTO
+  - id: claude-haiku-4-5-20251001
+    nombre: Claude Haiku 4.5
+    categoria: rapido
+    lanzamiento: 2025-10-15
+    estado: vigente
+    contexto_tokens: 200000
+    salida_max_tokens: 64000
+    precio_entrada: 1.0
+    precio_salida: 5.0
+    entrada: [texto, imagen, pdf]
+    salida: [texto]
+    en_app: false
+    notas: "Sigue activo en API (compromiso de retiro no antes del 2026-10-15, ya vencido, sin aviso de deprecación). Presencia en la app no confirmada"
+    fuente: https://platform.claude.com/docs/en/about-claude/model-deprecations
+    etiqueta: SUPUESTO
+
+hitos:
+  - fecha: 2025-11-24
+    titulo: "Lanza Claude Opus 4.5 y Claude for Excel (beta)"
+    fuente: https://www.anthropic.com/news/claude-opus-4-5
+  - fecha: 2025-12-18
+    titulo: "Agent Skills como estándar abierto y Claude in Chrome en beta para todos los planes de pago"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-01-12
+    titulo: "Cowork en vista previa de investigación (Max, macOS)"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-02-05
+    titulo: "Lanza Claude Opus 4.6"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-02-17
+    titulo: "Lanza Claude Sonnet 4.6"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-03-23
+    titulo: "Computer use en Cowork (vista previa para Pro y Max)"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-04-07
+    titulo: "Project Glasswing y Claude Mythos Preview (acceso restringido a socios de ciberseguridad)"
+    fuente: https://www.anthropic.com/project/glasswing
+  - fecha: 2026-04-09
+    titulo: "Cowork disponible en general en macOS y Windows"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-04-16
+    titulo: "Lanza Claude Opus 4.7"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-04-17
+    titulo: "Claude Design (Anthropic Labs) para diseños, prototipos y presentaciones"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-05-28
+    titulo: "Lanza Claude Opus 4.8"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-06-09
+    titulo: "Lanzan Claude Fable 5 y Claude Mythos 5"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-06-30
+    titulo: "Lanza Claude Sonnet 5"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-07-24
+    titulo: "Lanza Claude Opus 5"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-08-26
+    titulo: "Claude in Chrome disponible en general"
+    fuente: https://claude.com/resources/articles/claude-in-chrome-generally-available
+  - fecha: 2026-09-01
+    titulo: "Lanzan Claude Fable 5.1 y Claude Mythos 5.1"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-09-16
+    titulo: "Cowork integrado en todas las conversaciones; Artifacts en todos los planes"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-09-22
+    titulo: "Lanza Claude Opus 5.5 (4/20 USD por millón de tokens)"
+    fuente: https://www.anthropic.com/news/claude-opus-5-5
+  - fecha: 2026-09-28
+    titulo: "Lanza Claude Sonnet 5.5"
+    fuente: https://www.anthropic.com/claude-sonnet-5-5
+  - fecha: 2026-10-07
+    titulo: "Lanza Claude Haiku 5.5; créditos mensuales de API para Max y Team"
+    fuente: https://www.anthropic.com/claude-haiku-5-5
+  - fecha: 2026-10-21
+    titulo: "Claude Duet, app de agente proactivo (vista previa para Pro y Max)"
+    fuente: https://support.claude.com/en/articles/12138966-release-notes
+  - fecha: 2026-10-22
+    titulo: "Anthropic dona Agent Skills a la Agentic AI Foundation"
+    fuente: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+  - fecha: 2026-10-26
+    titulo: "Anthropic presenta su S-1 ante la SEC para salir a bolsa"
+    fuente: https://www.anthropic.com/news/s1-sec
+  - fecha: 2026-10-30
+    titulo: "Max 20x se renombra Ultra (200 USD) y Max 5x pasa a Max (100 USD)"
+    fuente: https://www.buildmvpfast.com/blog/claude-max-plan-changes-ultra-5-hour-limit-2026
+    etiqueta: SUPUESTO
+  - fecha: 2026-11-09
+    titulo: "Lanzan Claude Fable 5.2 y Claude Mythos 5.2"
+    fuente: https://www.anthropic.com/claude-fable-and-mythos-5-2
+  - fecha: 2026-11-20
+    titulo: "Cierre de la oferta pública inicial de Anthropic; computer use en beta para Team y Enterprise"
+    fuente: https://www.anthropic.com/news/ipo-close
+  - fecha: 2026-11-23
+    titulo: "Aviso de deprecación de Claude Opus 4.5 (retiro el 2027-01-22)"
+    fuente: https://platform.claude.com/docs/en/about-claude/model-deprecations
+
+pendientes:
+  - "Fable en Pro: claude.com/pricing dice que requiere créditos de uso, pero el anuncio de Fable 5.2 dice que se incluye hasta 50% del límite semanal en Pro y Team Standard. Confirmar cuál rige."
+  - "Fecha exacta del cambio Max 20x a Ultra: solo fuentes secundarias (30 de octubre de 2026); no se halló anuncio oficial."
+  - "Lista completa del selector de modelos de la app: el artículo de soporte puede estar incompleto ('More models'); en_app de Opus 4.8, Opus 4.5, Sonnet 4.5 y Haiku 4.5 no confirmado."
+  - "Precio de Education no publicado."
+  - "Mythos 5.1, Mythos 5 y Mythos Preview no tienen ficha propia (acceso limitado); ver notas de Mythos 5.2."
+  - "Haiku 4.5 sigue activo pese a que su compromiso de retiro (no antes del 2026-10-15) ya venció; vigilar aviso de deprecación."
