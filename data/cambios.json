@@ -1,0 +1,20 @@
+[
+ {
+  "antes": "GPT-Realtime-2.1",
+  "despues": null,
+  "fecha": "2026-11-24",
+  "id": "gpt-realtime-2.1",
+  "nombre": "GPT-Realtime-2.1",
+  "proveedor": "openai",
+  "tipo": "retirado"
+ },
+ {
+  "antes": "vigente",
+  "despues": "obsoleto",
+  "fecha": "2026-11-24",
+  "id": "claude-opus-4-5",
+  "nombre": "Claude Opus 4.5 (latest)",
+  "proveedor": "anthropic",
+  "tipo": "estado"
+ }
+]

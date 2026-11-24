@@ -100,7 +100,7 @@
  ],
  "codex": [
   {
-   "fecha": "2026-11-23",
+   "fecha": "2026-11-24",
    "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
    "version": "rust-v0.172.0"
   },
@@ -111,6 +111,16 @@
   }
  ],
  "gemini-cli": [
+  {
+   "fecha": "2026-11-24",
+   "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+   "version": "v0.71.1"
+  },
+  {
+   "fecha": "2026-11-24",
+   "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0",
+   "version": "v0.71.0"
+  },
   {
    "fecha": "2026-11-19",
    "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0",

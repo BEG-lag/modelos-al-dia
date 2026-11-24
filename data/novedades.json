@@ -1648,6 +1648,28 @@
  {
   "etiquetas": [],
   "fecha": "2026-10-08",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-566b2372830f",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing the Anthropic Cyber Mission",
+  "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-10-08",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-0703ff8deb2c",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Building on our commitment to American scientific discovery",
+  "url": "https://www.anthropic.com/news/genesis-mission-commitment"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-10-08",
   "fuente": "anthropic-api",
   "id": "anthropic-api-8b873dd34bfb",
   "origen": "api",
@@ -2975,6 +2997,17 @@
   "etiquetas": [],
   "fecha": "2026-08-27",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-d9f57eb00a25",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Previewing the Model Hardware Standard",
+  "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-08-27",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-2d720b4664e5",
   "origen": "blog",
   "precision": "dia",
@@ -3969,6 +4002,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2026-07-20",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-917fdfb3bfa3",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "AI for Science rare disease research grants",
+  "url": "https://www.anthropic.com/news/rare-disease-research-grants"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2026-07-17",
   "fuente": "anthropic-api",
   "id": "anthropic-api-86283ef7e653",
@@ -4113,12 +4157,34 @@
   "etiquetas": [],
   "fecha": "2026-07-09",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-febc29cceadc",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "UST is bringing Claude to physical AI",
+  "url": "https://www.anthropic.com/news/ust-claude"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-07-09",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-80e5bd877fa9",
   "origen": "blog",
   "precision": "dia",
   "proveedor": "anthropic",
   "titulo": "Inviting hard questions",
   "url": "https://www.anthropic.com/news/hard-questions"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-07-09",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-4d1593fa39ef",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "A new way to reflect on how you use Claude",
+  "url": "https://www.anthropic.com/news/reflect-with-claude"
  },
  {
   "etiquetas": [
@@ -4293,6 +4359,17 @@
   "proveedor": "google",
   "titulo": "Released gemini-3.1-flash-lite-image (Nano Banana 2 Lite) to general availability (GA), our built-in multimodal model optimized for ultra-low latency and cost-effective image generation and editing.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#06-30-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-06-30",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-dd6844ba8ea3",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Redeploying Claude Fable 5",
+  "url": "https://www.anthropic.com/news/redeploying-fable-5"
  },
  {
   "etiquetas": [],
@@ -4529,6 +4606,17 @@
   "proveedor": "google",
   "titulo": "Streaming support for speech generation",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#06-17-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-06-17",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-4952a66a10ec",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic opens Seoul office",
+  "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem"
  },
  {
   "etiquetas": [
@@ -5374,6 +5462,17 @@
  {
   "etiquetas": [],
   "fecha": "2026-05-19",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-7d8d9411ca20",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Widening the conversation on frontier AI",
+  "url": "https://www.anthropic.com/news/widening-conversation-ai"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-19",
   "fuente": "anthropic-api",
   "id": "anthropic-api-7384c35a6ae9",
   "origen": "api",
@@ -5462,6 +5561,17 @@
   "proveedor": "anthropic",
   "titulo": "2028: Two scenarios for global AI leadership",
   "url": "https://www.anthropic.com/news/2028-ai-leadership"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-14",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-9d8885e4c7fb",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "PwC deploys Claude across its business",
+  "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
  },
  {
   "etiquetas": [],
@@ -6690,6 +6800,17 @@
   "url": "https://ai.google.dev/gemini-api/docs/changelog#03-12-2026"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-03-11",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-f8a894e215aa",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing The Anthropic Institute",
+  "url": "https://www.anthropic.com/news/the-anthropic-institute"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -7524,6 +7645,17 @@
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-01-28",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-e521c4bbe8a7",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "ServiceNow chooses Claude",
+  "url": "https://www.anthropic.com/news/servicenow-anthropic-claude"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -8187,6 +8319,17 @@
   "proveedor": "google",
   "titulo": "Deprecation announcement: The text-embedding-004 model will be shut down January 14, 2026.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#12-03-2025"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-12-03",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-44c18da5f33c",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Snowflake and Anthropic announce $200M partnership",
+  "url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership"
  },
  {
   "etiquetas": [],
@@ -8913,6 +9056,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-10-14",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-00228451c0cd",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Salesforce and Anthropic expand partnership",
+  "url": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-10-07",
   "fuente": "google-api",
   "id": "google-api-7cf2803eeb71",
@@ -9536,6 +9690,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-08-28",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-e07605630b42",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Updates to Consumer Terms and Privacy Policy",
+  "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-08-27",
   "fuente": "anthropic-blog",
   "id": "anthropic-blog-3080e920f0fb",
@@ -9689,6 +9854,17 @@
   "proveedor": "anthropic",
   "titulo": "We’ve released the Usage and Cost API, allowing administrators to programmatically monitor their organization’s usage and cost data.",
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-08-15",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-57f029ba7cb1",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Usage Policy update",
+  "url": "https://www.anthropic.com/news/usage-policy-update"
  },
  {
   "etiquetas": [],
@@ -10163,6 +10339,17 @@
   "proveedor": "anthropic",
   "titulo": "We’ve increased rate limits for Claude Sonnet 4 on the Claude API to give you more capacity to build and scale with Claude.",
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-07-15",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-4409ebfe12f3",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Paul Smith to join as Chief Commercial Officer",
+  "url": "https://www.anthropic.com/news/paul-smith-to-join-anthropic"
  },
  {
   "etiquetas": [],
@@ -11514,6 +11701,17 @@
   "proveedor": "google",
   "titulo": "Released gemini-2.0-flash-lite, a generally available (GA) version of Gemini 2.0 Flash-Lite, which is optimized for speed, scale, and cost efficiency.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#02-25-2025"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-02-24",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-b5b191465d16",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Claude's extended thinking",
+  "url": "https://www.anthropic.com/news/visible-extended-thinking"
  },
  {
   "etiquetas": [],

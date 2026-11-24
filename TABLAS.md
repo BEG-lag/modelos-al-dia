@@ -1,7 +1,7 @@
 <!-- Archivo generado por `modelos-al-dia build`. No se edita a mano. -->
 # Tablas comparativas
 
-Datos al **23 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
+Datos al **24 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
 Precios de API en USD por millón de tokens (entrada/salida). Cada dato liga a su fuente.
 Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está confirmado.
 
@@ -9,8 +9,8 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 
 | App | Modelo insignia | Planes | Modelos vigentes (API) | Verificado |
 |---|---|---|---|---|
-| **ChatGPT** (OpenAI Group PBC) | [**GPT-6.2 Astra**](https://developers.openai.com/api/docs/models/gpt-6.2-astra)<br>1.05M ctx · $8.00/$40.00 | Gratis; de $8 a $500/mes | 51 | 23 nov 2026 |
-| **Claude** (Anthropic PBC) | [**Claude Fable 5.2**](https://platform.claude.com/docs/en/about-claude/models/overview)<br>1M ctx · $8.00/$40.00 | Gratis; de $20 a $200/mes | 15 | 23 nov 2026 |
+| **ChatGPT** (OpenAI Group PBC) | [**GPT-6.2 Astra**](https://developers.openai.com/api/docs/models/gpt-6.2-astra)<br>1.05M ctx · $8.00/$40.00 | Gratis; de $8 a $500/mes | 50 | 23 nov 2026 |
+| **Claude** (Anthropic PBC) | [**Claude Fable 5.2**](https://platform.claude.com/docs/en/about-claude/models/overview)<br>1M ctx · $8.00/$40.00 | Gratis; de $20 a $200/mes | 14 | 23 nov 2026 |
 | **Gemini** (Google (Google DeepMind)) | [**Gemini 4 Carbon**](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)<br>1.05M ctx · $2.00/$10.00 | Gratis; de $4.99 a $199.99/mes | 33 | 23 nov 2026 |
 | **Grok** (SpaceXSI (SpaceX Super Intelligence LLC, antes xAI)) | [**Grok 4.7** [SUPUESTO]](https://docs.x.ai/docs/models/grok-4.7)<br>500K ctx · $2.00/$6.00 | Gratis; de $8 a $300/mes | 13 | 23 nov 2026 |
 
@@ -111,7 +111,7 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 | [**Claude Code**](https://code.claude.com/docs/en/overview)<br>Anthropic<br>`v2.1.331` | cli, ide, escritorio, web, movil, nube, slack | Claude Opus 5.5, Claude Sonnet 5.5, Claude Haiku 5.5, Claude Fable 5.2 | Incluido en Pro (20 USD/mes mensual o 17 USD/mes anual), Max (desde 100 USD/mes), Team y Enterprise; o pago por uso con API. Fable 5.2 puede cobrarse aparte con créditos de uso. | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [**Codex**](https://learn.chatgpt.com/docs/pricing)<br>OpenAI<br>`rust-v0.172.0` | cli, ide, escritorio, web, movil, nube, slack | GPT-6.2 Sol, GPT-6.2 Astra, GPT-6.1 Terra, GPT-6.1 Sol, GPT-6 Luna | Incluido en ChatGPT Free y Go (8 USD) con límites y solo GPT-6 Luna; Plus 20 USD; Pro desde 100 USD (100, 200 y 500); Business 20 USD/usuario anual (25 mensual); Enterprise y Edu a cotizar; o pago por uso con API key (sin funciones de nube). | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [**Google Antigravity**](https://antigravity.google/docs/models)<br>Google | escritorio, ide, cli, web | Gemini 4 Neon, Gemini 4 Argon, Gemini 4 Hydrogen, Gemini 4 Carbon, Orchestrator, Gemini 3.8 Flash, Claude Opus 5.5, Claude Sonnet 5.5, GPT-OSS-120b | Sin costo para desarrolladores con Gemini 3.8 Flash y modelos legados; Google AI Pro (20 USD) con cuota de entrada; AI Ultra de 100 USD (5x Pro) y de 200 USD (20x Pro); empresas vía Gemini Enterprise Agent Platform. | ✅ | ✅ | 🟡 | ❓ | 🟡 | ✅ | ✅ | 🟡 | ✅ |
-| [**Gemini CLI**](https://github.com/google-gemini/gemini-cli)<br>Google<br>`v0.70.0` | cli, ide | Gemini 3.1 Pro, Gemini 3 Flash, Gemini 2.5 Pro, Gemini 2.5 Flash | Ya no hay acceso gratuito ni con Google AI Pro o Ultra (pasaron a Antigravity CLI el 18 de junio de 2026). Se usa con licencias Gemini Code Assist Standard o Enterprise, Code Assist for GitHub, o llaves de pago de API o Vertex AI. | ✅ | 🟡 | ⚪ | ❓ | ❓ | ❓ | ✅ | ✅ | 🟡 |
+| [**Gemini CLI**](https://github.com/google-gemini/gemini-cli)<br>Google<br>`v0.71.1` | cli, ide | Gemini 3.1 Pro, Gemini 3 Flash, Gemini 2.5 Pro, Gemini 2.5 Flash | Ya no hay acceso gratuito ni con Google AI Pro o Ultra (pasaron a Antigravity CLI el 18 de junio de 2026). Se usa con licencias Gemini Code Assist Standard o Enterprise, Code Assist for GitHub, o llaves de pago de API o Vertex AI. | ✅ | 🟡 | ⚪ | ❓ | ❓ | ❓ | ✅ | ✅ | 🟡 |
 | [**Jules**](https://jules.google/docs/changelog/)<br>Google | web, nube, cli | Gemini 3.1 Pro, Gemini 3 Flash | En cierre: solo lectura desde el 11 de noviembre de 2026 y se apaga el 31 de diciembre de 2026. Antes tenía nivel gratuito y cuotas mayores en Google AI Pro y Ultra. | ✅ | ❓ | ✅ | ✅ | ❓ | ❓ | ⚪ | ✅ | 🟡 |
 | [**Grok Build**](https://x.ai/news/grok-build-cli) [SUPUESTO]<br>SpaceXAI (antes xAI) | cli, ide | Grok 4.5, grok-build-0.1 | Incluido en suscripciones de Grok (SuperGrok, X Premium+ y, según fuentes secundarias, todos los planes desde agosto de 2026) o pago por uso con API key. | ✅ | ✅ | ❓ | ❓ | 🟡 | ⚪ | ✅ | ✅ | 🟡 |
 | [**GitHub Copilot (modo agente y cloud agent)**](https://github.com/features/copilot/plans)<br>GitHub (Microsoft) | ide, cli, escritorio, web, movil, nube, slack | Claude Opus 5.5, Claude Sonnet 5.5, Claude Fable 5.2, GPT-6.2 Astra, GPT-6.2 Sol, Gemini 4 Neon, Gemini 4 Carbon, Grok 4.7, MAI Code 2, Kimi K3 | Free 0 USD (chat y agente limitados, sin cloud agent); Pro 10 USD; Pro+ 39 USD; Max 100 USD; Business y Enterprise a cotizar. Se cobra en GitHub AI Credits (1 crédito = 0.01 USD). | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | ✅ | ✅ | ✅ |
@@ -159,7 +159,6 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 | `claude-opus-4-7` | 14 abr 2026 | 1M | 128K | $5.00 | $25.00 | imagen, PDF, texto |
 | `claude-sonnet-4-6` | 17 feb 2026 | 1M | 128K | $3.00 | $15.00 | imagen, PDF, texto |
 | `claude-opus-4-6` | 4 feb 2026 | 1M | 128K | $5.00 | $25.00 | imagen, PDF, texto |
-| `claude-opus-4-5` | 24 nov 2025 | 200K | 64K | $5.00 | $25.00 | imagen, PDF, texto |
 | `claude-haiku-4-5` | 15 oct 2025 | 200K | 64K | $1.00 | $5.00 | imagen, PDF, texto |
 | `claude-opus-4.1` | 5 ago 2025 | 200K | 32K | gratis | $100.00 | imagen, PDF, texto |
 

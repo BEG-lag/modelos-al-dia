@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23",
+ "actualizado": "2026-11-24",
  "modelos": [
   {
    "alias": [],
@@ -360,7 +360,7 @@
     "pdf",
     "text"
    ],
-   "estado": "vigente",
+   "estado": "obsoleto",
    "familia": "claude-opus",
    "fuente": "models.dev",
    "herramientas": true,
@@ -2388,36 +2388,6 @@
    ],
    "salida_max": 128000,
    "tipo": "texto"
-  },
-  {
-   "alias": [],
-   "conocimiento": "2024-09-30",
-   "contexto": 128000,
-   "entrada": [
-    "audio",
-    "image",
-    "text"
-   ],
-   "estado": "vigente",
-   "familia": "gpt-realtime",
-   "fuente": "models.dev",
-   "herramientas": true,
-   "id": "gpt-realtime-2.1",
-   "lanzamiento": "2026-07-06",
-   "nombre": "GPT-Realtime-2.1",
-   "openrouter": null,
-   "pesos_abiertos": false,
-   "precio_cache": 0.4,
-   "precio_entrada": 4.0,
-   "precio_salida": 24.0,
-   "proveedor": "openai",
-   "razonamiento": true,
-   "salida": [
-    "audio",
-    "text"
-   ],
-   "salida_max": 32000,
-   "tipo": "audio"
   },
   {
    "alias": [],

@@ -1129,6 +1129,22 @@
     <summary>Anthropic, blog.</summary>
   </entry>
   <entry>
+    <title>Anthropic: Introducing the Anthropic Cyber Mission</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/anthropic-cyber-mission"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-566b2372830f</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Building on our commitment to American scientific discovery</title>
+    <link rel="alternate" href="https://www.anthropic.com/news/genesis-mission-commitment"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-0703ff8deb2c</id>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
     <title>Anthropic: The Compliance API can now download Claude Docs documents as Word files, in beta.</title>
     <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
     <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-8b873dd34bfb</id>
@@ -1188,22 +1204,6 @@
     <title>Anthropic: In Claude Managed Agents, a cloud environment with limited networking now also applies its allowedhosts to the websearch and webfetch tools.</title>
     <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
     <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-ad327c1f4ce8</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: Claude Max, Ultra, and Team plans now include monthly API credits.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-a62e10612773</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: We’ve launched Claude Haiku 5.5 (claude-haiku-5-5), our most capable model tuned for high-volume and latency-sensitive work.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-72981377bed7</id>
     <updated>2026-10-07T12:00:00Z</updated>
     <category term="anthropic" label="Anthropic"/>
     <summary>Anthropic, notas de la API.</summary>
