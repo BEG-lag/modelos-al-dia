@@ -5,9 +5,41 @@
   <link rel="self" type="application/atom+xml" href="https://beg-lag.github.io/modelos-al-dia/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://beg-lag.github.io/modelos-al-dia/"/>
   <id>https://beg-lag.github.io/modelos-al-dia/feed.xml</id>
-  <updated>2026-11-23T12:00:00Z</updated>
+  <updated>2026-11-24T12:00:00Z</updated>
   <author><name>Benjamín Esponda García</name><uri>https://pivotek.mx</uri></author>
   <generator uri="https://github.com/BEG-lag/modelos-al-dia">modelos-al-dia</generator>
+  <entry>
+    <title>OpenAI: Released Healthcare model configurations for the Responses API, pairing select OpenAI models with a harness tailored to clinical questions.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-c873ad26ed26</id>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI: Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users.</title>
+    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-a47fb4da5c83</id>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <category term="openai" label="OpenAI"/>
+    <summary>OpenAI, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Google: How Gemini is changing the game for Golden State's organization and fans.</title>
+    <link rel="alternate" href="https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-cd48854c089d</id>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
+  <entry>
+    <title>Google: See what 5 builders are making with Gemini 4 Neon</title>
+    <link rel="alternate" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-blog-47fa0842a366</id>
+    <updated>2026-11-24T12:00:00Z</updated>
+    <category term="google" label="Google"/>
+    <summary>Google, blog.</summary>
+  </entry>
   <entry>
     <title>Google: Here are 4 things you didn’t know you could do with Gemini Canvas.</title>
     <link rel="alternate" href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/"/>
@@ -1175,37 +1207,5 @@
     <updated>2026-10-07T12:00:00Z</updated>
     <category term="openai" label="OpenAI"/>
     <summary>OpenAI, blog.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI: Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users.</title>
-    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-136ae80af919</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="openai" label="OpenAI"/>
-    <summary>OpenAI, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: In Claude Managed Agents, the webfetch tool now fetches only URLs that have already appeared in the session, for example in the text of a user message, in a websearch result, or in a page that webfetch returned earlier.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-da7f03a4f077</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: We’ve lowered the price of prompt cache reads on Claude Sonnet 5.5 from $0.20 USD to $0.10 USD per million tokens: 0.05x the base input price instead of 0.1x.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-d030b9ff2177</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: In Claude Managed Agents, a cloud environment with limited networking now also applies its allowedhosts to the websearch and webfetch tools.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-ad327c1f4ce8</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
   </entry>
 </feed>

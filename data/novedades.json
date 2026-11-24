@@ -1,5 +1,56 @@
 [
  {
+  "etiquetas": [
+   "gpt-6-astra-healthcare",
+   "gpt-6.1-sol-healthcare",
+   "gpt-6.2-astra-healthcare",
+   "gpt-6.2-sol-healthcare"
+  ],
+  "fecha": "2026-11-24",
+  "fuente": "openai-api",
+  "id": "openai-api-c873ad26ed26",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "openai",
+  "titulo": "Released Healthcare model configurations for the Responses API, pairing select OpenAI models with a harness tailored to clinical questions.",
+  "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [
+   "chat-latest"
+  ],
+  "fecha": "2026-11-24",
+  "fuente": "openai-api",
+  "id": "openai-api-a47fb4da5c83",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "openai",
+  "titulo": "Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users.",
+  "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-24",
+  "fuente": "google-blog",
+  "id": "google-blog-cd48854c089d",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "google",
+  "titulo": "How Gemini is changing the game for Golden State's organization and fans.",
+  "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-24",
+  "fuente": "google-blog",
+  "id": "google-blog-47fa0842a366",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "google",
+  "titulo": "See what 5 builders are making with Gemini 4 Neon",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/"
+ },
+ {
   "etiquetas": [],
   "fecha": "2026-11-23",
   "fuente": "google-blog",
@@ -9811,6 +9862,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-08-20",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-24a103d47b04",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Claude Code and admin controls for business plans",
+  "url": "https://www.anthropic.com/news/claude-code-on-team-and-enterprise"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-08-19",
   "fuente": "anthropic-api",
   "id": "anthropic-api-b2d56bc32d24",
@@ -10098,6 +10160,17 @@
   "url": "https://ai.google.dev/gemini-api/docs/changelog#08-07-2025"
  },
  {
+  "etiquetas": [],
+  "fecha": "2025-08-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-134d9b6ff5ee",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Hidetoshi Tojo appointed Head of Japan",
+  "url": "https://www.anthropic.com/news/head-of-japan-hiring-plans"
+ },
+ {
   "etiquetas": [
    "Release"
   ],
@@ -10250,6 +10323,17 @@
   "etiquetas": [],
   "fecha": "2025-07-23",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-df4ec08ef115",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic partners with UChicago's Becker Friedman Institute",
+  "url": "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-07-23",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-2a53ba9345f0",
   "origen": "blog",
   "precision": "dia",
@@ -10280,6 +10364,17 @@
   "proveedor": "anthropic",
   "titulo": "Build AI in America: Anthropic Energy Report",
   "url": "https://www.anthropic.com/news/build-ai-in-america"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-07-21",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-624d51cb8746",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic to sign the EU Code of Practice",
+  "url": "https://www.anthropic.com/news/eu-code-practice"
  },
  {
   "etiquetas": [],
@@ -10344,6 +10439,17 @@
   "etiquetas": [],
   "fecha": "2025-07-15",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-879bb1da03a7",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Investing in energy to secure America's AI future",
+  "url": "https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-07-15",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-4409ebfe12f3",
   "origen": "blog",
   "precision": "dia",
@@ -10378,6 +10484,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-07-14",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-5de80662c8ca",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic awarded $200M DOD agreement",
+  "url": "https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-07-09",
   "fuente": "anthropic-blog",
   "id": "anthropic-blog-da0e01714987",
@@ -10386,6 +10503,17 @@
   "proveedor": "anthropic",
   "titulo": "Advancing Claude for Education",
   "url": "https://www.anthropic.com/news/advancing-claude-for-education"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-07-09",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-cb22cacd469b",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Claude for Enterprise powers LLNL research",
+  "url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and"
  },
  {
   "etiquetas": [],
@@ -11172,6 +11300,17 @@
   "url": "https://openai.com/index/sycophancy-in-gpt-4o"
  },
  {
+  "etiquetas": [],
+  "fecha": "2025-04-28",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-0315127534d4",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing the Anthropic Economic Advisory Council",
+  "url": "https://www.anthropic.com/news/introducing-the-anthropic-economic-advisory-council"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -11357,6 +11496,17 @@
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
  },
  {
+  "etiquetas": [],
+  "fecha": "2025-04-08",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-420404f7eda6",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Guillaume Princen appointed Head of EMEA",
+  "url": "https://www.anthropic.com/news/head-of-EMEA-new-roles"
+ },
+ {
   "etiquetas": [
    "gemini-2.5-pro-exp-03-25",
    "gemini-2.5-pro-preview-03-25"
@@ -11490,6 +11640,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-03-19",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-f8614aec430f",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Response to Governor Newsom's AI working grou",
+  "url": "https://www.anthropic.com/news/anthropic-s-response-to-governor-newsom-s-ai-working-group-draft-report"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-03-12",
   "fuente": "google-api",
   "id": "google-api-f8bb843b8b24",
@@ -11588,6 +11749,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-03-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-4f59887ce198",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Recommendations to OSTP for the US AI Action Plan",
+  "url": "https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-03-03",
   "fuente": "openai-api",
   "id": "openai-api-cddff03f9e31",
@@ -11596,6 +11768,17 @@
   "proveedor": "openai",
   "titulo": "Added metadata field support to fine-tuning jobs.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-03-03",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-2d99d0af97d7",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic raises Series E at $61.5B valuation",
+  "url": "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
  },
  {
   "etiquetas": [],
@@ -11620,6 +11803,17 @@
   "proveedor": "google",
   "titulo": "Support for Search as a tool added to gemini-2.0-pro-exp-02-05, an experimental model based on Gemini 2.0 Pro.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#02-28-2025"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-02-28",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-95c0bd8b8a39",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic joins the 1,000 Scientist AI Jam",
+  "url": "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam"
  },
  {
   "etiquetas": [
@@ -11677,6 +11871,17 @@
   "proveedor": "anthropic",
   "titulo": "We’ve added support for a none option to the toolchoice parameter in the Messages API that prevents Claude from calling any tools.",
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-02-26",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-948df331c266",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Claude and Alexa+",
+  "url": "https://www.anthropic.com/news/claude-and-alexa-plus"
  },
  {
   "etiquetas": [],
@@ -11846,6 +12051,17 @@
   "proveedor": "google",
   "titulo": "Released imagen-3.0-generate-002, a generally available (GA) version of Imagen 3 in the Gemini API.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#02-06-2025"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-02-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-9830cdd93435",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Lyft brings Claude to 40 million riders",
+  "url": "https://www.anthropic.com/news/lyft-announcement"
  },
  {
   "etiquetas": [

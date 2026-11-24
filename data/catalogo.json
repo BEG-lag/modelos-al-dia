@@ -206,7 +206,7 @@
   },
   {
    "alias": [],
-   "conocimiento": null,
+   "conocimiento": "2026-01-31",
    "contexto": 1000000,
    "entrada": [
     "image",
@@ -814,7 +814,9 @@
    "contexto": 65536,
    "entrada": [
     "image",
-    "text"
+    "pdf",
+    "text",
+    "video"
    ],
    "estado": "vigente",
    "familia": "nano-banana-lite",
@@ -1199,7 +1201,7 @@
   {
    "alias": [],
    "conocimiento": null,
-   "contexto": 1048576,
+   "contexto": 131072,
    "entrada": [
     "image",
     "text"
@@ -1214,8 +1216,8 @@
    "openrouter": "google/lyria-3-clip-preview",
    "pesos_abiertos": false,
    "precio_cache": null,
-   "precio_entrada": 0.0,
-   "precio_salida": 0.0,
+   "precio_entrada": null,
+   "precio_salida": null,
    "proveedor": "google",
    "razonamiento": false,
    "salida": [
@@ -1228,7 +1230,7 @@
   {
    "alias": [],
    "conocimiento": null,
-   "contexto": 1048576,
+   "contexto": 131072,
    "entrada": [
     "image",
     "text"
@@ -1243,8 +1245,8 @@
    "openrouter": "google/lyria-3-pro-preview",
    "pesos_abiertos": false,
    "precio_cache": null,
-   "precio_entrada": 0.0,
-   "precio_salida": 0.0,
+   "precio_entrada": null,
+   "precio_salida": null,
    "proveedor": "google",
    "razonamiento": false,
    "salida": [
@@ -1439,7 +1441,7 @@
   {
    "alias": [],
    "conocimiento": "2024-06",
-   "contexto": 32768,
+   "contexto": 65536,
    "entrada": [
     "image",
     "text"

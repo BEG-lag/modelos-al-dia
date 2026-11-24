@@ -202,6 +202,10 @@ Fuente: [models.dev](https://models.dev) y [OpenRouter](https://openrouter.ai/mo
 
 | Fecha | Proveedor | Origen | Nota |
 |---|---|---|---|
+| 24 nov 2026 | OpenAI | API | [Released Healthcare model configurations for the Responses API, pairing select OpenAI models with a harness tailored to clinical questions.](https://developers.openai.com/api/docs/changelog) |
+| 24 nov 2026 | OpenAI | API | [Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users.](https://developers.openai.com/api/docs/changelog) |
+| 24 nov 2026 | Google | Blog | [How Gemini is changing the game for Golden State's organization and fans.](https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/) |
+| 24 nov 2026 | Google | Blog | [See what 5 builders are making with Gemini 4 Neon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/) |
 | 23 nov 2026 | Google | Blog | [Here are 4 things you didn’t know you could do with Gemini Canvas.](https://blog.google/innovation-and-ai/products/gemini-app/gemini-canvas-tasks/) |
 | 23 nov 2026 | Google | Blog | [See what 6 builders are making with Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/) |
 | 23 nov 2026 | Google | Blog | [A more tailored Google Search that’s uniquely yours](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/) |

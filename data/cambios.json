@@ -1,5 +1,32 @@
 [
  {
+  "antes": 32768,
+  "despues": 65536,
+  "fecha": "2026-11-24",
+  "id": "gemini-2.5-flash-image",
+  "nombre": "Nano Banana",
+  "proveedor": "google",
+  "tipo": "contexto"
+ },
+ {
+  "antes": 1048576,
+  "despues": 131072,
+  "fecha": "2026-11-24",
+  "id": "lyria-3-clip-preview",
+  "nombre": "Lyria 3 Clip Preview",
+  "proveedor": "google",
+  "tipo": "contexto"
+ },
+ {
+  "antes": 1048576,
+  "despues": 131072,
+  "fecha": "2026-11-24",
+  "id": "lyria-3-pro-preview",
+  "nombre": "Lyria 3 Pro Preview",
+  "proveedor": "google",
+  "tipo": "contexto"
+ },
+ {
   "antes": "GPT-Realtime-2.1",
   "despues": null,
   "fecha": "2026-11-24",
