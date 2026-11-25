@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24",
+ "actualizado": "2026-11-25",
  "modelos": [
   {
    "alias": [],
@@ -415,7 +415,7 @@
    "alias": [
     "claude-sonnet-4-5-20250929"
    ],
-   "conocimiento": "2025-07-31",
+   "conocimiento": "2025-01-31",
    "contexto": 200000,
    "entrada": [
     "image",
@@ -1440,7 +1440,7 @@
   },
   {
    "alias": [],
-   "conocimiento": "2024-06",
+   "conocimiento": "2025-06",
    "contexto": 65536,
    "entrada": [
     "image",
@@ -1451,11 +1451,11 @@
    "fuente": "models.dev",
    "herramientas": false,
    "id": "gemini-2.5-flash-image",
-   "lanzamiento": "2025-08-26",
+   "lanzamiento": "2025-10-02",
    "nombre": "Nano Banana",
    "openrouter": "google/gemini-2.5-flash-image",
    "pesos_abiertos": false,
-   "precio_cache": 0.075,
+   "precio_cache": null,
    "precio_entrada": 0.3,
    "precio_salida": 2.5,
    "proveedor": "google",
@@ -1466,6 +1466,64 @@
    ],
    "salida_max": 32768,
    "tipo": "imagen"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-01",
+   "contexto": 1048576,
+   "entrada": [
+    "audio",
+    "image",
+    "pdf",
+    "text",
+    "video"
+   ],
+   "estado": "vigente",
+   "familia": "gemini-flash-lite",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gemini-2.5-flash-lite",
+   "lanzamiento": "2025-07-22",
+   "nombre": "Gemini 2.5 Flash-Lite",
+   "openrouter": "google/gemini-2.5-flash-lite",
+   "pesos_abiertos": false,
+   "precio_cache": 0.01,
+   "precio_entrada": 0.1,
+   "precio_salida": 0.4,
+   "proveedor": "google",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 65536,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2025-05",
+   "contexto": 2048,
+   "entrada": [
+    "text"
+   ],
+   "estado": "obsoleto",
+   "familia": "gemini-embedding",
+   "fuente": "models.dev",
+   "herramientas": false,
+   "id": "gemini-embedding-001",
+   "lanzamiento": "2025-07-14",
+   "nombre": "Gemini Embedding 001",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": null,
+   "precio_entrada": 0.15,
+   "precio_salida": 0.0,
+   "proveedor": "google",
+   "razonamiento": false,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 1,
+   "tipo": "embeddings"
   },
   {
    "alias": [],
@@ -1490,37 +1548,6 @@
    "precio_cache": 0.03,
    "precio_entrada": 0.3,
    "precio_salida": 2.5,
-   "proveedor": "google",
-   "razonamiento": true,
-   "salida": [
-    "text"
-   ],
-   "salida_max": 65536,
-   "tipo": "texto"
-  },
-  {
-   "alias": [],
-   "conocimiento": "2025-01",
-   "contexto": 1048576,
-   "entrada": [
-    "audio",
-    "image",
-    "pdf",
-    "text",
-    "video"
-   ],
-   "estado": "vigente",
-   "familia": "gemini-flash-lite",
-   "fuente": "models.dev",
-   "herramientas": true,
-   "id": "gemini-2.5-flash-lite",
-   "lanzamiento": "2025-06-17",
-   "nombre": "Gemini 2.5 Flash-Lite",
-   "openrouter": "google/gemini-2.5-flash-lite",
-   "pesos_abiertos": false,
-   "precio_cache": 0.01,
-   "precio_entrada": 0.1,
-   "precio_salida": 0.4,
    "proveedor": "google",
    "razonamiento": true,
    "salida": [
@@ -1589,33 +1616,6 @@
    ],
    "salida_max": 65536,
    "tipo": "texto"
-  },
-  {
-   "alias": [],
-   "conocimiento": "2025-05",
-   "contexto": 2048,
-   "entrada": [
-    "text"
-   ],
-   "estado": "obsoleto",
-   "familia": "gemini-embedding",
-   "fuente": "models.dev",
-   "herramientas": false,
-   "id": "gemini-embedding-001",
-   "lanzamiento": "2025-05-20",
-   "nombre": "Gemini Embedding 001",
-   "openrouter": null,
-   "pesos_abiertos": false,
-   "precio_cache": null,
-   "precio_entrada": 0.15,
-   "precio_salida": 0.0,
-   "proveedor": "google",
-   "razonamiento": false,
-   "salida": [
-    "text"
-   ],
-   "salida_max": 1,
-   "tipo": "embeddings"
   },
   {
    "alias": [],
@@ -1780,6 +1780,122 @@
     "text"
    ],
    "salida_max": 2048,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-04-30",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-astra",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6-astra-healthcare",
+   "lanzamiento": "2026-11-24",
+   "nombre": "GPT-6 Astra Healthcare",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 1.0,
+   "precio_entrada": 10.0,
+   "precio_salida": 50.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-04-30",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-sol",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6.1-sol-healthcare",
+   "lanzamiento": "2026-11-24",
+   "nombre": "GPT-6.1 Sol Healthcare",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-05-18",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-astra",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6.2-astra-healthcare",
+   "lanzamiento": "2026-11-24",
+   "nombre": "GPT-6.2 Astra Healthcare",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.4,
+   "precio_entrada": 8.0,
+   "precio_salida": 40.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
+   "tipo": "texto"
+  },
+  {
+   "alias": [],
+   "conocimiento": "2026-06-01",
+   "contexto": 1050000,
+   "entrada": [
+    "image",
+    "pdf",
+    "text"
+   ],
+   "estado": "vigente",
+   "familia": "gpt-sol",
+   "fuente": "models.dev",
+   "herramientas": true,
+   "id": "gpt-6.2-sol-healthcare",
+   "lanzamiento": "2026-11-24",
+   "nombre": "GPT-6.2 Sol Healthcare",
+   "openrouter": null,
+   "pesos_abiertos": false,
+   "precio_cache": 0.1,
+   "precio_entrada": 2.0,
+   "precio_salida": 10.0,
+   "proveedor": "openai",
+   "razonamiento": true,
+   "salida": [
+    "text"
+   ],
+   "salida_max": 128000,
    "tipo": "texto"
   },
   {

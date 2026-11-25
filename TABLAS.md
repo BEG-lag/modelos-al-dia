@@ -1,7 +1,7 @@
 <!-- Archivo generado por `modelos-al-dia build`. No se edita a mano. -->
 # Tablas comparativas
 
-Datos al **24 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
+Datos al **25 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
 Precios de API en USD por millón de tokens (entrada/salida). Cada dato liga a su fuente.
 Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está confirmado.
 
@@ -9,7 +9,7 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 
 | App | Modelo insignia | Planes | Modelos vigentes (API) | Verificado |
 |---|---|---|---|---|
-| **ChatGPT** (OpenAI Group PBC) | [**GPT-6.2 Astra**](https://developers.openai.com/api/docs/models/gpt-6.2-astra)<br>1.05M ctx · $8.00/$40.00 | Gratis; de $8 a $500/mes | 50 | 23 nov 2026 |
+| **ChatGPT** (OpenAI Group PBC) | [**GPT-6.2 Astra**](https://developers.openai.com/api/docs/models/gpt-6.2-astra)<br>1.05M ctx · $8.00/$40.00 | Gratis; de $8 a $500/mes | 54 | 23 nov 2026 |
 | **Claude** (Anthropic PBC) | [**Claude Fable 5.2**](https://platform.claude.com/docs/en/about-claude/models/overview)<br>1M ctx · $8.00/$40.00 | Gratis; de $20 a $200/mes | 14 | 23 nov 2026 |
 | **Gemini** (Google (Google DeepMind)) | [**Gemini 4 Carbon**](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)<br>1.05M ctx · $2.00/$10.00 | Gratis; de $4.99 a $199.99/mes | 33 | 23 nov 2026 |
 | **Grok** (SpaceXSI (SpaceX Super Intelligence LLC, antes xAI)) | [**Grok 4.7** [SUPUESTO]](https://docs.x.ai/docs/models/grok-4.7)<br>500K ctx · $2.00/$6.00 | Gratis; de $8 a $300/mes | 13 | 23 nov 2026 |
@@ -127,6 +127,10 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 
 | Modelo | Lanzamiento | Contexto | Salida máx. | $ entrada | $ salida | Entrada |
 |---|---|---|---|---|---|---|
+| `gpt-6-astra-healthcare` | 24 nov 2026 | 1.05M | 128K | $10.00 | $50.00 | imagen, PDF, texto |
+| `gpt-6.1-sol-healthcare` | 24 nov 2026 | 1.05M | 128K | $2.00 | $10.00 | imagen, PDF, texto |
+| `gpt-6.2-astra-healthcare` | 24 nov 2026 | 1.05M | 128K | $8.00 | $40.00 | imagen, PDF, texto |
+| `gpt-6.2-sol-healthcare` | 24 nov 2026 | 1.05M | 128K | $2.00 | $10.00 | imagen, PDF, texto |
 | `gpt-6.2-astra` | 17 nov 2026 | 1.05M | 128K | $8.00 | $40.00 | imagen, PDF, texto |
 | `gpt-6.2-astra-pro` | 17 nov 2026 | 1.05M | 128K | gratis | gratis | imagen, PDF, texto |
 | `gpt-6.2-sol` | 17 nov 2026 | 1.05M | 128K | $2.00 | $10.00 | imagen, PDF, texto |
@@ -138,10 +142,6 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 | `gpt-6-luna` | 22 sep 2026 | 1.05M | 128K | $0.10 | $0.50 | imagen, PDF, texto |
 | `gpt-6-luna-pro` | 22 sep 2026 | 1.05M | 128K | gratis | gratis | imagen, PDF, texto |
 | `gpt-6-sol` | 22 sep 2026 | 1.05M | 128K | $2.00 | $10.00 | imagen, PDF, texto |
-| `gpt-6-sol-pro` | 22 sep 2026 | 1.05M | 128K | gratis | gratis | imagen, PDF, texto |
-| `gpt-6-astra` | 4 sep 2026 | 1.05M | 128K | $10.00 | $50.00 | imagen, PDF, texto |
-| `gpt-6-astra-pro` | 4 sep 2026 | 1.05M | 128K | gratis | $100.00 | imagen, PDF, texto |
-| `gpt-5.6` | 9 jul 2026 | 1.05M | 128K | $4.00 | $20.00 | imagen, PDF, texto |
 
 ### Anthropic
 
@@ -179,7 +179,7 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 | `gemini-3.1-pro-preview` | 19 feb 2026 | 1.05M | 66K | $2.00 | $12.00 | audio, imagen, PDF, texto, video |
 | `gemini-3.1-pro-preview-customtools` | 19 feb 2026 | 1.05M | 66K | $2.00 | $12.00 | audio, imagen, PDF, texto, video |
 | `gemini-3-flash-preview` | 17 dic 2025 | 1.05M | 66K | $0.50 | $3.00 | audio, imagen, PDF, texto, video |
-| `gemini-2.5-flash-lite` | 17 jun 2025 | 1.05M | 66K | $0.10 | $0.40 | audio, imagen, PDF, texto, video |
+| `gemini-2.5-flash-lite` | 22 jul 2025 | 1.05M | 66K | $0.10 | $0.40 | audio, imagen, PDF, texto, video |
 | `gemini-2.5-pro-preview` | 5 jun 2025 | 1.05M | 66K | gratis | gratis | audio, imagen, PDF, texto |
 
 ### xAI
