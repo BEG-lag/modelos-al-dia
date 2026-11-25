@@ -51,6 +51,17 @@ code { font: 12px var(--mono); color: var(--muted); word-break: break-all; }
 .top .wrap { padding-top: 40px; }
 .brand { font: 600 14px var(--mono); letter-spacing: .06em; margin: 0 0 18px; }
 .brand span { color: var(--accent); }
+/* logo de PIVOTEK junto al nombre (naranja sobre tinta; en tema claro, con placa; isotipo en pantallas angostas) */
+.brand { display: flex; align-items: center; }
+.pvk { display: flex; align-items: center; flex: none; height: 22px; margin: -3px 0 -3px 16px; padding-left: 16px; border-left: 1px solid var(--line); text-decoration: none; }
+.pvk:hover { opacity: .85; }
+.pvk img { display: block; transform: translateY(2px); }
+.pvk-iso { display: none !important; }
+@media (prefers-color-scheme: light) {
+  .pvk-logo img { width: 105px; height: 43px; }
+  .pvk-iso img { width: 23px; height: 24px; }
+}
+@media (max-width: 360px) { .pvk-logo { display: none !important; } .pvk-iso { display: block !important; } }
 h1 { font-size: clamp(28px, 4.2vw, 46px); line-height: 1.08; letter-spacing: -.02em; margin: 0 0 14px; max-width: 18ch; }
 .lede { font-size: 17px; color: var(--muted); max-width: 64ch; margin: 0 0 14px; }
 .stamp { font: 13px var(--mono); color: var(--muted); margin: 0 0 22px; }
