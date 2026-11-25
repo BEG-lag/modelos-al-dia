@@ -81,9 +81,65 @@
     <summary>Anthropic, notas de la API.</summary>
   </entry>
   <entry>
+    <title>Anthropic: The project fix will apply to data for November 20, 2026 (UTC), and later, so counts that you already pulled for those days can change.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-96253fd3110e</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: A fix is live for an undercount in the Get Connector Usage endpoint of the Claude Enterprise Analytics API.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-8cfe1a828329</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The connector fix applies to data for November 19, 2026 (UTC), and later, so counts that you already pulled for those days can change.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-6da6463a2204</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: A fix is live for an undercount of web searches in the List User Activity endpoint of the Claude Enterprise Analytics API.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-4fafb5ed3c55</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: On November 24, 2026, a fix for an undercount of project activity in the Claude Enterprise Analytics API will go live.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-2a33f43f82f8</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
     <title>Anthropic: We’ve added two event types to organization webhooks, which are in beta.</title>
     <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
     <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-271cf87d4b67</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The web search fix applies to data for November 17, 2026 (UTC), and later, so counts that you already pulled for those days can change.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-243ffcde56b0</id>
+    <updated>2026-11-23T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The List User Activity endpoint will change in the same way when you filter by projectid. messagecount and distinctconversationcount can be higher, lastactivitydate can be later, and more users can appear.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-190397f16e56</id>
     <updated>2026-11-23T12:00:00Z</updated>
     <category term="anthropic" label="Anthropic"/>
     <summary>Anthropic, notas de la API.</summary>
@@ -103,6 +159,46 @@
     <updated>2026-11-20T12:00:00Z</updated>
     <category term="anthropic" label="Anthropic"/>
     <summary>Anthropic, blog.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: In Get Connector Usage, individualauthdistinctusercount and managedauthdistinctusercount can leave out some users of chats that the change reached, so they can be lower.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-b60956eabc07</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: The Claude Enterprise Analytics API has a new rule for when a chat in Chat and Cowork unified counts as a session.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-5e96db05903f</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: Other counts from the connector, skill, and plugin usage endpoints can be higher or lower.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-5561fddd3278</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: In List User Activity, these counts can change. chat and sessions are the objects in chatcoworkunifiedmetrics.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-3a3ef7bd42e9</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic: For chats that the change reached, the API does not get the names of some skills and plugins that Anthropic did not make, such as your own.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-3899434f7bd2</id>
+    <updated>2026-11-20T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
   </entry>
   <entry>
     <title>OpenAI: GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations.</title>
@@ -625,6 +721,14 @@
     <summary>Google, notas de la API.</summary>
   </entry>
   <entry>
+    <title>Anthropic: We’ve added error codes to the SDK so you can handle one cause of an error without parsing the response body.</title>
+    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
+    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-7d8ec258a237</id>
+    <updated>2026-11-04T12:00:00Z</updated>
+    <category term="anthropic" label="Anthropic"/>
+    <summary>Anthropic, notas de la API.</summary>
+  </entry>
+  <entry>
     <title>Anthropic: Text generated by Claude Mythos 5, Claude Opus 4.7, and Claude Sonnet 4.6 carries Anthropic’s text watermark on the platforms listed in How Claude marks AI-generated content.</title>
     <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
     <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-d4cd49fa9763</id>
@@ -1103,109 +1207,5 @@
     <updated>2026-10-12T12:00:00Z</updated>
     <category term="anthropic" label="Anthropic"/>
     <summary>Anthropic, blog.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI: You can now pre-warm an OpenAI-hosted sandbox before attaching it to an Agents API session.</title>
-    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-a8c42c043580</id>
-    <updated>2026-10-09T12:00:00Z</updated>
-    <category term="openai" label="OpenAI"/>
-    <summary>OpenAI, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-fe288b6d022e</id>
-    <updated>2026-10-09T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI: Added Ultrafast mode for GPT-6.1 Sol in the Responses API.</title>
-    <link rel="alternate" href="https://developers.openai.com/api/docs/changelog"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-api-39930d4e14dc</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="openai" label="OpenAI"/>
-    <summary>OpenAI, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Google: Deep Research Agent deep-research-pro-preview-12-2025 deprecation</title>
-    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-08-2026"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-6b8998873ecf</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="google" label="Google"/>
-    <summary>Google, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Google: Gemini 3.7 Flash deprecation</title>
-    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-08-2026"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-4dd8175e05b1</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="google" label="Google"/>
-    <summary>Google, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Google: Gemini 3.5 Flash deprecation</title>
-    <link rel="alternate" href="https://ai.google.dev/gemini-api/docs/changelog#10-08-2026"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/google-api-47b770867e06</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="google" label="Google"/>
-    <summary>Google, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: 2026 Usage Policy update</title>
-    <link rel="alternate" href="https://www.anthropic.com/news/2026-usage-policy-update"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-c2ac0460c249</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, blog.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: Introducing the Anthropic Cyber Mission</title>
-    <link rel="alternate" href="https://www.anthropic.com/news/anthropic-cyber-mission"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-566b2372830f</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, blog.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: Building on our commitment to American scientific discovery</title>
-    <link rel="alternate" href="https://www.anthropic.com/news/genesis-mission-commitment"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-blog-0703ff8deb2c</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, blog.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: The Compliance API can now download Claude Docs documents as Word files, in beta.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-8b873dd34bfb</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>Anthropic: The Compliance API chat endpoints now also return chats from the unified Claude experience, in beta for Claude Enterprise organizations, with your existing Compliance Access Key.</title>
-    <link rel="alternate" href="https://platform.claude.com/docs/en/release-notes/overview"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/anthropic-api-2a5256ded2c8</id>
-    <updated>2026-10-08T12:00:00Z</updated>
-    <category term="anthropic" label="Anthropic"/>
-    <summary>Anthropic, notas de la API.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI: GPT-6 and Intelligent UI for everyone</title>
-    <link rel="alternate" href="https://openai.com/index/gpt-6-for-everyone"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-9d5e3c735d2d</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="openai" label="OpenAI"/>
-    <summary>OpenAI, blog.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI: Helping teens learn, plan, and shape the future of AI</title>
-    <link rel="alternate" href="https://openai.com/index/teens-learn-and-plan"/>
-    <id>tag:beg-lag.github.io,2026:modelos-al-dia/openai-blog-16815f8a7213</id>
-    <updated>2026-10-07T12:00:00Z</updated>
-    <category term="openai" label="OpenAI"/>
-    <summary>OpenAI, blog.</summary>
   </entry>
 </feed>

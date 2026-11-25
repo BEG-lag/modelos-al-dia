@@ -112,11 +112,88 @@
   "etiquetas": [],
   "fecha": "2026-11-23",
   "fuente": "anthropic-api",
+  "id": "anthropic-api-96253fd3110e",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "The project fix will apply to data for November 20, 2026 (UTC), and later, so counts that you already pulled for those days can change.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-23",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-8cfe1a828329",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "A fix is live for an undercount in the Get Connector Usage endpoint of the Claude Enterprise Analytics API.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-23",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-6da6463a2204",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "The connector fix applies to data for November 19, 2026 (UTC), and later, so counts that you already pulled for those days can change.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-23",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-4fafb5ed3c55",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "A fix is live for an undercount of web searches in the List User Activity endpoint of the Claude Enterprise Analytics API.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-23",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-2a33f43f82f8",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "On November 24, 2026, a fix for an undercount of project activity in the Claude Enterprise Analytics API will go live.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-23",
+  "fuente": "anthropic-api",
   "id": "anthropic-api-271cf87d4b67",
   "origen": "api",
   "precision": "dia",
   "proveedor": "anthropic",
   "titulo": "We’ve added two event types to organization webhooks, which are in beta.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-23",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-243ffcde56b0",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "The web search fix applies to data for November 17, 2026 (UTC), and later, so counts that you already pulled for those days can change.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-23",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-190397f16e56",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "The List User Activity endpoint will change in the same way when you filter by projectid. messagecount and distinctconversationcount can be higher, lastactivitydate can be later, and more users can appear.",
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
  },
  {
@@ -140,6 +217,61 @@
   "proveedor": "anthropic",
   "titulo": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
   "url": "https://www.anthropic.com/news/ipo-close"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-20",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-b60956eabc07",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "In Get Connector Usage, individualauthdistinctusercount and managedauthdistinctusercount can leave out some users of chats that the change reached, so they can be lower.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-20",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-5e96db05903f",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "The Claude Enterprise Analytics API has a new rule for when a chat in Chat and Cowork unified counts as a session.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-20",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-5561fddd3278",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Other counts from the connector, skill, and plugin usage endpoints can be higher or lower.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-20",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-3a3ef7bd42e9",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "In List User Activity, these counts can change. chat and sessions are the objects in chatcoworkunifiedmetrics.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-20",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-3899434f7bd2",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "For chats that the change reached, the API does not get the names of some skills and plugins that Anthropic did not make, such as your own.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
  },
  {
   "etiquetas": [
@@ -918,6 +1050,17 @@
   "proveedor": "google",
   "titulo": "Voice remixing for Gemini 3.8 TTS",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#11-04-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-11-04",
+  "fuente": "anthropic-api",
+  "id": "anthropic-api-7d8ec258a237",
+  "origen": "api",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "We’ve added error codes to the SDK so you can handle one cause of an error without parsing the response body.",
+  "url": "https://platform.claude.com/docs/en/release-notes/overview"
  },
  {
   "etiquetas": [],
@@ -3824,6 +3967,17 @@
   "etiquetas": [],
   "fecha": "2026-07-27",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-e49b0b844f2f",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Our position on open-weights models",
+  "url": "https://www.anthropic.com/news/position-open-weights-models"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-07-27",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-a4a0bf957a69",
   "origen": "blog",
   "precision": "dia",
@@ -4288,6 +4442,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2026-07-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-d4cd7f7703dc",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Alberta uses Claude to find and fix security vulnerabilities",
+  "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2026-07-02",
   "fuente": "anthropic-blog",
   "id": "anthropic-blog-5b9a63717df0",
@@ -4596,6 +4761,17 @@
   "proveedor": "openai",
   "titulo": "Released the Safety Usage Dashboard on the OpenAI API platform.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-06-23",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-13f332e66eec",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing Claude Tag",
+  "url": "https://www.anthropic.com/news/introducing-claude-tag"
  },
  {
   "etiquetas": [],
@@ -4983,6 +5159,17 @@
   "proveedor": "openai",
   "titulo": "Announced the deprecation of reusable prompt objects, the Evals platform, and Agent Builder.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-06-03",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-8f793cb31a74",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Mapping AI-enabled cyber threats",
+  "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack"
  },
  {
   "etiquetas": [],
@@ -5568,6 +5755,17 @@
  {
   "etiquetas": [],
   "fecha": "2026-05-18",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-98bb953abd31",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic acquires Stainless",
+  "url": "https://www.anthropic.com/news/anthropic-acquires-stainless"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-18",
   "fuente": "anthropic-api",
   "id": "anthropic-api-f6ed297c9f39",
   "origen": "api",
@@ -6104,6 +6302,17 @@
   "url": "https://openai.com/index/openai-on-aws"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-04-28",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-034351301691",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Claude for Creative Work",
+  "url": "https://www.anthropic.com/news/claude-for-creative-work"
+ },
+ {
   "etiquetas": [
    "gpt-5.5",
    "gpt-5.5-pro"
@@ -6267,6 +6476,17 @@
   "url": "https://ai.google.dev/gemini-api/docs/changelog#04-21-2026"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-04-20",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-bd225523bdcd",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic and Amazon expand compute collaboration",
+  "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+ },
+ {
   "etiquetas": [
    "claude-3-haiku-20240307"
   ],
@@ -6302,6 +6522,17 @@
   "proveedor": "openai",
   "titulo": "Codex for (almost) everything",
   "url": "https://openai.com/index/codex-for-almost-everything"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-04-16",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-b36f61d19464",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing Claude Opus 4.7",
+  "url": "https://www.anthropic.com/news/claude-opus-4-7"
  },
  {
   "etiquetas": [],
@@ -7098,6 +7329,17 @@
   "etiquetas": [],
   "fecha": "2026-02-25",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-a76c2eb3e54a",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic acquires Vercept",
+  "url": "https://www.anthropic.com/news/acquires-vercept"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-02-25",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-9c18581a379b",
   "origen": "blog",
   "precision": "dia",
@@ -7796,6 +8038,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2026-01-16",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-7a30564243b0",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Irina Ghose named Managing Director of India",
+  "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2026-01-15",
   "fuente": "openai-api",
   "id": "openai-api-835884d1e9f2",
@@ -8375,6 +8628,17 @@
   "etiquetas": [],
   "fecha": "2025-12-03",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-9ff1c66b4a3c",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic acquires Bun as Claude Code hits $1B",
+  "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-12-03",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-44c18da5f33c",
   "origen": "blog",
   "precision": "dia",
@@ -8584,6 +8848,17 @@
  {
   "etiquetas": [],
   "fecha": "2025-11-18",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-92cc65d6bb83",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Claude in Microsoft Foundry and 365 Copilot",
+  "url": "https://www.anthropic.com/news/claude-in-microsoft-foundry"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-11-18",
   "fuente": "anthropic-api",
   "id": "anthropic-api-28f4b54cb17c",
   "origen": "api",
@@ -8704,6 +8979,17 @@
   "proveedor": "openai",
   "titulo": "GPT-5.1: A smarter, more conversational ChatGPT",
   "url": "https://openai.com/index/gpt-5-1"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-11-12",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-c3ecaa0d9df1",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic invests $50 billion in American AI infrastructure",
+  "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
  },
  {
   "etiquetas": [
@@ -10218,6 +10504,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-08-04",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-b01da0e1917b",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Our framework for safe and trustworthy agents",
+  "url": "https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-08-01",
   "fuente": "xai-api",
   "id": "xai-api-7bc7549712f7",
@@ -10760,6 +11057,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-06-07",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-bdc96cfdfb4d",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Richard Fontaine joins the Long-Term Benefit Trust",
+  "url": "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-06-06",
   "fuente": "anthropic-blog",
   "id": "anthropic-blog-c0e07be1484d",
@@ -10816,6 +11124,17 @@
   "proveedor": "xai",
   "titulo": "Management API is released",
   "url": "https://docs.x.ai/docs/release-notes"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-05-28",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-fdde0ee1b347",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Reed Hastings appointed to Anthropic's board",
+  "url": "https://www.anthropic.com/news/reed-hastings"
  },
  {
   "etiquetas": [],
@@ -11131,6 +11450,17 @@
   "proveedor": "openai",
   "titulo": "Launched codex-mini-latest in the API, optimized for use with the Codex CLI.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-05-14",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-8586297d3119",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Testing safety defenses with a bug bounty",
+  "url": "https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program"
  },
  {
   "etiquetas": [
@@ -12008,6 +12338,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-02-14",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-afa3938d2eed",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic signs MOU with the UK Government",
+  "url": "https://www.anthropic.com/news/mou-uk-government"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-02-11",
   "fuente": "google-api",
   "id": "google-api-b6dcca2491bc",
@@ -12016,6 +12357,17 @@
   "proveedor": "google",
   "titulo": "Updates on the OpenAI libraries compatibility.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#02-11-2025"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-02-11",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-99d473f79e82",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Dario Amodei on the Paris AI Action Summit",
+  "url": "https://www.anthropic.com/news/paris-ai-summit"
  },
  {
   "etiquetas": [],

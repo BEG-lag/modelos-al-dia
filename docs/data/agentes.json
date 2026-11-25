@@ -1,6 +1,11 @@
 {
  "claude-code": [
   {
+   "fecha": "2026-11-25",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+   "version": "v2.1.332"
+  },
+  {
    "fecha": "2026-11-23",
    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
    "version": "v2.1.331"
