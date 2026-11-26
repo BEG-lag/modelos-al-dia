@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25",
+ "actualizado": "2026-11-26",
  "modelos": [
   {
    "alias": [],
@@ -1744,7 +1744,7 @@
    "nombre": "Gemma 3 27B",
    "openrouter": "google/gemma-3-27b-it",
    "pesos_abiertos": true,
-   "precio_cache": null,
+   "precio_cache": 0.0,
    "precio_entrada": 0.0,
    "precio_salida": 0.0,
    "proveedor": "google",
@@ -1752,7 +1752,7 @@
    "salida": [
     "text"
    ],
-   "salida_max": 16384,
+   "salida_max": 117964,
    "tipo": "texto"
   },
   {

@@ -1,5 +1,14 @@
 [
  {
+  "antes": 16384,
+  "despues": 117964,
+  "fecha": "2026-11-26",
+  "id": "gemma-3-27b-it",
+  "nombre": "Gemma 3 27B",
+  "proveedor": "google",
+  "tipo": "salida_max"
+ },
+ {
   "antes": null,
   "despues": "GPT-6 Astra Healthcare",
   "fecha": "2026-11-25",

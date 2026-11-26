@@ -59,6 +59,11 @@
  "cline": [
   {
    "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/v4.1.28",
+   "version": "v4.1.28"
+  },
+  {
+   "fecha": "2026-11-26",
    "url": "https://github.com/cline/cline/releases/tag/sdk%2Fui%2Fv0.2.2",
    "version": "sdk%2Fui%2Fv0.2.2"
   },
@@ -86,6 +91,11 @@
    "fecha": "2026-11-26",
    "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.2.2",
    "version": "sdk%2Fagents%2Fv0.2.2"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/desktop-v0.0.51",
+   "version": "desktop-v0.0.51"
   },
   {
    "fecha": "2026-11-26",

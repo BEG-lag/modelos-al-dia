@@ -1,7 +1,7 @@
 <!-- Archivo generado por `modelos-al-dia build`. No se edita a mano. -->
 # Tablas comparativas
 
-Datos al **25 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
+Datos al **26 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
 Precios de API en USD por millón de tokens (entrada/salida). Cada dato liga a su fuente.
 Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está confirmado.
 
@@ -118,7 +118,7 @@ Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está conf
 | [**Cursor**](https://cursor.com/pricing)<br>Anysphere (subsidiaria de SpaceX) | ide, escritorio, cli, web, movil, nube, slack | Composer 2.5, Grok 4.7, Claude Opus 5.5, Claude Sonnet 5.5, GPT-5.6 Sol, Gemini 4 Argon, Kimi K3 | Free 0 USD; Plus 8 USD (solo Grok y Composer); Premium 30 USD (agrega cloud agents, Bugbot y modelos de terceros a precio de API); Super 100 USD; Ultra 200 USD; Teams desde 30 USD/usuario; Enterprise a cotizar. | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [**Devin (Devin Desktop, antes Windsurf)**](https://devin.ai/pricing)<br>Cognition | ide, escritorio, cli, web, nube, slack | SWE-2, SWE-2 Flash, Claude Fable 5.1, modelos de OpenAI, Anthropic, Google y abiertos | Free 0 USD; Pro 20 USD (incluye Devin Cloud y uso de tu plan de ChatGPT); Max 200 USD; Teams 80 USD; Enterprise a cotizar. | ✅ | ✅ | ✅ | ✅ | ✅ | ❓ | 🟡 | ❓ | 🟡 |
 | [**Kiro**](https://kiro.dev/pricing/)<br>Amazon Web Services | ide, cli, web, nube | Auto, Claude Opus 5.5, Claude Sonnet 5.5, GPT-5.6 Sol, Grok 4.7, Kimi K3, Qwen3 Coder Next | Free 0 USD (50 créditos); Pro 20 USD (1,000); Pro+ 40 USD (2,000); Pro Max 100 USD (5,000); Power 200 USD (10,000); Teams 20 USD por asiento; crédito extra 0.04 USD. | ✅ | ✅ | ✅ | ✅ | 🟡 | ❓ | ✅ | ✅ | ❓ |
-| [**Cline**](https://github.com/cline/cline)<br>Cline Bot Inc.<br>`sdk%2Fui%2Fv0.2.2` | ide, cli, escritorio | cualquier modelo vía tu propia API key o el proveedor Cline | Gratis para individuos (Apache 2.0); se paga solo la inferencia (BYOK o proveedor Cline). Enterprise a cotizar (incluye plugin de JetBrains). | ✅ | ✅ | ❓ | ❓ | ❓ | ❓ | ✅ | ❓ | ✅ |
+| [**Cline**](https://github.com/cline/cline)<br>Cline Bot Inc.<br>`v4.1.28` | ide, cli, escritorio | cualquier modelo vía tu propia API key o el proveedor Cline | Gratis para individuos (Apache 2.0); se paga solo la inferencia (BYOK o proveedor Cline). Enterprise a cotizar (incluye plugin de JetBrains). | ✅ | ✅ | ❓ | ❓ | ❓ | ❓ | ✅ | ❓ | ✅ |
 | [**OpenCode**](https://opencode.ai/) [ESTIMADO]<br>Anomaly (antes SST)<br>`v2.4.2` | cli, escritorio, movil | más de 200 proveedores vía Models.dev, incluidos modelos locales y suscripciones de ChatGPT o Copilot | Gratis (MIT) con modelos gratuitos sin cuenta; OpenCode Go desde 10 USD/mes con modelos seleccionados; o tus propias llaves y suscripciones. | ✅ | ✅ | ⚪ | ❓ | ❓ | ❓ | ✅ | ❓ | ✅ |
 
 ## 6. Catálogo de la API: modelos de texto vigentes
@@ -311,7 +311,3 @@ Fuente: [models.dev](https://models.dev) y [OpenRouter](https://openrouter.ai/mo
 | 28 oct 2026 | Anthropic | API | [We’ve raised the maximum request size for the Messages API and the Token Counting API from 32 MB to 128 MB on the first-party Claude API.](https://platform.claude.com/docs/en/release-notes/overview) |
 | 27 oct 2026 | Google | API | [Gemini API CLI (gemini-api) beta](https://ai.google.dev/gemini-api/docs/changelog#10-27-2026) |
 | 27 oct 2026 | Anthropic | Blog | [Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa) |
-| 26 oct 2026 | OpenAI | Blog | [Introducing GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra) |
-| 26 oct 2026 | OpenAI | API | [Released GPT-6.1 Terra, a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.](https://developers.openai.com/api/docs/changelog) |
-| 26 oct 2026 | Google | API | [Generate Content API storage on by default](https://ai.google.dev/gemini-api/docs/changelog#10-26-2026) |
-| 26 oct 2026 | Anthropic | Blog | [Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec) |
