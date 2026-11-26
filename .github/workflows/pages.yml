@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_reintento.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -33,5 +33,17 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: docs
+      # La API de artefactos a veces lista tarde el artefacto recién subido ("No artifacts named
+      # github-pages were found") y Pages a veces responde "Deployment failed, try again later".
+      # Se espera antes de desplegar y se reintenta una vez.
+      - name: Esperar a que el artefacto quede registrado
+        run: sleep 15
       - id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+      - name: Esperar antes de reintentar
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 60
+      - id: deployment_reintento
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
