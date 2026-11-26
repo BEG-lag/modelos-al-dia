@@ -44,7 +44,7 @@ a:hover { color: var(--accent); }
 code { font: 12px var(--mono); color: var(--muted); word-break: break-all; }
 .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
 .muted { color: var(--muted); }
-.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
 /* encabezado */
 .top { border-bottom: 1px solid var(--line); background: radial-gradient(1200px 300px at 10% -40%, color-mix(in srgb, var(--accent) 16%, transparent), transparent); }
@@ -127,7 +127,8 @@ th[aria-sort="descending"]::after { content: " ↓"; opacity: 1; }
 .caps td a { text-decoration: none; display: flex; align-items: flex-start; }
 .caps .cap-txt { font-size: 12.5px; }
 .cap-no .cap-txt { color: var(--muted); }
-.agents td.cap { text-align: center; min-width: 0; }
+/* position: relative: el texto .sr de la celda se ubica dentro de la tabla con scroll y no ensancha la página */
+.agents td.cap { text-align: center; min-width: 0; position: relative; }
 .agents td.cap a { justify-content: center; display: flex; }
 .agents .dot { margin: 0; }
 .agents td.wide { min-width: 220px; }
@@ -165,6 +166,9 @@ details h3 { margin-top: 12px; }
   .timeline li a { grid-column: 1 / -1; }
   .timeline .origen { display: none; }
   .sec p { grid-column: 1 / -1; }
+  /* las tablas de planes tienen ancho fijo: en celular las palabras largas se parten en vez de quedar cortadas */
+  .plan th, .plan td { overflow-wrap: anywhere; }
+  .plan .tag { white-space: normal; }
 }
 
 /* ajustes de ancho */
