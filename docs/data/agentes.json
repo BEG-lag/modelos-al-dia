@@ -58,6 +58,41 @@
  ],
  "cline": [
   {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fui%2Fv0.2.2",
+   "version": "sdk%2Fui%2Fv0.2.2"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fshared%2Fv0.2.2",
+   "version": "sdk%2Fshared%2Fv0.2.2"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.2",
+   "version": "sdk%2Fsdk%2Fv0.2.2"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fllms%2Fv0.2.2",
+   "version": "sdk%2Fllms%2Fv0.2.2"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fcore%2Fv0.2.2",
+   "version": "sdk%2Fcore%2Fv0.2.2"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/sdk%2Fagents%2Fv0.2.2",
+   "version": "sdk%2Fagents%2Fv0.2.2"
+  },
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.76",
+   "version": "cli-v3.0.76"
+  },
+  {
    "fecha": "2026-11-21",
    "url": "https://github.com/cline/cline/releases/tag/v4.1.27",
    "version": "v4.1.27"
@@ -144,6 +179,11 @@
  ],
  "grok-build": [],
  "opencode": [
+  {
+   "fecha": "2026-11-26",
+   "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+   "version": "v2.4.2"
+  },
   {
    "fecha": "2026-11-23",
    "url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.1",

@@ -3819,6 +3819,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2026-08-04",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-fd8abe300aea",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Tino Cuéllar joins as Chief Global Affairs Officer",
+  "url": "https://www.anthropic.com/news/tino-cuellar"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2026-08-03",
   "fuente": "anthropic-api",
   "id": "anthropic-api-819f3a9a9efd",
@@ -4913,6 +4924,17 @@
   "etiquetas": [],
   "fecha": "2026-06-12",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-ec4c2d07933b",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "TCS brings Claude to regulated industries",
+  "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-06-12",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-eaac588a6db4",
   "origen": "blog",
   "precision": "dia",
@@ -5453,6 +5475,17 @@
  {
   "etiquetas": [],
   "fecha": "2026-05-28",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-00344d84a534",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic raises $65B Series H at $965B valuation",
+  "url": "https://www.anthropic.com/news/series-h"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-28",
   "fuente": "anthropic-api",
   "id": "anthropic-api-fd66a2d0fa23",
   "origen": "api",
@@ -5640,6 +5673,17 @@
  {
   "etiquetas": [],
   "fecha": "2026-05-27",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-204e2b2c0c3e",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic opens Milan office",
+  "url": "https://www.anthropic.com/news/milan-office-opening"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-27",
   "fuente": "anthropic-api",
   "id": "anthropic-api-56826073e79a",
   "origen": "api",
@@ -5669,6 +5713,17 @@
   "proveedor": "openai",
   "titulo": "Released workload identity federation.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-05-26",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-dabffb5ca1e1",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "KiYoung Choi named Representative Director of Korea",
+  "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea"
  },
  {
   "etiquetas": [
@@ -6401,6 +6456,17 @@
   "url": "https://www.anthropic.com/news/claude-for-creative-work"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-04-27",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-74f6cf5b559d",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic opens Sydney office, names ANZ GM",
+  "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
+ },
+ {
   "etiquetas": [
    "gpt-5.5",
    "gpt-5.5-pro"
@@ -6739,6 +6805,17 @@
   "url": "https://ai.google.dev/gemini-api/docs/changelog#04-14-2026"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-04-14",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-a8f34a8f7b34",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Vas Narasimhan appointed to Board of Directors",
+  "url": "https://www.anthropic.com/news/narasimhan-board"
+ },
+ {
   "etiquetas": [
    "claude-opus-4-20250514",
    "claude-sonnet-4-20250514"
@@ -6806,6 +6883,17 @@
   "proveedor": "anthropic",
   "titulo": "The Messages API is now available on Amazon Bedrock in research preview.",
   "url": "https://platform.claude.com/docs/en/release-notes/overview"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-04-06",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-343d592c5dfc",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic expands Google and Broadcom compute deal",
+  "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
  },
  {
   "etiquetas": [
@@ -7242,6 +7330,17 @@
   "url": "https://ai.google.dev/gemini-api/docs/changelog#03-10-2026"
  },
  {
+  "etiquetas": [],
+  "fecha": "2026-03-10",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-6879a525fbe2",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Sydney becomes Anthropic's fourth APAC office",
+  "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific"
+ },
+ {
   "etiquetas": [
    "gemini-3-pro-preview",
    "gemini-3.1-pro-preview"
@@ -7318,6 +7417,17 @@
   "proveedor": "openai",
   "titulo": "Released GPT-5.4, our newest frontier model for professional work, to the Chat Completions and Responses API, and released GPT-5.4 Pro to the Responses API for tougher problems that benefit from more compute.",
   "url": "https://developers.openai.com/api/docs/changelog"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-03-05",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-c6ed1554afa4",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Where things stand with the Department of War",
+  "url": "https://www.anthropic.com/news/where-stand-department-war"
  },
  {
   "etiquetas": [
@@ -7434,6 +7544,17 @@
   "proveedor": "google",
   "titulo": "Deprecation announcement: Gemini 3 Pro Preview (gemini-3-pro-preview) will be shut down March 9, 2026.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#02-26-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-02-26",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-79b306016507",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Dario Amodei on the Department of War discussions",
+  "url": "https://www.anthropic.com/news/statement-department-of-war"
  },
  {
   "etiquetas": [],
@@ -8181,6 +8302,17 @@
   "etiquetas": [],
   "fecha": "2026-01-21",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-c880e229b33f",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Mariano-Florentino Cuéllar appointed to Long-Term Benefit Trust",
+  "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-01-21",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-3c3ddc330ec9",
   "origen": "blog",
   "precision": "dia",
@@ -8337,6 +8469,17 @@
   "proveedor": "google",
   "titulo": "Added 4k output resolutions for Veo and more support for portrait videos in all resolutions.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#01-13-2026"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2026-01-13",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-d7de6b935589",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Introducing Labs",
+  "url": "https://www.anthropic.com/news/introducing-anthropic-labs"
  },
  {
   "etiquetas": [],
@@ -9025,6 +9168,28 @@
   "etiquetas": [],
   "fecha": "2025-11-18",
   "fuente": "anthropic-blog",
+  "id": "anthropic-blog-bd34d6bb3a77",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Microsoft, NVIDIA, and Anthropic partnerships",
+  "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-11-18",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-96f65891e20c",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic brings AI education to Africa with Rwanda and ALX",
+  "url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-11-18",
+  "fuente": "anthropic-blog",
   "id": "anthropic-blog-92cc65d6bb83",
   "origen": "blog",
   "precision": "dia",
@@ -9144,6 +9309,17 @@
   "url": "https://www.anthropic.com/news/disrupting-AI-espionage"
  },
  {
+  "etiquetas": [],
+  "fecha": "2025-11-13",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-1b2d8d21544a",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Maryland partners with Anthropic to serve residents",
+  "url": "https://www.anthropic.com/news/maryland-partnership"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -9195,6 +9371,17 @@
   "proveedor": "google",
   "titulo": "The following model is shut down: - imagen-3.0-generate-002 Use Imagen 4 instead.",
   "url": "https://ai.google.dev/gemini-api/docs/changelog#11-10-2025"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-11-07",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-b8fe4a8c40be",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "New offices in Paris and Munich",
+  "url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence"
  },
  {
   "etiquetas": [],
@@ -9377,6 +9564,17 @@
  },
  {
   "etiquetas": [],
+  "fecha": "2025-10-29",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-6b9fc8e9baa9",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Anthropic opens Tokyo office",
+  "url": "https://www.anthropic.com/news/opening-our-tokyo-office"
+ },
+ {
+  "etiquetas": [],
   "fecha": "2025-10-28",
   "fuente": "anthropic-api",
   "id": "anthropic-api-f215809d955e",
@@ -9466,6 +9664,17 @@
   "url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services"
  },
  {
+  "etiquetas": [],
+  "fecha": "2025-10-23",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-666802aa396f",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Seoul becomes Anthropic's third APAC office",
+  "url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific"
+ },
+ {
   "etiquetas": [
    "Product"
   ],
@@ -9490,6 +9699,17 @@
   "proveedor": "openai",
   "titulo": "Introducing ChatGPT Atlas, the browser with ChatGPT built in",
   "url": "https://openai.com/index/introducing-chatgpt-atlas"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-10-21",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-cd4a217c459b",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Dario Amodei on American AI leadership",
+  "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership"
  },
  {
   "etiquetas": [
@@ -9632,6 +9852,17 @@
   "proveedor": "anthropic",
   "titulo": "Anthropic expands to India with Bengaluru office",
   "url": "https://www.anthropic.com/news/expanding-global-operations-to-india"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-10-07",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-022e0eeb8eeb",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Rahul Patil joins as Chief Technology Officer",
+  "url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic"
  },
  {
   "etiquetas": [
@@ -10187,6 +10418,17 @@
   "proveedor": "anthropic",
   "titulo": "Anthropic joins White House AI education pledge",
   "url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education"
+ },
+ {
+  "etiquetas": [],
+  "fecha": "2025-09-04",
+  "fuente": "anthropic-blog",
+  "id": "anthropic-blog-1cd232a44ae8",
+  "origen": "blog",
+  "precision": "dia",
+  "proveedor": "anthropic",
+  "titulo": "Updating sales restrictions for unsupported regions",
+  "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
  },
  {
   "etiquetas": [],
