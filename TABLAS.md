@@ -1,7 +1,7 @@
 <!-- Archivo generado por `modelos-al-dia build`. No se edita a mano. -->
 # Tablas comparativas
 
-Datos al **26 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
+Datos al **27 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
 Precios de API en USD por millón de tokens (entrada/salida). Cada dato liga a su fuente.
 Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está confirmado.
 
@@ -309,5 +309,3 @@ Fuente: [models.dev](https://models.dev) y [OpenRouter](https://openrouter.ai/mo
 | 28 oct 2026 | OpenAI | API | [Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit.](https://developers.openai.com/api/docs/changelog) |
 | 28 oct 2026 | Anthropic | Blog | [AI for Science expands to foundations and institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions) |
 | 28 oct 2026 | Anthropic | API | [We’ve raised the maximum request size for the Messages API and the Token Counting API from 32 MB to 128 MB on the first-party Claude API.](https://platform.claude.com/docs/en/release-notes/overview) |
-| 27 oct 2026 | Google | API | [Gemini API CLI (gemini-api) beta](https://ai.google.dev/gemini-api/docs/changelog#10-27-2026) |
-| 27 oct 2026 | Anthropic | Blog | [Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa) |
