@@ -1,5 +1,14 @@
 [
  {
+  "antes": 16384,
+  "despues": 117964,
+  "fecha": "2026-11-28",
+  "id": "gemma-3-4b-it",
+  "nombre": "Gemma 3 4B",
+  "proveedor": "google",
+  "tipo": "salida_max"
+ },
+ {
   "antes": 117964,
   "despues": 16384,
   "fecha": "2026-11-27",

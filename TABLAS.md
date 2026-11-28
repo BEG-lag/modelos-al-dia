@@ -1,7 +1,7 @@
 <!-- Archivo generado por `modelos-al-dia build`. No se edita a mano. -->
 # Tablas comparativas
 
-Datos al **27 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
+Datos al **28 de noviembre de 2026**. Versión interactiva: <https://beg-lag.github.io/modelos-al-dia/>.
 Precios de API en USD por millón de tokens (entrada/salida). Cada dato liga a su fuente.
 Etiquetas: [ESTIMADO], [SUPUESTO] y [BRECHA DE DATO] marcan lo que no está confirmado.
 
@@ -306,6 +306,3 @@ Fuente: [models.dev](https://models.dev) y [OpenRouter](https://openrouter.ai/mo
 | 30 oct 2026 | Anthropic | API | [We’ve deprecated fast mode for Claude Opus 4.8, with removal on November 30, 2026.](https://platform.claude.com/docs/en/release-notes/overview) |
 | 29 oct 2026 | Anthropic | API | [The Usage and Cost API is now a legacy API, and so are the usagereport, costreport, userusagereport, and usercostreport endpoints of the Claude Enterprise Analytics API.](https://platform.claude.com/docs/en/release-notes/overview) |
 | 29 oct 2026 | Anthropic | API | [We’ve launched the Usage and Cost Analytics API in beta with the analytics-usage-cost-2026-08-24 beta header.](https://platform.claude.com/docs/en/release-notes/overview) |
-| 28 oct 2026 | OpenAI | API | [Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit.](https://developers.openai.com/api/docs/changelog) |
-| 28 oct 2026 | Anthropic | Blog | [AI for Science expands to foundations and institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions) |
-| 28 oct 2026 | Anthropic | API | [We’ve raised the maximum request size for the Messages API and the Token Counting API from 32 MB to 128 MB on the first-party Claude API.](https://platform.claude.com/docs/en/release-notes/overview) |
